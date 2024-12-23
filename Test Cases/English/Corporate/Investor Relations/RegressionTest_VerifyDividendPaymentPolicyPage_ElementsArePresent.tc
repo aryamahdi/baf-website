@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RegressionTest_VerifyDividendPaymentPolicyPage_ElementsArePresent</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>79b03224-4e68-4924-a57a-db7bf9f8ee02</testCaseGuid>
+</TestCaseEntity>

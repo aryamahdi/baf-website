@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RegressionTest_VerifyFleetFinancingPage_ElementsArePresent</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9d94468a-450b-48d4-a303-6f83caed6c6a</testCaseGuid>
+</TestCaseEntity>

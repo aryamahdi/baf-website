@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RegressionTest_VerifyElectronicGadgetFurnitureFinancingPage_ElementsArePresent</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9c83d9a5-86df-4e93-9375-51f5a02d938c</testCaseGuid>
+</TestCaseEntity>

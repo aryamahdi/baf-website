@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RegressionTest_VerifyPembiayaanMotorBekasPage_ElementsArePresent</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e74eea1f-0b19-4d50-add5-a1c649e9e905</testCaseGuid>
+</TestCaseEntity>

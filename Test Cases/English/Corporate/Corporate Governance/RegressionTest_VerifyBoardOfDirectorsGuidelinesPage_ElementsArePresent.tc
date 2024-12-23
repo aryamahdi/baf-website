@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RegressionTest_VerifyBoardOfDirectorsGuidelinesPage_ElementsArePresent</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6898d6b8-f7aa-4396-9449-c00fd82f320b</testCaseGuid>
+</TestCaseEntity>
