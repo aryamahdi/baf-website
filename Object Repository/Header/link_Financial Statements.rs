@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_Financial Statements</name>
+   <tag></tag>
+   <elementGuidId>24dd9da6-7ab2-4074-978a-07f6a71c3dbb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a:nth-of-type(2) > a.dropdown-item</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='basic-navbar-nav']/div/div/div/div/div/a[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Financial Statements&quot;i] >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>6006131c-fd19-4ee8-a943-864cfe952d6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/corporate/InvestorRelations/FinancialStatements</value>
+      <webElementGuid>75b08436-a11a-4583-a13c-78d0d2dadbd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-item</value>
+      <webElementGuid>ad78bd72-764e-43ac-8e13-ac3e78c406ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Financial Statements</value>
+      <webElementGuid>6aa7eafb-d8af-4d67-a33e-e2095ce750ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;basic-navbar-nav&quot;)/div[@class=&quot;n-width align-items-center navbar-nav&quot;]/div[1]/div[@class=&quot;d-flex flex-row&quot;]/div[@class=&quot;txt-blue-baf nav-item show dropdown&quot;]/div[@class=&quot;dropdown-menu show&quot;]/a[2]/a[@class=&quot;dropdown-item&quot;]</value>
+      <webElementGuid>b949f7d4-e9a6-4160-a53e-f6bc825c403c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='basic-navbar-nav']/div/div/div/div/div/a[2]/a</value>
+      <webElementGuid>15d32754-cf47-440c-83b6-0bf1a4424642</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Financial Highlights'])[1]/following::a[2]</value>
+      <webElementGuid>34ce703c-71df-4595-9e27-fadf6fc0e5fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Investor Relations'])[1]/following::a[4]</value>
+      <webElementGuid>00fc2da0-cb4f-4dbf-b689-8485f4430f91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Annual Report'])[1]/preceding::a[1]</value>
+      <webElementGuid>ed060dad-5556-4b9e-9bc7-6c987cef4102</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/corporate/InvestorRelations/FinancialStatements')])[2]</value>
+      <webElementGuid>08ffa9db-5c3c-419b-a2f6-29b7f9a99580</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div/div/a[2]/a</value>
+      <webElementGuid>9df59206-62bb-42a3-8948-4441e734207c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/corporate/InvestorRelations/FinancialStatements' and (text() = 'Financial Statements' or . = 'Financial Statements')]</value>
+      <webElementGuid>74b321f8-442d-4cdc-bfd8-a5271d54cee7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

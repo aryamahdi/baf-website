@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nav_Mudah</name>
+   <tag></tag>
+   <elementGuidId>246c5bde-f26a-46a1-a0a7-e68fa77921c2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/main/div[2]/div/div/div/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^MUDAH$/ >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>852ea964-8804-4629-a8ce-adaf8fc1ede6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-4 block-card-baf-mobile card</value>
+      <webElementGuid>adcecbee-7c0b-482c-85a1-e89a8fe6a78d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>MUDAH</value>
+      <webElementGuid>0ade848e-9290-4742-b7c8-7ba6f9e909ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__className_4df22e&quot;]/main[@class=&quot;layout&quot;]/div[2]/div[1]/div[1]/div[1]/div[@class=&quot;d-flex justify-content-around&quot;]/div[@class=&quot;col-lg-3&quot;]/div[@class=&quot;p-4 block-card-baf-mobile card&quot;]</value>
+      <webElementGuid>24d83c13-a487-46ee-8538-d1eab6502ee3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/main/div[2]/div/div/div/div/div[2]/div</value>
+      <webElementGuid>a5b44d99-c805-4829-8fbf-4b6ed9b088d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FITUR LENGKAP'])[1]/following::div[2]</value>
+      <webElementGuid>69fecaad-85cb-46c5-b155-69aec160384d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KEUNGGULAN'])[1]/following::div[6]</value>
+      <webElementGuid>a3bb49f3-fd34-40ab-801e-f3de7da50bbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SISTEM AMAN'])[1]/preceding::div[1]</value>
+      <webElementGuid>c70104ff-a7e1-4160-9fd6-7115c8fd6184</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]/div</value>
+      <webElementGuid>e0de6d0f-9619-452b-8c31-b3944ce62199</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'MUDAH' or . = 'MUDAH')]</value>
+      <webElementGuid>717873d2-2d7c-43e2-91f7-bab2948b200c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

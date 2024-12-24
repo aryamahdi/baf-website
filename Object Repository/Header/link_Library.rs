@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_Library</name>
+   <tag></tag>
+   <elementGuidId>5a5edc2e-9530-405b-bb68-7bf2455c6217</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.dropdown-menu.show > a:nth-of-type(3) > a.dropdown-item</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='basic-navbar-nav']/div/div/div/div[4]/div/a[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Library&quot;i] >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f8e79af5-f490-4900-861f-c1e5dcf93f91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/corporate/FinancialLiteracy/Library</value>
+      <webElementGuid>329e400b-82c8-4dcc-92f6-602a3e75b913</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-item</value>
+      <webElementGuid>d666c822-60bd-4f95-a8ab-e91be676df31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Library</value>
+      <webElementGuid>0474e556-435c-42c6-b666-b88ab1643f8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;basic-navbar-nav&quot;)/div[@class=&quot;n-width align-items-center navbar-nav&quot;]/div[1]/div[@class=&quot;d-flex flex-row&quot;]/div[@class=&quot;txt-blue-baf nav-item show dropdown&quot;]/div[@class=&quot;dropdown-menu show&quot;]/a[3]/a[@class=&quot;dropdown-item&quot;]</value>
+      <webElementGuid>b0f36703-4f4a-4a59-8e4d-0f098fc35c1f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='basic-navbar-nav']/div/div/div/div[4]/div/a[3]/a</value>
+      <webElementGuid>b30a4be5-57bb-4a4c-8efc-d6bdf77a00e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Article'])[1]/following::a[2]</value>
+      <webElementGuid>c9e9bc5d-b4fd-44ca-a4c3-5cbd463a795d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About Literacy'])[1]/following::a[4]</value>
+      <webElementGuid>3ed59b65-3ef2-4dfa-9850-86ee36e4f490</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Documentation'])[1]/preceding::a[1]</value>
+      <webElementGuid>26c485e7-8c11-40c9-86ca-88e20add5302</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/corporate/FinancialLiteracy/Library')])[2]</value>
+      <webElementGuid>32da5021-32f9-4bfe-b757-3327a24c7698</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/a[3]/a</value>
+      <webElementGuid>bc5d7eda-dafe-413a-9cbc-0cf0ae890af0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/corporate/FinancialLiteracy/Library' and (text() = 'Library' or . = 'Library')]</value>
+      <webElementGuid>b241d06a-57dd-4b1f-a2f3-2f441ff0f79f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

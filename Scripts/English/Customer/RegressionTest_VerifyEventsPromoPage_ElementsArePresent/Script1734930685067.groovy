@@ -17,3 +17,43 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Header/link_Event  Promo'))
+
+WebUI.verifyTextPresent('EVENT & PROMO', true)
+
+WebUI.click(findTestObject('Event and Promo/link_All'))
+
+WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+
+WebUI.click(findTestObject('Event and Promo/link_Event'))
+
+WebUI.verifyElementPresent(findTestObject('General/nav_No Results Found'), 10)
+
+WebUI.click(findTestObject('Event and Promo/link_New Motorcycle'))
+
+WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+
+WebUI.click(findTestObject('Event and Promo/link_Used Motorcycle'))
+
+WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+
+WebUI.click(findTestObject('Event and Promo/link_Car'))
+
+WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+
+WebUI.click(findTestObject('Event and Promo/link_Electronic, Gadget,  Furnitur'))
+
+WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+
+WebUI.click(findTestObject('Event and Promo/link_BAF Dana Syariah'))
+
+WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+
+WebUI.click(findTestObject('Event and Promo/link_Agricultural Machinery'))
+
+WebUI.verifyElementPresent(findTestObject('General/nav_No Results Found'), 10)
+
+WebUI.click(findTestObject('Event and Promo/link_Fleet Financing'))
+
+WebUI.verifyElementPresent(findTestObject('General/nav_No Results Found'), 10)
+

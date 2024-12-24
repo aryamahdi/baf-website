@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Best Brand</name>
+   <tag></tag>
+   <elementGuidId>d740aa03-f5be-4b3c-b566-91e9b14f2775</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/main/div[3]/div/div/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.card-img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.card-img >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>35ceaaa3-c25b-49c2-86e3-39d75cc55a37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-img</value>
+      <webElementGuid>2c04bd66-c619-491f-9ee2-03bbb1dfdaa1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/static/images/image/footer/best-brand.webp</value>
+      <webElementGuid>18651558-3932-47be-9f61-f2819e9441cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__className_4df22e&quot;]/main[@class=&quot;layout&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;border-bottom-0 bg-white card-header&quot;]/div[@class=&quot;float-right&quot;]/img[@class=&quot;card-img&quot;]</value>
+      <webElementGuid>ac16db9d-2ea0-4aac-9389-2ee70cb02787</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/main/div[3]/div/div/img</value>
+      <webElementGuid>2e0768ac-b266-4395-bde7-80e81dc22adc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/img</value>
+      <webElementGuid>23bc16ed-e6bb-4e34-89eb-9773e1796d4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/static/images/image/footer/best-brand.webp']</value>
+      <webElementGuid>b42c8ed2-16e3-4811-ba8e-7c848edaa6ac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

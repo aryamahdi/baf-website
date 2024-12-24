@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_Yamaha Motors Financing</name>
+   <tag></tag>
+   <elementGuidId>ce272168-48d6-4abc-82d8-4ced60d9621b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='basic-navbar-nav']/div/div/div/div/div/a/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.dropdown-item</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Yamaha Motors Financing&quot;i] >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>22bd6fe5-67c4-4e68-920a-c23509116845</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/product/MotorYamaha</value>
+      <webElementGuid>68a47f8c-38f1-4ee2-81b7-c3170bcdfe32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-item</value>
+      <webElementGuid>293093d9-1c2f-4d68-957b-0807c10efacf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Yamaha Motors Financing</value>
+      <webElementGuid>f739a058-09d9-4d09-bc2a-fd1bfad8b970</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;basic-navbar-nav&quot;)/div[@class=&quot;n-width align-items-center navbar-nav&quot;]/div[1]/div[@class=&quot;d-flex flex-row&quot;]/div[@class=&quot;txt-blue-baf nav-item show dropdown&quot;]/div[@class=&quot;dropdown-menu show&quot;]/a[1]/a[@class=&quot;dropdown-item&quot;]</value>
+      <webElementGuid>04a805ca-9f8a-49cd-892b-365d971717b1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='basic-navbar-nav']/div/div/div/div/div/a/a</value>
+      <webElementGuid>9beddccc-144c-4d81-99c6-1ed24a8d47c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product'])[2]/following::a[2]</value>
+      <webElementGuid>a4b1f120-caff-4d95-8062-4942c111826f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product'])[1]/following::a[2]</value>
+      <webElementGuid>8ae2f842-a5e4-4515-94b0-893cea3a36a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Car Financing'])[1]/preceding::a[1]</value>
+      <webElementGuid>01d99e68-310a-440e-b9ab-864e13e9847f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/product/MotorYamaha')])[2]</value>
+      <webElementGuid>d67016fc-afca-4d05-9e14-f9d657bc0629</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div/div/a/a</value>
+      <webElementGuid>fd4585a7-e74e-49ac-8154-3afe734d3565</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/product/MotorYamaha' and (text() = 'Yamaha Motors Financing' or . = 'Yamaha Motors Financing')]</value>
+      <webElementGuid>549882f5-6e06-406e-9b55-2de536d7479d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

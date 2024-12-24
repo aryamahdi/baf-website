@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Customer/nav_Promo and News",
+      "brokenLocator": "//body/div[@id\u003d\u0027__next\u0027]/main[1]/main[1]/div[4]/div[5]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027View\u0027])[9]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Customer/nav_Promo and News_neighbor.png"
+    }
+  ]
 }

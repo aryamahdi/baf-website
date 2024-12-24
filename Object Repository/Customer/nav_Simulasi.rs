@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nav_Simulasi</name>
+   <tag></tag>
+   <elementGuidId>a5806b6e-a3fd-46da-a812-2cc8fdc0de65</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.col</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/main/div[5]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[id=&quot;__next&quot;] div >> internal:has-text=&quot;Choose a MotorcyclePlease selectChoose VariantPlease selectChoose CityPlease sel&quot;i >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4aa884e2-1bf1-46e3-82b6-7778ea035db8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col</value>
+      <webElementGuid>baabe719-f969-437c-aaba-a643fb3eac55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Choose a MotorcyclePlease selectChoose VariantPlease selectChoose CityPlease selectMotorcycle PriceTime PeriodPlease selectDown PaymentPlease selectCalculate Your Installment</value>
+      <webElementGuid>00839dd9-83f9-4fff-b558-924f1f02cfe7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__className_4df22e&quot;]/main[@class=&quot;layout&quot;]/div[@class=&quot;section-container container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col&quot;]</value>
+      <webElementGuid>90f89a33-72e3-496a-8d15-b6125760148f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/main/div[5]/div/div</value>
+      <webElementGuid>4f0b74a4-bf26-47dc-aeb9-4174de2db771</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PROMOS AND LATEST NEWS'])[1]/following::div[26]</value>
+      <webElementGuid>be43d537-8139-46e8-b262-99655a46cc69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::div[32]</value>
+      <webElementGuid>d5f27993-3aa1-4098-999c-8a3c50aff852</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div</value>
+      <webElementGuid>491d1449-976a-4ceb-8cf3-34bcda0dc211</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Choose a MotorcyclePlease selectChoose VariantPlease selectChoose CityPlease selectMotorcycle PriceTime PeriodPlease selectDown PaymentPlease selectCalculate Your Installment' or . = 'Choose a MotorcyclePlease selectChoose VariantPlease selectChoose CityPlease selectMotorcycle PriceTime PeriodPlease selectDown PaymentPlease selectCalculate Your Installment')]</value>
+      <webElementGuid>ee4796e1-abc2-43ce-96d5-0f33a327c77a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

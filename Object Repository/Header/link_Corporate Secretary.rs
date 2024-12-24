@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_Corporate Secretary</name>
+   <tag></tag>
+   <elementGuidId>bb67ab5b-9bf8-49f1-8b13-8959c978ae13</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a:nth-of-type(8) > a.dropdown-item</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='basic-navbar-nav']/div/div/div/div[2]/div/a[8]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Corporate Secretary&quot;i] >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ba613717-12bf-4817-958c-297d52726cbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/corporate/CorporateGovernance/CorporateSecretary</value>
+      <webElementGuid>8a7e26e0-d715-4dd8-8c24-736c8fb5f81b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-item</value>
+      <webElementGuid>8543b42d-8884-4d77-8588-9e863e65aa90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Corporate Secretary</value>
+      <webElementGuid>bc6ad7c8-cb90-4a1f-b70c-8e37994c36e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;basic-navbar-nav&quot;)/div[@class=&quot;n-width align-items-center navbar-nav&quot;]/div[1]/div[@class=&quot;d-flex flex-row&quot;]/div[@class=&quot;txt-blue-baf nav-item show dropdown&quot;]/div[@class=&quot;dropdown-menu show&quot;]/a[8]/a[@class=&quot;dropdown-item&quot;]</value>
+      <webElementGuid>e0cde924-c4c1-4de5-a9c0-3f658fe29c73</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='basic-navbar-nav']/div/div/div/div[2]/div/a[8]/a</value>
+      <webElementGuid>43b50c2f-538c-417c-8865-afbaf1c9c86a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Committees under BOD'])[1]/following::a[2]</value>
+      <webElementGuid>4b591644-e687-4d21-8abc-65bfc47bf429</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Committees under BOC'])[1]/following::a[4]</value>
+      <webElementGuid>783a7a1b-71c8-4323-878b-871a596e49a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Internal Audit Unit'])[1]/preceding::a[1]</value>
+      <webElementGuid>6d9efdcb-d0ec-4bea-af6d-dd84c08b0efd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/corporate/CorporateGovernance/CorporateSecretary')])[2]</value>
+      <webElementGuid>9db27c97-9402-4714-bb9a-725aacb23c70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[8]/a</value>
+      <webElementGuid>d480c33f-3a08-4045-8034-3c8b8da03e95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/corporate/CorporateGovernance/CorporateSecretary' and (text() = 'Corporate Secretary' or . = 'Corporate Secretary')]</value>
+      <webElementGuid>14214a7f-c61e-48d0-a440-da48590c497c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

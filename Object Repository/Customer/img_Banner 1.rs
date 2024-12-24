@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Banner 1</name>
+   <tag></tag>
+   <elementGuidId>a27af978-0b0a-459f-b960-ff43d84a11dc</elementGuidId>
+   <imagePath>../../Downloads/Banner/bannerweb_1.jpg</imagePath>
+   <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value>../../Downloads/Banner/bannerweb_1.jpg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[@id='__next']/main[1]/main[1]/div[2]/div[1]/div[1]/div[1]/img[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@alt = 'nmcspecial12']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>main.__className_4df22e:nth-child(1) main.layout div:nth-child(3) div.carousel.slide div.carousel-inner div.active.carousel-item:nth-child(1) > img.d-block.w-100</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=img[name=&quot;suku bunga desember&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>77f2bfc7-2834-420b-9a70-020c54500e7e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-block w-100</value>
+      <webElementGuid>e783dc24-5edc-4252-a632-cd8494f9a8c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/bannerweb%2F1734428490971.jpeg?Expires=1735057805&amp;OSSAccessKeyId=LTAI5tFAFQkoFApg3bDqxLsA&amp;Signature=1cOr3bv%2F9C4p%2Fy0lnA4h3fU7znA%3D</value>
+      <webElementGuid>541b6be5-11ef-4bde-9fb8-cf269fbb2bad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>nmcspecial12</value>
+      <webElementGuid>97da0431-b997-42c0-b502-3294064ede91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__className_4df22e&quot;]/main[@class=&quot;layout&quot;]/div[2]/div[@class=&quot;carousel slide&quot;]/div[@class=&quot;carousel-inner&quot;]/div[@class=&quot;active carousel-item&quot;]/img[@class=&quot;d-block w-100&quot;]</value>
+      <webElementGuid>67bc459c-2cb6-47fb-930b-9ee13bee6240</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/main/div[2]/div/div/div[5]/img</value>
+      <webElementGuid>e3ba432d-158a-457c-9c27-4ed9a87c1c4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='suku bunga desember']</value>
+      <webElementGuid>cf53e263-7ecf-475f-9c25-e047868674d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/img</value>
+      <webElementGuid>5703c583-78e2-4be8-b193-716bce56514c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/bannerweb%2F1734428594399.jpeg?Expires=1735052461&amp;OSSAccessKeyId=LTAI5tFAFQkoFApg3bDqxLsA&amp;Signature=dxvsVVvM4whqeFUo7cNfGs%2FUEOo%3D' and @alt = 'suku bunga desember']</value>
+      <webElementGuid>5de3b989-9c66-4fa4-8685-b206649757e2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

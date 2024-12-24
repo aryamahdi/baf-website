@@ -14,4 +14,9 @@
       <initValue>''</initValue>
       <name>OTP</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>Timestamp</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

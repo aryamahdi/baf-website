@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nav_Content</name>
+   <tag></tag>
+   <elementGuidId>f8dde6dc-3aef-4441-98d6-27c35c63c2b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.justify-content-center.d-flex.align-items-stretch.mb-5.col-lg-4.col-md-6.col-sm-12</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/main/div[4]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=&quot;Motor Baru2024/12/05Emang Enggak Ada Lawan Pakai Motor Baru Yamaha InceranView&quot;i >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ac25c592-23be-4ef6-83a9-e95c53ff33c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>justify-content-center d-flex align-items-stretch mb-5 col-lg-4 col-md-6 col-sm-12</value>
+      <webElementGuid>4bd24972-140d-4022-96ee-5da2ade7080c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Motor Baru2024/12/05Emang Enggak Ada Lawan Pakai Motor Baru Yamaha InceranView</value>
+      <webElementGuid>eb45e9a9-9907-47b7-bbf4-cdef1b9523c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__className_4df22e&quot;]/main[@class=&quot;layout&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;justify-content-center d-flex align-items-stretch mb-5 col-lg-4 col-md-6 col-sm-12&quot;]</value>
+      <webElementGuid>736f41b6-1d0d-47dd-a117-e3b51b620271</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/main/div[4]/div</value>
+      <webElementGuid>a512a654-9687-467b-9c6f-181358f15337</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EVENT &amp; PROMO'])[1]/following::div[36]</value>
+      <webElementGuid>f45909b8-0fed-4658-950c-6c6e9c99f174</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BAF Mobile'])[1]/following::div[38]</value>
+      <webElementGuid>86cd328c-6e20-44cc-b6f2-72e7a3d51af9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div</value>
+      <webElementGuid>ed7ec853-79bf-4636-acd6-ec8a94798813</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Motor Baru2024/12/05Emang Enggak Ada Lawan Pakai Motor Baru Yamaha InceranView' or . = 'Motor Baru2024/12/05Emang Enggak Ada Lawan Pakai Motor Baru Yamaha InceranView')]</value>
+      <webElementGuid>d4b0c3cc-dc8c-4031-bc94-16bab13b93cc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

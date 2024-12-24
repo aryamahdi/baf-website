@@ -17,9 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Open Browser'
 WebUI.openBrowser('')
 
+'Maximize Window Browser'
 WebUI.maximizeWindow()
 
+'Open BAF Website'
 WebUI.navigateToUrl(GlobalVariable.URL)
+
+'Waiting Page Loading'
+WebUI.verifyTextPresent('Customer', true)
+
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.Timestamp])
 

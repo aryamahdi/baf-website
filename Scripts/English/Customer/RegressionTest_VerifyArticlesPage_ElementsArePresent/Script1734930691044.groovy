@@ -17,3 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Header/link_Articles'))
+
+WebUI.click(findTestObject('Articles/a_General'))
+
+WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+
+WebUI.click(findTestObject('Articles/a_New Product'))
+
+WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+
+WebUI.click(findTestObject('Articles/a_Financial Literacy'))
+
+WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+
+WebUI.click(findTestObject('Articles/a_Financial Insight'))
+
+WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+
+WebUI.click(findTestObject('Articles/a_Customer Insight'))
+
+WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+

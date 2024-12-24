@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Next Promo and News</name>
+   <tag></tag>
+   <elementGuidId>4f1e99b1-775b-4ca1-96e0-12dc5b1bfd64</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[@id='__next']/main[1]/main[1]/div[4]/div[4]/button[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//body/div[@id='__next']/main[1]/main[1]/div[4]/div[4]/button[2][count(. | //*[@type = 'button' and @class = 'bg-transparent border-0 btn btn-primary']) = count(//*[@type = 'button' and @class = 'bg-transparent border-0 btn btn-primary'])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>button:nth-child(2)</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>464664a3-0838-45ee-b3c3-fc70edbcc443</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>01ab924c-6a4b-4a57-8a59-32a621693224</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-transparent border-0 btn btn-primary</value>
+      <webElementGuid>cc7368ae-6721-4314-86ec-0151aad0678d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body/div[@id='__next']/main[1]/main[1]/div[4]/div[4]/button[2]</value>
+      <webElementGuid>1accca94-07dd-41dd-93f9-0fdd30f25dcb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[13]</value>
+      <webElementGuid>39b63453-34c7-4abd-908b-68a345fbf755</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/main/div[4]/div[4]/button[2]</value>
+      <webElementGuid>e58e4ec7-bcdf-445c-9498-a095eaa3dcc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[9]/following::button[2]</value>
+      <webElementGuid>1f8ccda0-6742-4826-a525-0e7f114f659e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harbolnas Mantap Pol Promonya dengan #CicilAjadiBAF!'])[3]/following::button[3]</value>
+      <webElementGuid>a2178c94-355d-4e18-91a8-7fc289828d5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose a Motorcycle'])[1]/preceding::button[12]</value>
+      <webElementGuid>d4a04d6e-35d5-4045-9677-e3397ef007e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select'])[1]/preceding::button[12]</value>
+      <webElementGuid>98203bff-7def-4580-8ea5-89ed858e411f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>5fca7385-49ef-4dc2-8402-b36aae9381b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>6fdb5eff-16b0-4360-a159-006227f047e7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Motor Baru Yamaha</name>
+   <tag></tag>
+   <elementGuidId>2cd620e1-0484-43fc-939f-27fad9abdd27</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.bg-transparent.border-0.lob-home-icon.btn.btn-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[@id='__next']/main[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;NMC&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>608b424c-f510-4a86-9b39-bfdedc27fe5b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a3949cab-453f-487d-945e-1f8b9179a477</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-transparent border-0 lob-home-icon btn btn-primary</value>
+      <webElementGuid>5692c6cd-914d-46f5-a039-2ce102b6e8fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;simulation&quot;)/div[@class=&quot;card&quot;]/div[@class=&quot;body-list-lob card-body&quot;]/div[@class=&quot;indiana-container indiana-scroll-container indiana-scroll-container--hide-scrollbars&quot;]/div[@class=&quot;lob-linkCards list-group list-group-horizontal-lg&quot;]/div[@class=&quot;border-0 lob-item pl-0 pr-0 list-group-item&quot;]/button[@class=&quot;bg-transparent border-0 lob-home-icon btn btn-primary&quot;]</value>
+      <webElementGuid>c277279e-8a98-4522-b960-1be6933a4333</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[19]</value>
+      <webElementGuid>002093e9-c730-40b8-bfd3-6a873bdf9963</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//section[@id='simulation']/div/div/div/div/div/button</value>
+      <webElementGuid>9d0c6937-fffd-47db-9d98-a3dec1bb6222</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[9]/following::button[8]</value>
+      <webElementGuid>634dc9e8-358a-47cf-93ed-c28875f3840f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harbolnas Mantap Pol Promonya dengan #CicilAjadiBAF!'])[3]/following::button[9]</value>
+      <webElementGuid>864dbf9d-3023-44c4-ac42-5ca6a667f736</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose a Motorcycle'])[1]/preceding::button[6]</value>
+      <webElementGuid>b38e10d9-b0c4-471d-bdc9-8bd210ef7916</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select'])[1]/preceding::button[6]</value>
+      <webElementGuid>634af047-29a8-4116-bf36-d342768a2ae9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/button</value>
+      <webElementGuid>71ef9a6f-4d70-47c2-91c4-d3bc519fa7dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>ee8ba46c-96df-407a-938e-e9234175257f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -17,3 +17,35 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Header/link_BAF Mobile'))
+
+WebUI.verifyTextPresent('PROSES CEPAT ANGSURAN TEPAT', true)
+
+WebUI.focus(findTestObject('BAF Mobile/nav_Keunggulan'))
+
+WebUI.verifyTextPresent('KEUNGGULAN', true)
+
+WebUI.verifyElementPresent(findTestObject('BAF Mobile/nav_Fitur Lengkap'), 10)
+
+WebUI.verifyElementPresent(findTestObject('BAF Mobile/nav_Mudah'), 10)
+
+WebUI.verifyElementPresent(findTestObject('BAF Mobile/nav_Sistem Aman'), 10)
+
+WebUI.focus(findTestObject('BAF Mobile/nav_Bawah'))
+
+WebUI.click(findTestObject('BAF Mobile/link_AppStore BAF Mobile'))
+
+WebUI.verifyLinksAccessible(['https://apps.apple.com/id/app/baf-mobile/id1499452126'])
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.click(findTestObject('BAF Mobile/link_PlayStore BAF Mobile'))
+
+WebUI.verifyLinksAccessible(['https://play.google.com/store/apps/details?id=com.id.bussanautofinance'])
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToWindowIndex(0)
+

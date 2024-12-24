@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_Electronic, Gadget,  Furniture Financing</name>
+   <tag></tag>
+   <elementGuidId>a87671a7-311f-4df3-992b-e8b4bc32ed4c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='basic-navbar-nav']/div/div/div/div/div/a[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a:nth-of-type(3) > a.dropdown-item</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Electronic, Gadget, &amp; Furniture Financing&quot;i] >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>29542fc9-83eb-4c5f-a557-86cd20776424</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/product/Multiproduk</value>
+      <webElementGuid>8614c75b-be80-4d5c-a9f3-0286e2d927ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-item</value>
+      <webElementGuid>d3f5d7f2-7030-4af8-b747-5c7869619a9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Electronic, Gadget, &amp; Furniture Financing</value>
+      <webElementGuid>65923abf-8043-4483-9f8c-e78139363e96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;basic-navbar-nav&quot;)/div[@class=&quot;n-width align-items-center navbar-nav&quot;]/div[1]/div[@class=&quot;d-flex flex-row&quot;]/div[@class=&quot;txt-blue-baf nav-item show dropdown&quot;]/div[@class=&quot;dropdown-menu show&quot;]/a[3]/a[@class=&quot;dropdown-item&quot;]</value>
+      <webElementGuid>46f0e0be-d540-466e-9b3a-75e6ed6ac2db</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='basic-navbar-nav']/div/div/div/div/div/a[3]/a</value>
+      <webElementGuid>23fe55cc-bbf7-46ba-8e81-a4e653b05eaa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Car Financing'])[1]/following::a[2]</value>
+      <webElementGuid>d1e9f526-a813-4962-89ec-bd7b9e3ec6ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yamaha Motors Financing'])[1]/following::a[4]</value>
+      <webElementGuid>cd6c3583-b269-4a63-88f6-633cbcd4fdb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Agricultural Machinery Financing'])[1]/preceding::a[1]</value>
+      <webElementGuid>20e7a6aa-87cc-4665-9ab7-950842010318</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/product/Multiproduk')])[2]</value>
+      <webElementGuid>f8e76ef6-1532-4a88-895b-aa1a048eca08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div/div/a[3]/a</value>
+      <webElementGuid>d1126ce1-8393-4c47-82e3-f926c7078dee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/product/Multiproduk' and (text() = 'Electronic, Gadget, &amp; Furniture Financing' or . = 'Electronic, Gadget, &amp; Furniture Financing')]</value>
+      <webElementGuid>db0dad68-d632-4d99-b0a5-90d57090c8f8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
