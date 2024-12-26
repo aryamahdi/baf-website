@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Read 3 Board of Commissioners</name>
+   <tag></tag>
+   <elementGuidId>06593cc9-dffa-426c-b60d-211f05316045</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[@id='__next']/main[1]/main[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[5]/div[1]/div[3]/div[2]/div[2]/button[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>999f0626-e4a7-40e1-a3e5-1e4c49daa713</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>481b940c-76a7-46bb-be97-b00dc2e58620</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>border-0 bg-transparent txt-blue-baf p-0 fsAlbert btn btn-primary</value>
+      <webElementGuid>c79dca64-f40c-41e2-8b52-d351ccf4008c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Read More >>></value>
+      <webElementGuid>4c26435f-5f8a-4e8d-9ca4-0bc7499b854c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;commissioner&quot;)/div[@class=&quot;block-card w-auto boards-card card&quot;]/div[@class=&quot;halfWidth card-body&quot;]/div[@class=&quot;txt-boards-desc&quot;]/button[@class=&quot;border-0 bg-transparent txt-blue-baf p-0 fsAlbert btn btn-primary&quot;]</value>
+      <webElementGuid>630cff17-f79a-4491-b8c9-086b6c4f334a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[6]</value>
+      <webElementGuid>9e32e0ad-3193-4798-b6b5-a3a57fdd7e59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='commissioner']/div[3]/div[2]/div[2]/button</value>
+      <webElementGuid>032eb143-d119-4059-a279-e43fff783a32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Naotaka Takeshita'])[1]/following::button[1]</value>
+      <webElementGuid>db443808-d14b-461a-a6b4-151570d9494f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Read Less &lt;&lt;&lt;'])[2]/following::button[1]</value>
+      <webElementGuid>37ab3d06-7e26-40b4-95c4-013c83c8a5cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dani Firmansjah'])[1]/preceding::button[1]</value>
+      <webElementGuid>1384eb32-ef02-4e6e-b41c-bc62bfcf3b19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Read More >>>'])[2]/preceding::button[1]</value>
+      <webElementGuid>7218e59d-8748-47df-bf74-e55a2aa07689</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Read More >>>']/parent::*</value>
+      <webElementGuid>ae7d9b99-2f52-4d15-a646-899c7606aa84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div[2]/button</value>
+      <webElementGuid>180c68fb-d633-4f48-901e-bfb622de75a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Read More >>>' or . = 'Read More >>>')]</value>
+      <webElementGuid>6b44a95d-846e-4422-85fd-285f2ffec403</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

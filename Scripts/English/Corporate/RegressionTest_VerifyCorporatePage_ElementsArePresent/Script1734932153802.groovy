@@ -35,6 +35,8 @@ WebUI.waitForElementPresent(findTestObject('Corporate/img_Banner 4'), 10)
 
 WebUI.click(findTestObject('Corporate/a_Next Banner'))
 
+WebUI.focus(findTestObject('Corporate/nav_Company Profile Video'))
+
 WebUI.verifyTextPresent('Company Profile Video', true)
 
 WebUI.verifyTextPresent('Established since 1997, BAF continues to innovate with a wide selection of financing products.', 
@@ -50,7 +52,7 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.verifyTextPresent('PROMOS AND LATEST NEWS', true)
 
-WebUI.focus(findTestObject('Customer/nav_Promo and News'))
+WebUI.focus(findTestObject('Corporate/nav_Promo and News Corporate'))
 
 WebUI.click(findTestObject('Corporate/button_Next Promo and News Corporate'))
 

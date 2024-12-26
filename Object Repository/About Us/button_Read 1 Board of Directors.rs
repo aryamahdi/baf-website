@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Read 1 Board of Directors</name>
+   <tag></tag>
+   <elementGuidId>b251be5d-92cc-46ec-aa5d-50230071b6fd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body/div[@id='__next']/main[1]/main[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/div[2]/div[2]/button[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#director > div.block-card.w-auto.boards-card.card > div.halfWidth.card-body > div.txt-boards-desc > button.border-0.bg-transparent.txt-blue-baf.p-0.fsAlbert.btn.btn-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>42688ebf-dc84-4d77-aa7f-e797e1f53a35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>92d8c660-f12d-42e8-9638-f3752c113b3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>border-0 bg-transparent txt-blue-baf p-0 fsAlbert btn btn-primary</value>
+      <webElementGuid>eac374f9-eed8-4697-8cbe-21d4bf2497e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Read More >>></value>
+      <webElementGuid>7d716f57-536b-4f38-9891-471b1bf874e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;director&quot;)/div[@class=&quot;block-card w-auto boards-card card&quot;]/div[@class=&quot;halfWidth card-body&quot;]/div[@class=&quot;txt-boards-desc&quot;]/button[@class=&quot;border-0 bg-transparent txt-blue-baf p-0 fsAlbert btn btn-primary&quot;]</value>
+      <webElementGuid>2e517ef7-9293-4ec1-b7d7-30810e42c184</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[10]</value>
+      <webElementGuid>fcbcb4af-b836-4c4d-baa4-6f541ff46ea1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='director']/div/div[2]/div[2]/button</value>
+      <webElementGuid>6566e3ce-bcbb-4034-9b0d-1988f8ed02b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lynn Ramli'])[1]/following::button[1]</value>
+      <webElementGuid>b62befad-dfd3-48e5-9666-3a31942ac8b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Read More >>>'])[4]/following::button[1]</value>
+      <webElementGuid>e6a03758-9543-4881-988e-493dcbf60590</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Akira Sugai'])[1]/preceding::button[1]</value>
+      <webElementGuid>26fd086d-3fc7-4d16-95ef-914dfa09d2e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Read More >>>'])[6]/preceding::button[1]</value>
+      <webElementGuid>ee64759e-1129-49c6-8dbd-a737f5d27d2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div[2]/div[2]/button</value>
+      <webElementGuid>c49ebb3e-0d90-41f8-b946-1e2967122694</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Read More >>>' or . = 'Read More >>>')]</value>
+      <webElementGuid>495097aa-99cb-4e72-8b19-bd5155a1cd9b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

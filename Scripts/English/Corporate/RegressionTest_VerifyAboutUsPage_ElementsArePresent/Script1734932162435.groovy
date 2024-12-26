@@ -17,3 +17,81 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Header/link_Corporate'))
+
+WebUI.click(findTestObject('Header/link_About Us'))
+
+WebUI.verifyElementPresent(findTestObject('About Us/img_Building'), 10)
+
+WebUI.verifyElementPresent(findTestObject('About Us/img_Milestone BAF'), 10)
+
+WebUI.focus(findTestObject('About Us/button_Read BAF at a Glance'))
+
+WebUI.verifyElementPresent(findTestObject('About Us/lbl_Before Read More BAF at a Glance'), 10)
+
+WebUI.click(findTestObject('About Us/button_Read BAF at a Glance'))
+
+WebUI.verifyElementPresent(findTestObject('About Us/lbl_After Read More BAF at a Glance'), 10)
+
+WebUI.focus(findTestObject('About Us/button_Read BAF at a Glance'))
+
+WebUI.click(findTestObject('About Us/button_Read BAF at a Glance'))
+
+WebUI.focus(findTestObject('About Us/img_Building'))
+
+WebUI.click(findTestObject('About Us/link_Vision, Mission, and Value'))
+
+WebUI.verifyElementPresent(findTestObject('About Us/nav_Vision'), 10)
+
+WebUI.verifyElementPresent(findTestObject('About Us/nav_Mission'), 10)
+
+WebUI.focus(findTestObject('About Us/nav_Visionary Reliable Accessible'))
+
+WebUI.verifyElementPresent(findTestObject('About Us/nav_Visionary Reliable Accessible'), 10)
+
+WebUI.focus(findTestObject('About Us/img_Building'))
+
+WebUI.click(findTestObject('About Us/link_Organnization Structure'))
+
+WebUI.focus(findTestObject('About Us/img_Building'))
+
+WebUI.verifyTextPresent('ORGANIZATION STRUCTURE', true)
+
+WebUI.verifyTextPresent('Organization Structure', true)
+
+WebUI.verifyTextPresent('PT Bussan Auto Finance', true)
+
+WebUI.verifyElementPresent(findTestObject('About Us/img_Organization Structure PT Bussan Auto Finance'), 10)
+
+WebUI.focus(findTestObject('About Us/img_Building'))
+
+WebUI.click(findTestObject('About Us/link_Shareholder Structure'))
+
+WebUI.focus(findTestObject('About Us/img_Building'))
+
+WebUI.verifyTextPresent('SHAREHOLDERS', true)
+
+WebUI.verifyElementPresent(findTestObject('About Us/img_Mitsui  Co., Ltd'), 10)
+
+WebUI.verifyElementPresent(findTestObject('About Us/img_JA Mitsui Leasing, Ltd'), 10)
+
+WebUI.verifyElementPresent(findTestObject('About Us/img_Yamaha MotorCo., Ltd'), 10)
+
+WebUI.verifyElementPresent(findTestObject('About Us/img_PT Yamaha IndonesiaMotor Manufacturing'), 10)
+
+WebUI.verifyElementPresent(findTestObject('About Us/img_PT SinergiAutoindo Abadi'), 10)
+
+WebUI.verifyElementPresent(findTestObject('About Us/nav_Shareholders'), 10)
+
+WebUI.focus(findTestObject('About Us/img_Building'))
+
+WebUI.click(findTestObject('About Us/link_Board of Commissioners'))
+
+WebUI.focus(findTestObject('About Us/nav_Header'))
+
+WebUI.click(findTestObject('About Us/link_Board of Directors'))
+
+WebUI.focus(findTestObject('About Us/nav_Header'))
+
+WebUI.click(findTestObject('About Us/link_Achievements'))
+

@@ -9,6 +9,46 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Customer/nav_Promo and News_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Corporate/img_Banner 2",
+      "brokenLocator": "main.__className_4df22e:nth-child(1) main.layout div:nth-child(2) div.carousel.slide div.carousel-inner div.active.carousel-item:nth-child(2) \u003e img.d-block.w-100",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "//div[@id\u003d\u0027__next\u0027]/main/main/div/div/div/div/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Corporate/img_Banner 3",
+      "brokenLocator": "main.__className_4df22e:nth-child(1) main.layout div:nth-child(2) div.carousel.slide div.carousel-inner div.active.carousel-item:nth-child(3) \u003e img.d-block.w-100",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "//div[@id\u003d\u0027__next\u0027]/main/main/div/div/div/div/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Corporate/img_Banner 3_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Corporate/img_Banner 4",
+      "brokenLocator": "main.__className_4df22e:nth-child(1) main.layout div:nth-child(2) div.carousel.slide div.carousel-inner div.active.carousel-item:nth-child(4) \u003e img.d-block.w-100",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "//div[@id\u003d\u0027__next\u0027]/main/main/div/div/div/div/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Corporate/img_Banner 1",
+      "brokenLocator": "//img[@src \u003d \u0027https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/bannerweb%2F1731377959358.jpeg?Expires\u003d1735231092\u0026OSSAccessKeyId\u003dLTAI5tFAFQkoFApg3bDqxLsA\u0026Signature\u003d3VwYq8qyetyHrBydlwu776vduJU%3D\u0027 and @alt \u003d \u0027Banner Corporate\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027__next\u0027]/main/main/div/div/div/div/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
     }
   ]
 }

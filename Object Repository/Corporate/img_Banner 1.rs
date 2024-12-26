@@ -4,7 +4,16 @@
    <name>img_Banner 1</name>
    <tag></tag>
    <elementGuidId>66a3c7fd-a937-4ea2-b105-b12dc3643cce</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>main.__className_4df22e:nth-child(1) main.layout div:nth-child(2) div.carousel.slide div.carousel-inner div.active.carousel-item:nth-child(1) > img.d-block.w-100</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='__next']/main/main/div/div/div/div/img</value>
@@ -12,10 +21,6 @@
       <entry>
          <key>BASIC</key>
          <value>//img[@alt = 'Banner Corporate']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>main.__className_4df22e:nth-child(1) main.layout div:nth-child(2) div.carousel.slide div.carousel-inner div.active.carousel-item:nth-child(1) > img.d-block.w-100</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
@@ -33,7 +38,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>3b81ef30-96fa-4f96-9e2e-300cad243541</webElementGuid>
+      <webElementGuid>79c5de51-74fc-4052-a661-e95dc108bfb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,15 +46,15 @@
       <name>class</name>
       <type>Main</type>
       <value>d-block w-100</value>
-      <webElementGuid>7b54a775-73d4-484d-afa8-197650aa1786</webElementGuid>
+      <webElementGuid>2df68671-8ff0-42a6-afb2-e6daff474fcf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/bannerweb%2F1731377959358.jpeg?Expires=1735075306&amp;OSSAccessKeyId=LTAI5tFAFQkoFApg3bDqxLsA&amp;Signature=13kdCUrLYOFi+1zzXL8IMq7mC1M%3D</value>
-      <webElementGuid>9788d3ff-bccb-4024-a79b-842cda2b37e8</webElementGuid>
+      <value>https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/bannerweb%2F1731377959358.jpeg?Expires=1735231092&amp;OSSAccessKeyId=LTAI5tFAFQkoFApg3bDqxLsA&amp;Signature=3VwYq8qyetyHrBydlwu776vduJU%3D</value>
+      <webElementGuid>e437043f-5e8b-422e-be6b-6403f73b3b9f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +62,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>Banner Corporate</value>
-      <webElementGuid>5d714289-0895-4084-9be5-ad0177174ddc</webElementGuid>
+      <webElementGuid>7578d330-1415-4a8d-9151-2c44747f5be0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;__className_4df22e&quot;]/main[@class=&quot;layout&quot;]/div[1]/div[@class=&quot;carousel slide&quot;]/div[@class=&quot;carousel-inner&quot;]/div[@class=&quot;active carousel-item&quot;]/img[@class=&quot;d-block w-100&quot;]</value>
-      <webElementGuid>a5956a60-f14e-40eb-880d-f1cf212a40c6</webElementGuid>
+      <webElementGuid>eadf9049-5e8b-4aea-92e2-a35c2d88f4ef</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/main/div/div/div/div/img</value>
-      <webElementGuid>6370512a-07c7-4cb8-9bf1-9d6347e5a6a3</webElementGuid>
+      <webElementGuid>caa39e9b-fce6-4099-9b20-d38633b195d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +86,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='Banner Corporate']</value>
-      <webElementGuid>d6348b16-db62-4425-b7af-50c4800af878</webElementGuid>
+      <webElementGuid>3bbac641-5723-4603-bbe7-65eb972a0e03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//main/div/div/div/div/img</value>
-      <webElementGuid>f9814a86-1f8c-477e-9033-c1d6a24ba979</webElementGuid>
+      <webElementGuid>5f7909fe-04e5-4b89-956c-be5b2aa2e018</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/bannerweb%2F1731377959358.jpeg?Expires=1735075306&amp;OSSAccessKeyId=LTAI5tFAFQkoFApg3bDqxLsA&amp;Signature=13kdCUrLYOFi+1zzXL8IMq7mC1M%3D' and @alt = 'Banner Corporate']</value>
-      <webElementGuid>ad984582-4917-4565-85a9-b6015578adfd</webElementGuid>
+      <webElementGuid>93913b84-98af-4757-ba4f-c0c3813382c8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
