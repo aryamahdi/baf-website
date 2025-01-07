@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Header/link_Corporate'))
+
+WebUI.click(findTestObject('Header/link_Investor Relations'))
+
+WebUI.click(findTestObject('Header/link_Financial Highlights'))
+
+WebUI.verifyTextPresent('FINANCIAL HIGHLIGHTS', true)
+
+WebUI.verifyTextPresent('Kami terus memberikan upaya terbaik kami dalam menjaga kinerja keuangan secara berkelanjutan sehingga dapat terus memberikan nilai yang optimal bagi seluruh pemegang saham.', 
+    true)
+
+WebUI.verifyTextPresent('We continue to ensure our best efforts in maintaining our sustain financial performance so that we can continue to deliver optimal value for all shareholders.', 
+    true)
+
+WebUI.waitForElementPresent(findTestObject('Investor Relation/Financial Highlight/img_Financial Highlight'), 10)
+

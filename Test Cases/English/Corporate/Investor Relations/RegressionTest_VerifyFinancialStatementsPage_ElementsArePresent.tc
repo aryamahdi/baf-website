@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>f73a64d2-3df0-4c52-9c2a-0d19c64bbc92</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fcd3d955-408f-4b13-9bdc-8317a8cd274d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fcd3d955-408f-4b13-9bdc-8317a8cd274d</id>
+      <masked>false</masked>
+      <name>Tahun</name>
+   </variable>
 </TestCaseEntity>

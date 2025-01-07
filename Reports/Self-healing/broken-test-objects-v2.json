@@ -49,6 +49,53 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/General/nav_Footer",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[6]/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/General/nav_Footer_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Investor Relation/Annual Report/nav_Annual Report  Sustainability Report 2023",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027__next\u0027]/main/main/div[2]/div[3]/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Investor Relation/Annual Report/nav_Annual Report  Sustainability Report 2023_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Investor Relation/Financial Statments/button_Download 1",
+      "brokenLocator": "//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/nav[1]/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u00272017\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Investor Relation/Financial Statments/button_Download 1_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Investor Relation/Financial Statments/nav_Low",
+      "brokenLocator": "//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Next\u0027])[1]/following::nav[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Investor Relation/Financial Statments/nav_Low_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Investor Relation/General Shareholder Meetings/button_Download",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027__next\u0027]/main/main/div[2]/nav/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Investor Relation/General Shareholder Meetings/button_Download_idRelative.png"
     }
   ]
 }

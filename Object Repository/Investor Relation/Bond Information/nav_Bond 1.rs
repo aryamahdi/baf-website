@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nav_Bond 1</name>
+   <tag></tag>
+   <elementGuidId>c4377a01-7679-4dad-bf12-79168c684275</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='2024'])[8]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[id=&quot;__next&quot;] div >> internal:has-text=&quot;PELUNASAN POKOK DAN BUNGA TERAKHIR SUKUK MUDHARABAH I TAHAP II 2020 SERI B / REP&quot;i >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c6ee168a-3e90-458b-a1e3-a4ce5b52290c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>2024</value>
+      <webElementGuid>1ac0efe7-3c42-4f90-9c59-90a89e340744</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-100 p-3 my-3 cursor-pointer</value>
+      <webElementGuid>abc2281c-4be1-41cc-9834-d47b395b72cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PELUNASAN POKOK DAN BUNGA TERAKHIR SUKUK MUDHARABAH I TAHAP II 2020 SERI B / REPAYMENT OF PRINCIPAL AND FINAL INTEREST OF SUKUK MUDHARABAH I PHASE II 2020 SERIES B - 23 OCTOBER 2023</value>
+      <webElementGuid>34868758-e0a2-4603-bea5-55d04864d28d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__className_4df22e&quot;]/main[@class=&quot;layout&quot;]/div[2]/div[3]/div[@id=&quot;2024&quot;]</value>
+      <webElementGuid>e80fab39-86f7-419c-a9f1-b9717c7ccf19</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//div[@id='2024'])[8]</value>
+      <webElementGuid>2bba9281-d142-4a67-ac2a-e2c5504396b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/main/div[2]/div[3]/div[6]</value>
+      <webElementGuid>621fcb87-ee2f-41cf-8ac2-891636d452c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Semua'])[1]/following::div[13]</value>
+      <webElementGuid>3f9738b8-5195-4f42-8e8a-11685c86d9f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bond/Sukuk Disclosure'])[1]/following::div[15]</value>
+      <webElementGuid>27d0aba4-0013-45cb-84a4-ae622b60ba24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PENGUNDURAN DIRI KOMISARIS / RESIGNATION OF COMMISSIONER - 07 JULY 2022'])[1]/preceding::div[20]</value>
+      <webElementGuid>dcfed5fa-a4ba-45e2-b499-9f0aff3a0b08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PENGHENTIAN PUB I TAHAP I SAMPAI TAHAP V / TERMINATION OF PUB I PHASE I TO PHASE V - 21 MARCH 2022'])[1]/preceding::div[24]</value>
+      <webElementGuid>0ffcdbf2-3319-4752-a997-2c2348f7c9e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]</value>
+      <webElementGuid>b3ac55e8-6ecf-4747-ac69-45995a8a3eff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = '2024' and (text() = 'PELUNASAN POKOK DAN BUNGA TERAKHIR SUKUK MUDHARABAH I TAHAP II 2020 SERI B / REPAYMENT OF PRINCIPAL AND FINAL INTEREST OF SUKUK MUDHARABAH I PHASE II 2020 SERIES B - 23 OCTOBER 2023' or . = 'PELUNASAN POKOK DAN BUNGA TERAKHIR SUKUK MUDHARABAH I TAHAP II 2020 SERI B / REPAYMENT OF PRINCIPAL AND FINAL INTEREST OF SUKUK MUDHARABAH I PHASE II 2020 SERIES B - 23 OCTOBER 2023')]</value>
+      <webElementGuid>29ed6e5b-9d86-45a6-ae49-8880d82e8415</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Financial Highlight</name>
+   <tag></tag>
+   <elementGuidId>3975f185-0adb-4a26-9a25-3a22b009b6d9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/main/div[2]/div[3]/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mx-5 > img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[id=&quot;__next&quot;] div >> internal:has-text=&quot;FINANCIAL HIGHLIGHTSKami terus memberikan upaya terbaik kami dalam menjaga kiner&quot;i >> internal:role=img</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>f62f0944-345a-442d-9c46-d833d5920dd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://baf-web.oss-ap-southeast-5.aliyuncs.com/files/FINANCIAL%20HIGHLIGHTS.jpg</value>
+      <webElementGuid>1401361c-24ce-47f7-92ad-546e7c2069b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__className_4df22e&quot;]/main[@class=&quot;layout&quot;]/div[2]/div[@class=&quot;mx-5&quot;]/img[1]</value>
+      <webElementGuid>58dda6e1-3983-42b1-a07c-b4c2e8781b57</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/main/div[2]/div[3]/img</value>
+      <webElementGuid>6bba4e53-679d-46f7-ae1d-2b026d7a37e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[contains(@src,'https://baf-web.oss-ap-southeast-5.aliyuncs.com/files/FINANCIAL%20HIGHLIGHTS.jpg')]</value>
+      <webElementGuid>9c04cc71-be09-4cdb-aaf4-a669eb6fa848</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/img</value>
+      <webElementGuid>f3d1db79-b530-4ea7-80a2-91b38518c3d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://baf-web.oss-ap-southeast-5.aliyuncs.com/files/FINANCIAL%20HIGHLIGHTS.jpg']</value>
+      <webElementGuid>c72b4ee3-eb5b-45e7-a87d-9d13491d9d9a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

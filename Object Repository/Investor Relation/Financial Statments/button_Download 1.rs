@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Download 1</name>
+   <tag></tag>
+   <elementGuidId>2e414ace-bb06-4e0b-9b3c-5fb3ae06d82c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/nav[1]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#2017</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[id=&quot;\32 017&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>456cd592-e848-4731-abcb-36f5b3b0da94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>2017</value>
+      <webElementGuid>7e83f1aa-606f-4319-8717-ae3e62911916</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-100 p-3 my-3 cursor-pointer</value>
+      <webElementGuid>92ae87fa-e76e-445a-a90e-a551fa5af1c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LAPORAN KEUANGAN 31 DESEMBER 2017 / FINANCIAL STATEMENT 31 DECEMBER 2017</value>
+      <webElementGuid>a27b1578-1fc5-4b8e-985c-d176fe7ca5c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;2018&quot;)</value>
+      <webElementGuid>8f684e3a-0982-4596-935d-21a32dea797c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='2017']</value>
+      <webElementGuid>7cf8ff24-40e1-4218-ba83-2901e18ce463</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/main/div[2]/div[3]/nav/div[2]</value>
+      <webElementGuid>abb96202-6bda-4e80-a0ed-98db01eff601</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FINANCIAL STATEMENTS'])[1]/following::div[6]</value>
+      <webElementGuid>fd9145e6-7c38-407b-9698-dbbdb11cf45a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::div[8]</value>
+      <webElementGuid>70464c07-5ece-47de-8eb2-a107811bcf65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PT Bussan Auto Finance'])[1]/preceding::div[6]</value>
+      <webElementGuid>f0515da3-2eed-47d0-8384-c81f8736ca31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/nav/div[2]</value>
+      <webElementGuid>7e8e3ee9-c6d3-47ce-adec-6274768a5968</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = '2017' and (text() = 'LAPORAN KEUANGAN 31 DESEMBER 2017 / FINANCIAL STATEMENT 31 DECEMBER 2017' or . = 'LAPORAN KEUANGAN 31 DESEMBER 2017 / FINANCIAL STATEMENT 31 DECEMBER 2017')]</value>
+      <webElementGuid>0f8cd9d8-d4af-48b6-8451-90a703e9ab9b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

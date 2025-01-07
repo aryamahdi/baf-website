@@ -37,7 +37,7 @@ WebUI.focus(findTestObject('About Us/button_Read BAF at a Glance'))
 
 WebUI.click(findTestObject('About Us/button_Read BAF at a Glance'))
 
-WebUI.focus(findTestObject('About Us/img_Building'))
+WebUI.focus(findTestObject('About Us/nav_Link'))
 
 WebUI.click(findTestObject('About Us/link_Vision, Mission, and Value'))
 
@@ -49,11 +49,11 @@ WebUI.focus(findTestObject('About Us/nav_Visionary Reliable Accessible'))
 
 WebUI.verifyElementPresent(findTestObject('About Us/nav_Visionary Reliable Accessible'), 10)
 
-WebUI.focus(findTestObject('About Us/img_Building'))
+WebUI.focus(findTestObject('About Us/nav_Link'))
 
 WebUI.click(findTestObject('About Us/link_Organnization Structure'))
 
-WebUI.focus(findTestObject('About Us/img_Building'))
+WebUI.focus(findTestObject('About Us/nav_Link'))
 
 WebUI.verifyTextPresent('ORGANIZATION STRUCTURE', true)
 
@@ -63,11 +63,11 @@ WebUI.verifyTextPresent('PT Bussan Auto Finance', true)
 
 WebUI.verifyElementPresent(findTestObject('About Us/img_Organization Structure PT Bussan Auto Finance'), 10)
 
-WebUI.focus(findTestObject('About Us/img_Building'))
+WebUI.focus(findTestObject('About Us/nav_Link'))
 
 WebUI.click(findTestObject('About Us/link_Shareholder Structure'))
 
-WebUI.focus(findTestObject('About Us/img_Building'))
+WebUI.focus(findTestObject('About Us/nav_Link'))
 
 WebUI.verifyTextPresent('SHAREHOLDERS', true)
 
@@ -87,11 +87,11 @@ WebUI.focus(findTestObject('About Us/img_Building'))
 
 WebUI.click(findTestObject('About Us/link_Board of Commissioners'))
 
-WebUI.focus(findTestObject('About Us/nav_Header'))
+WebUI.focus(findTestObject('About Us/nav_Link'))
 
 WebUI.click(findTestObject('About Us/link_Board of Directors'))
 
-WebUI.focus(findTestObject('About Us/nav_Header'))
+WebUI.focus(findTestObject('About Us/nav_Link'))
 
 WebUI.click(findTestObject('About Us/link_Achievements'))
 

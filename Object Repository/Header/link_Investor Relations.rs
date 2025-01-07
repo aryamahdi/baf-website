@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_Investor Relations</name>
+   <tag></tag>
+   <elementGuidId>0280191e-8c08-4817-965e-922b175e04b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='basic-navbar-nav']/div/div/div/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.dropdown-toggle.nav-link</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '#' and (text() = 'Investor Relations' or . = 'Investor Relations')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Investor Relations&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>6427de74-5772-4590-943e-aae1009a2757</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>fab4599c-420e-491d-ad2e-f14c49541b83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>05fface6-f5b4-4396-bce4-dd84c07b88dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>cf9e527e-8c81-436e-974b-9678156c9a90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-toggle nav-link</value>
+      <webElementGuid>4a478598-b732-435c-af8a-c5ff13e72027</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>dfcfcfb7-0db3-4dcb-8ebe-d3a5d14e5a81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Investor Relations</value>
+      <webElementGuid>e8a51d82-27e4-4945-b60f-aa5cfe4c00b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;basic-navbar-nav&quot;)/div[@class=&quot;n-width align-items-center navbar-nav&quot;]/div[1]/div[@class=&quot;d-flex flex-row&quot;]/div[@class=&quot;txt-blue-baf nav-item dropdown&quot;]/a[@class=&quot;dropdown-toggle nav-link&quot;]</value>
+      <webElementGuid>18d8b628-d619-41ab-83f1-4686c95333ec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='basic-navbar-nav']/div/div/div/div/a</value>
+      <webElementGuid>30c1e904-02ed-42fc-8b7b-93cd1feaaad3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About Us'])[1]/following::a[1]</value>
+      <webElementGuid>feb97e87-be98-4eca-880e-9117a738b9b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::a[3]</value>
+      <webElementGuid>da2fe2ea-b7a9-4485-91f9-53c8987c740d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Corporate Governance'])[1]/preceding::a[1]</value>
+      <webElementGuid>976cbbc3-f433-4382-8771-e1999518f5f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#')]</value>
+      <webElementGuid>6a8d84bc-21c7-4aef-9ed5-d587e21b6ce3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/a</value>
+      <webElementGuid>b2491223-933c-447f-8c03-ffe343f6e61a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Investor Relations' or . = 'Investor Relations')]</value>
+      <webElementGuid>50f0048d-3214-4d5c-8823-677fd9fe285f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

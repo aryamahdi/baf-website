@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='__next']/main/main/div[2]/div/div/img</value>
+         <value>//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/img[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.font-weight-bold.pt-4.pb-5.col-lg-4 > div > img</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@srcset = '/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fbaf_plaza_fq.webp&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fbaf_plaza_fq.webp&amp;w=828&amp;q=75 2x' and @src = '/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fbaf_plaza_fq.webp&amp;w=828&amp;q=75']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>00214e22-92b5-46ee-a6bd-2b8f7f0ab5b8</webElementGuid>
+      <webElementGuid>1503fbdc-5644-4d2c-9e48-40fc6b4d3cab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>loading</name>
       <type>Main</type>
       <value>lazy</value>
-      <webElementGuid>cb388979-5cc7-40a5-b2ab-a48911afc567</webElementGuid>
+      <webElementGuid>8b8cd6b0-7b68-4e36-a01b-d0a58bc83797</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>width</name>
       <type>Main</type>
       <value>400</value>
-      <webElementGuid>456024b2-aff2-45cf-ad61-3768c04498bb</webElementGuid>
+      <webElementGuid>bfdeb454-cbc3-4f8f-b479-9d07f5b43b0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>height</name>
       <type>Main</type>
       <value>200</value>
-      <webElementGuid>9c5f32fa-0934-4ce1-9b56-74e55eb1f3e8</webElementGuid>
+      <webElementGuid>037a6147-f391-4114-b257-21b5982450c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>decoding</name>
       <type>Main</type>
       <value>async</value>
-      <webElementGuid>58adaa84-f95c-4f52-9e0e-7b55a2a80950</webElementGuid>
+      <webElementGuid>a218f7bd-6327-48d3-9000-37a0c669f814</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>data-nimg</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>1a3492ad-749a-4737-a199-2375f3c3cfd8</webElementGuid>
+      <webElementGuid>79cb6d8c-f6c3-4801-b712-b75890611ceb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>srcset</name>
       <type>Main</type>
       <value>/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fbaf_plaza_fq.webp&amp;w=640&amp;q=75 1x, /_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fbaf_plaza_fq.webp&amp;w=828&amp;q=75 2x</value>
-      <webElementGuid>04be5f12-a016-41bc-a3f8-c223676f3492</webElementGuid>
+      <webElementGuid>0a809038-6fbb-42c9-88b0-25ae8d21cacd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fbaf_plaza_fq.webp&amp;w=828&amp;q=75</value>
-      <webElementGuid>a39af4dc-cd06-4fa5-bd04-e81a726de591</webElementGuid>
+      <webElementGuid>2e9de4f8-4e40-4803-ada1-98e3c0e8fa47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;__className_4df22e&quot;]/main[@class=&quot;layout&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;font-weight-bold pt-4 pb-5 col-lg-4&quot;]/div[1]/img[1]</value>
-      <webElementGuid>1bd34aad-0c17-4ec8-aaba-8e260fd8d459</webElementGuid>
+      <webElementGuid>e439420a-2553-46c7-a170-726c90b22a66</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/main/div[2]/div/div/img</value>
-      <webElementGuid>1f29d64d-ce5a-411c-a6e3-9a60e473c744</webElementGuid>
+      <webElementGuid>8083a195-4919-422c-abe9-c407034938fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/img</value>
-      <webElementGuid>e97973c6-e004-45f4-8bc8-037257df1640</webElementGuid>
+      <webElementGuid>7fce2ba2-ca81-467f-a030-ffcd6e4308ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fbaf_plaza_fq.webp&amp;w=828&amp;q=75']</value>
-      <webElementGuid>3503a7f8-67a9-4371-bac5-4d2f2fe99ba9</webElementGuid>
+      <webElementGuid>924186f0-06cb-4f89-9743-38fa20758cbf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

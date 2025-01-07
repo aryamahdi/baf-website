@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nav_Low</name>
+   <tag></tag>
+   <elementGuidId>4c8aac92-5063-4012-9e72-71e5bff0dc11</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[1]/div[1]/main[1]/main[1]/div[2]/nav[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>nav.d-block.px-0.navbar.navbar-expand.navbar-light</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;20242023202220212020201920182017RAPAT UMUM PEMEGANG SAHAM 2024 / GENERAL MEETING&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>nav</value>
+      <webElementGuid>71291e5b-19e1-47c6-a36d-7df25054ee09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-block px-0 navbar navbar-expand navbar-light</value>
+      <webElementGuid>3f3794d0-eb39-4a70-b0e1-c0d9e937c862</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>20242023202220212020201920182017RAPAT UMUM PEMEGANG SAHAM 2024 / GENERAL MEETING OF SHAREHOLDERS 2024</value>
+      <webElementGuid>92f239ee-c290-4669-9127-3a1fa746867a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__className_4df22e&quot;]/main[@class=&quot;layout&quot;]/div[2]/nav[@class=&quot;d-block px-0 navbar navbar-expand navbar-light&quot;]</value>
+      <webElementGuid>fe9d7927-0609-4498-b569-2572e25d1e52</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/main/div[2]/nav</value>
+      <webElementGuid>51e6d11a-405d-42f1-b047-939baab4565e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GENERAL SHAREHOLDER MEETINGS'])[1]/following::nav[1]</value>
+      <webElementGuid>84c431d7-dcd6-4692-99eb-09515494c706</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Corporate News and Events'])[1]/following::nav[1]</value>
+      <webElementGuid>d6d26d2a-83ed-4c2f-9fab-6310154dfff9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PT Bussan Auto Finance'])[1]/preceding::nav[1]</value>
+      <webElementGuid>b3c2c273-cad0-487f-8690-0d2679027642</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/nav</value>
+      <webElementGuid>ae5b6a14-4cac-4306-9c0b-52fb804f7b1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//nav[(text() = '20242023202220212020201920182017RAPAT UMUM PEMEGANG SAHAM 2024 / GENERAL MEETING OF SHAREHOLDERS 2024' or . = '20242023202220212020201920182017RAPAT UMUM PEMEGANG SAHAM 2024 / GENERAL MEETING OF SHAREHOLDERS 2024')]</value>
+      <webElementGuid>1ff89c16-b0eb-4869-b9a5-6a52394eb30d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

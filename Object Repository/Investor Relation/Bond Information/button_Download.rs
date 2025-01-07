@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Download</name>
+   <tag></tag>
+   <elementGuidId>438d5190-d1dc-4f15-918b-86df94709cb2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='2017']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#2017</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = '${tahun_id}' and (text() = '${content_id}' or . = '${content_id}')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>nav >> internal:has-text=&quot;20242023202220212020201920182017PROSPEKTUS OBLIGASI I 2017 / PROSPECTUS BOND I 2&quot;i >> [id=&quot;\32 017&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f1c5b4a0-78d7-4c5a-a30b-af316fbcbcf0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>${tahun_id}</value>
+      <webElementGuid>fbe76f4e-a8e2-4ff2-8c40-f10aed005e56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-100 p-3 my-3 cursor-pointer</value>
+      <webElementGuid>d2396808-ad6c-40fa-bc34-0ac3f3a55e96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${content_id}</value>
+      <webElementGuid>06cb8978-2eca-4e2e-9ba1-b1b33f64206b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__className_4df22e&quot;]/main[@class=&quot;layout&quot;]/div[2]/div[3]/nav[@class=&quot;d-block px-0 navbar navbar-expand navbar-light&quot;]/div[@id=&quot;2017&quot;]</value>
+      <webElementGuid>1365bd3b-174b-478d-98f7-b3ae61b2b6f7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='2017']</value>
+      <webElementGuid>676a82bb-b585-4f5d-9dc3-9dc1d95508ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/main/div[2]/div[3]/nav/div[2]</value>
+      <webElementGuid>608dd079-0940-480b-b9e6-93352cf063bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BOND INFORMATION'])[1]/following::div[6]</value>
+      <webElementGuid>6e9ea2dc-1729-4919-b2a5-686c414967c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::div[8]</value>
+      <webElementGuid>3f2e500e-8403-414f-9d37-2bcf92fe2d1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bond/Sukuk Disclosure'])[1]/preceding::div[4]</value>
+      <webElementGuid>34f653ec-e976-40de-ba20-5dd89a9ded06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/nav/div[2]</value>
+      <webElementGuid>dfb67060-d0f0-4123-82ab-0e3bf238111a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = '2017' and (text() = 'PROSPEKTUS OBLIGASI I 2017 / PROSPECTUS BOND I 2017' or . = 'PROSPEKTUS OBLIGASI I 2017 / PROSPECTUS BOND I 2017')]</value>
+      <webElementGuid>d2478faa-6bfe-4847-89f2-7dd23515622b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

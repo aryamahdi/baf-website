@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nav_Bond 2</name>
+   <tag></tag>
+   <elementGuidId>243a2f2e-52a3-4c25-9fc6-ad18cb06b59e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//div[@id='2024'])[14]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[id=&quot;__next&quot;] div >> internal:has-text=&quot;PENGHENTIAN PUB I TAHAP I SAMPAI TAHAP V / TERMINATION OF PUB I PHASE I TO PHASE&quot;i >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c0f34ac8-9fec-49f3-a826-6dcaf2edb0d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>2024</value>
+      <webElementGuid>d2102b87-9a4e-4424-b08e-c61549993f9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-100 p-3 my-3 cursor-pointer</value>
+      <webElementGuid>44cbf347-e8e4-4362-932e-7bc25b36b425</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PENGHENTIAN PUB I TAHAP I SAMPAI TAHAP V / TERMINATION OF PUB I PHASE I TO PHASE V - 21 MARCH 2022</value>
+      <webElementGuid>94c9af0a-c03a-40b8-af8c-7ee21dc08ef2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__className_4df22e&quot;]/main[@class=&quot;layout&quot;]/div[2]/div[3]/div[@id=&quot;2024&quot;]</value>
+      <webElementGuid>9c7fa789-e93b-4a8a-b564-910ebf2c1b23</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//div[@id='2024'])[14]</value>
+      <webElementGuid>8960d983-1a63-4cf0-a214-d8461b9c4c51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/main/div[2]/div[3]/div[12]</value>
+      <webElementGuid>d9c78468-09f9-4141-940c-02e07fb1c5ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PENGUNDURAN DIRI KOMISARIS / RESIGNATION OF COMMISSIONER - 07 JULY 2022'])[1]/following::div[1]</value>
+      <webElementGuid>49315272-8992-41d6-968e-e9577c04217a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Semua'])[1]/following::div[37]</value>
+      <webElementGuid>4d779130-d00d-4835-91a6-33a4b2a50cdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PT Bussan Auto Finance'])[1]/preceding::div[6]</value>
+      <webElementGuid>67d429bb-ad1c-45ad-aa94-7c42a69bc925</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]</value>
+      <webElementGuid>edcb4e60-a2dc-4859-986c-10cfdb7cfe8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = '2024' and (text() = 'PENGHENTIAN PUB I TAHAP I SAMPAI TAHAP V / TERMINATION OF PUB I PHASE I TO PHASE V - 21 MARCH 2022' or . = 'PENGHENTIAN PUB I TAHAP I SAMPAI TAHAP V / TERMINATION OF PUB I PHASE I TO PHASE V - 21 MARCH 2022')]</value>
+      <webElementGuid>d2b4cd79-e65a-4a80-a106-569d97b5e6e8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

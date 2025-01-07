@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Next Banner</name>
    <tag></tag>
-   <elementGuidId>a3e3606c-3038-4b00-9792-81f5632763d8</elementGuidId>
+   <elementGuidId>6c6b77b9-3339-42d1-9c48-37e7c7fbe172</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -14,7 +14,7 @@
          <value>a.carousel-control-next</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>ea9b2df5-3a50-4c39-98e5-8cbf53eeb3d1</webElementGuid>
+      <webElementGuid>0346d6fd-df3a-4ef1-aaaf-2018f0242f21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>carousel-control-next</value>
-      <webElementGuid>58691332-f8e2-45c9-85b8-da44177f68c1</webElementGuid>
+      <webElementGuid>7ab14293-c226-421d-9ed8-cb1d64f75d86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>71cf7128-bb0c-434a-9e1d-deebe7ff1b3f</webElementGuid>
+      <webElementGuid>ac0d85b2-6dae-4307-a2c7-707e194843af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>e3ee55e9-9d2a-46ac-b500-879fb7df7480</webElementGuid>
+      <webElementGuid>5ef2364f-43fe-4717-ab19-e87520c737e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Next</value>
-      <webElementGuid>2d66f1f7-b4dc-49cf-b33c-3b1f651ede57</webElementGuid>
+      <webElementGuid>4112e445-7603-4d0b-91ca-769412ed4aa9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/main[@class=&quot;__className_4df22e&quot;]/main[@class=&quot;layout&quot;]/div[2]/div[@class=&quot;carousel slide&quot;]/a[@class=&quot;carousel-control-next&quot;]</value>
-      <webElementGuid>e4e0d445-ca2d-4682-a7dc-411c9b777964</webElementGuid>
+      <webElementGuid>670eb449-71fe-44bc-8179-0227b52b1e35</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/main/div[2]/div/a[2]</value>
-      <webElementGuid>6add708f-959f-4b97-86ec-117adabe2612</webElementGuid>
+      <webElementGuid>0d9c58d7-8339-4570-b3c7-88a00dbc983a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/following::a[1]</value>
-      <webElementGuid>e8914a30-5076-41eb-bfae-7e9f558a0f6a</webElementGuid>
+      <webElementGuid>321e2df3-f080-498c-8a72-eb2abeb3e5f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Form Pengajuan'])[1]/following::a[2]</value>
-      <webElementGuid>8719dec4-186c-44b8-accc-acd216149f0f</webElementGuid>
+      <webElementGuid>fb1e5642-066a-4a6a-a87e-d2155f84da96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PROMOS AND LATEST NEWS'])[1]/preceding::a[1]</value>
-      <webElementGuid>f0456ef3-7343-4836-9739-65164206ee54</webElementGuid>
+      <webElementGuid>79b6066d-e104-46f5-b9ad-269d7186043c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[4]</value>
-      <webElementGuid>f179a6df-dac9-4443-a5ac-191c35ec1337</webElementGuid>
+      <webElementGuid>bd216884-5154-4881-a384-1ef12c26ffe1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/a[2]</value>
-      <webElementGuid>91548bbf-8857-4447-8a9b-2942d91fce08</webElementGuid>
+      <webElementGuid>4cea22d7-9b81-4bbd-83c7-f54e7e5df774</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Next' or . = 'Next')]</value>
-      <webElementGuid>fe5b6fc5-39f1-4545-822c-4aed74119cbe</webElementGuid>
+      <webElementGuid>a177926f-920a-416a-9399-a4d035ff3c60</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

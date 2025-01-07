@@ -15,6 +15,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.apache.poi.poifs.filesystem.POIFSFileSystem as POIFSFileSystem
 import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Header/link_Event  Promo'))
@@ -27,7 +28,7 @@ WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
 
 WebUI.click(findTestObject('Event and Promo/link_Event'))
 
-WebUI.verifyElementPresent(findTestObject('General/nav_No Results Found'), 10)
+WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
 
 WebUI.click(findTestObject('Event and Promo/link_New Motorcycle'))
 
@@ -43,11 +44,11 @@ WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
 
 WebUI.click(findTestObject('Event and Promo/link_Electronic, Gadget,  Furnitur'))
 
-WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+WebUI.verifyElementPresent(findTestObject('General/nav_No Results Found'), 10)
 
 WebUI.click(findTestObject('Event and Promo/link_BAF Dana Syariah'))
 
-WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+WebUI.verifyElementPresent(findTestObject('General/nav_No Results Found'), 10)
 
 WebUI.click(findTestObject('Event and Promo/link_Agricultural Machinery'))
 

@@ -26,6 +26,8 @@ WebUI.maximizeWindow()
 'Open BAF Website'
 WebUI.navigateToUrl(GlobalVariable.URL)
 
+WebUI.sendKeys(findTestObject(null), 'thisisunsafe', FailureHandling.OPTIONAL)
+
 'Waiting Page Loading'
 WebUI.verifyTextPresent('Customer', true)
 

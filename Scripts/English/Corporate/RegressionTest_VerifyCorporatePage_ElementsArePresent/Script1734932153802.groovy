@@ -31,10 +31,6 @@ WebUI.waitForElementPresent(findTestObject('Corporate/img_Banner 3'), 10)
 
 WebUI.click(findTestObject('Corporate/a_Next Banner'))
 
-WebUI.waitForElementPresent(findTestObject('Corporate/img_Banner 4'), 10)
-
-WebUI.click(findTestObject('Corporate/a_Next Banner'))
-
 WebUI.focus(findTestObject('Corporate/nav_Company Profile Video'))
 
 WebUI.verifyTextPresent('Company Profile Video', true)

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nav_Banner</name>
+   <tag></tag>
+   <elementGuidId>57a7cadc-5c05-4474-a899-4f5680004a3c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//body[1]/div[1]/main[1]/main[1]/div[6]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[1]/div[1]/main[1]/main[1]/div[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.container-fluid > div.row</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.bg-footer > .container-fluid > div</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>29c51c9b-47fa-4f3a-a1f3-2ccc842c0847</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>row</value>
+      <webElementGuid>95a338c1-3a1d-49fc-943a-0871c47929e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PT Bussan Auto FinanceBAF PlazaJalan Tanjung Barat Raya No.121 RT 14/RW 4, Kelurahan Tanjung Barat, Kecamatan Jagakarsa, Kota Jakarta Selatan, DKI Jakarta 12530Visit the Nearest NetworkPT Bussan Auto Finance berizin dan diawasi oleh Otoritas Jasa KeuanganCorporateBAF at a GlanceVision, Mission, &amp; ValuesOrganization StructureShareholder StructureBoard of CommissionersBoard of DirectorsAchievementsCustomerYamaha Motors Financing BAF Dana SyariahEvent &amp; PromoArticlesBAF MobileContact UsContact UsFAQOur NetworkPrivacy PolicyDealer/PartnersCareer@bafindonesia@BAF.Indonesia@bafindonesia@bafindonesiawww.baf.idDownload BAF Mobile Apps :</value>
+      <webElementGuid>93d8f48c-0913-4f23-b0b8-a7a9cbb0c1de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body[1]/div[1]/main[1]/main[1]/div[6]</value>
+      <webElementGuid>da58b180-ed46-486c-a3c9-3750ae8710dd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/main/div[6]/div/div</value>
+      <webElementGuid>a35fa524-3571-43b5-9e60-e32473b2af49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit Now'])[1]/following::div[3]</value>
+      <webElementGuid>a6562e02-1495-4a11-bc4d-0e1a1a9f4224</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div</value>
+      <webElementGuid>ee98fb27-8c2a-4773-a2d6-7c344b1b612f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'PT Bussan Auto FinanceBAF PlazaJalan Tanjung Barat Raya No.121 RT 14/RW 4, Kelurahan Tanjung Barat, Kecamatan Jagakarsa, Kota Jakarta Selatan, DKI Jakarta 12530Visit the Nearest NetworkPT Bussan Auto Finance berizin dan diawasi oleh Otoritas Jasa KeuanganCorporateBAF at a GlanceVision, Mission, &amp; ValuesOrganization StructureShareholder StructureBoard of CommissionersBoard of DirectorsAchievementsCustomerYamaha Motors Financing BAF Dana SyariahEvent &amp; PromoArticlesBAF MobileContact UsContact UsFAQOur NetworkPrivacy PolicyDealer/PartnersCareer@bafindonesia@BAF.Indonesia@bafindonesia@bafindonesiawww.baf.idDownload BAF Mobile Apps :' or . = 'PT Bussan Auto FinanceBAF PlazaJalan Tanjung Barat Raya No.121 RT 14/RW 4, Kelurahan Tanjung Barat, Kecamatan Jagakarsa, Kota Jakarta Selatan, DKI Jakarta 12530Visit the Nearest NetworkPT Bussan Auto Finance berizin dan diawasi oleh Otoritas Jasa KeuanganCorporateBAF at a GlanceVision, Mission, &amp; ValuesOrganization StructureShareholder StructureBoard of CommissionersBoard of DirectorsAchievementsCustomerYamaha Motors Financing BAF Dana SyariahEvent &amp; PromoArticlesBAF MobileContact UsContact UsFAQOur NetworkPrivacy PolicyDealer/PartnersCareer@bafindonesia@BAF.Indonesia@bafindonesia@bafindonesiawww.baf.idDownload BAF Mobile Apps :')]</value>
+      <webElementGuid>e4a4058f-bef3-46be-bfde-30ef2c8e03fa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

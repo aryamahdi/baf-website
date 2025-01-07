@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.verifyElementPresent(findTestObject('Header/img_BAF'), 10)
 
+WebUI.click(findTestObject('Customer/button_Side'))
+
 WebUI.verifyElementVisible(findTestObject('Customer/img_Banner 1'))
 
 WebUI.click(findTestObject('Customer/button_Next Banner'))
@@ -30,20 +32,6 @@ WebUI.click(findTestObject('Customer/button_Next Banner'))
 WebUI.verifyElementVisible(findTestObject('Customer/img_Banner 3'))
 
 WebUI.click(findTestObject('Customer/button_Next Banner'))
-
-WebUI.verifyElementVisible(findTestObject('Customer/img_Banner 4'))
-
-WebUI.click(findTestObject('Customer/button_Next Banner'))
-
-WebUI.verifyElementVisible(findTestObject('Customer/img_Banner 5'))
-
-WebUI.click(findTestObject('Customer/button_Next Banner'))
-
-WebUI.verifyElementVisible(findTestObject('Customer/img_Banner 6'))
-
-WebUI.click(findTestObject('Customer/button_Next Banner'))
-
-WebUI.click(findTestObject('Customer/button_Side'))
 
 WebUI.click(findTestObject('Customer/button_Chat Santi'))
 

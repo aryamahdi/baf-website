@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>nav_Low</name>
+   <tag></tag>
+   <elementGuidId>5fa13dd7-8f3b-4466-a541-9091a5a6c769</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>nav.d-block.px-0.navbar.navbar-expand.navbar-light</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;20242023202220212020201920182017LAPORAN KEUANGAN 30 JUNI 2024 / FINANCIAL STATEM&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>nav</value>
+      <webElementGuid>6a813020-64a5-47cd-8727-7c00c405c2db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-block px-0 navbar navbar-expand navbar-light</value>
+      <webElementGuid>84b0d820-6118-49ec-b99c-e259ec90244b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>20242023202220212020201920182017LAPORAN KEUANGAN 30 JUNI 2024 / FINANCIAL STATEMENT 30 JUNE 2024</value>
+      <webElementGuid>369cb86d-3c87-4ce9-bc93-aaabb0baa5a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__className_4df22e&quot;]/main[@class=&quot;layout&quot;]/div[2]/div[3]/nav[@class=&quot;d-block px-0 navbar navbar-expand navbar-light&quot;]</value>
+      <webElementGuid>0796cdfb-b21d-4412-9e47-09e2901b0d2c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/main/div[2]/div[3]/nav</value>
+      <webElementGuid>11ea054e-8b9b-4ecf-b7db-34a3e6faea33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FINANCIAL STATEMENTS'])[1]/following::nav[1]</value>
+      <webElementGuid>4eeb0076-4291-484e-8587-f40a5b691f25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::nav[1]</value>
+      <webElementGuid>c92bb500-c919-4fe8-81d9-6af9a1f16b47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PT Bussan Auto Finance'])[1]/preceding::nav[1]</value>
+      <webElementGuid>e19d477e-542d-498c-878c-60d50e5c0339</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/nav</value>
+      <webElementGuid>fdd6da38-9d6e-4171-86b4-88e0dbd1e453</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//nav[(text() = '20242023202220212020201920182017LAPORAN KEUANGAN 30 JUNI 2024 / FINANCIAL STATEMENT 30 JUNE 2024' or . = '20242023202220212020201920182017LAPORAN KEUANGAN 30 JUNI 2024 / FINANCIAL STATEMENT 30 JUNE 2024')]</value>
+      <webElementGuid>081cb058-f2ba-4f6f-96b3-0405b5521ea0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
