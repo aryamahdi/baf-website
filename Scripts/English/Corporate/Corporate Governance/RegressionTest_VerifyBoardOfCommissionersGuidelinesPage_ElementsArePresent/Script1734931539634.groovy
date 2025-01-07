@@ -17,3 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Header/link_Corporate'))
+
+WebUI.click(findTestObject('Header/link_Corporate Governance'))
+
+WebUI.click(findTestObject('Header/link_Board of Commissioners Guidelines'))
+
+WebUI.focus(findTestObject('General/button_Download (based on Name)', [('content_id') : 'PEDOMAN KERJA DEWAN KOMISARIS / BOC GUIDELINES']))
+
+WebUI.verifyTextPresent('BOARD OF COMMISSIONERS GUIDELINES', true)
+
+WebUI.verifyTextPresent('Dewan Komisaris merupakan organ Perseroan yang bertanggung jawab melakukan pengawasan terhadap kebijakan pengurusan, baik mengenai Perseroan maupun usaha Perseroan, dan memberi nasihat kepada Direksi, dengan mengacu pada kaidah dan standar yang berlaku.', 
+    true)
+
+WebUI.verifyTextPresent('The Board of Commissioners is the Company\'s organ responsible for supervising management policies, both regarding the Company and the Company\'s business, and providing advice to the Board of Directors, with reference to applicable rules and standards.', 
+    true)
+
+WebUI.click(findTestObject('General/button_Download (based on Name)', [('content_id') : 'PEDOMAN KERJA DEWAN KOMISARIS / BOC GUIDELINES']))
+
+WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718685759360.pdf'])
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToWindowIndex(0)
+

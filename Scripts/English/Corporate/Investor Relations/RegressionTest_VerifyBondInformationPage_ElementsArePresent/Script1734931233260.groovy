@@ -307,3 +307,5 @@ WebUI.switchToWindowIndex(0)
 
 WebUI.focus(findTestObject('Investor Relation/Bond Information/nav_Bond 1'))
 
+WebUI.click(findTestObject('Investor Relation/Bond Information/button_Lihat Semua'))
+

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Download (based on Name)</name>
+   <tag></tag>
+   <elementGuidId>44bce09f-caa9-427b-82d2-26c7bf9b2405</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.w-100.p-3.my-3.cursor-pointer</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'w-100 p-3 my-3 cursor-pointer' and (text() = '${content_id}' or . = '${content_id}')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/main/div[2]/div[3]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(3) > div:nth-child(3) > .w-100</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>297a2f64-65cd-468d-987f-717160415c51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-100 p-3 my-3 cursor-pointer</value>
+      <webElementGuid>8623e07a-8947-4309-9690-be8219a007e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${content_id}</value>
+      <webElementGuid>1bac5b4a-c489-4d45-8c4f-3291d729b7df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/main[@class=&quot;__className_4df22e&quot;]/main[@class=&quot;layout&quot;]/div[2]/div[3]/div[@class=&quot;w-100 p-3 my-3 cursor-pointer&quot;]</value>
+      <webElementGuid>14874027-5480-4b62-aaf7-95c467767214</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/main/div[2]/div[3]/div</value>
+      <webElementGuid>14105cd9-a9d2-4759-abbf-08065bf5b16e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DIVIDEND PAYMENT POLICY'])[1]/following::div[4]</value>
+      <webElementGuid>0e9655ee-be20-4eb6-9eba-99a1ec50a6ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::div[6]</value>
+      <webElementGuid>c736dcdf-f275-477a-be4c-fa20751312b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PT Bussan Auto Finance'])[1]/preceding::div[7]</value>
+      <webElementGuid>02efee8a-726f-4eed-8736-157fcb4b2e33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/div</value>
+      <webElementGuid>cde4a20d-d518-4e92-83f1-da99eeb93341</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'KEBIJAKAN PEMBAYARAN DIVIDEN ' or . = 'KEBIJAKAN PEMBAYARAN DIVIDEN ')]</value>
+      <webElementGuid>deb6b421-782e-4ba0-b675-b15c1f955357</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

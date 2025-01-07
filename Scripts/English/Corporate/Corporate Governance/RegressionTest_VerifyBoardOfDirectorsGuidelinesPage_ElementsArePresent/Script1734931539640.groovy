@@ -17,3 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Header/link_Corporate'))
+
+WebUI.click(findTestObject('Header/link_Corporate Governance'))
+
+WebUI.click(findTestObject('Header/link_Board of Directors Guidelines'))
+
+WebUI.focus(findTestObject('General/button_Download (based on Name)', [('content_id') : 'PEDOMAN KERJA DIREKSI / BOD GUIDELINES']))
+
+WebUI.verifyTextPresent('BOARD OF DIRECTORS GUIDELINES', true)
+
+WebUI.verifyTextPresent('Dalam menjalankan peran dan fungsi pengawasan pada Perseroan, Direksi mengacu pada Anggaran Dasar, Pedoman Tata Kelola Perusahaan dan Pedoman Kerja Direksi. ', 
+    true)
+
+WebUI.verifyTextPresent('In carrying out managerial role and function in the Company, the Board of Directors refers to the Articles of Association, Good Corporate Governance Guideline and Board of Directors ‘s Charter.', 
+    true)
+
+WebUI.click(findTestObject('General/button_Download (based on Name)', [('content_id') : 'PEDOMAN KERJA DIREKSI / BOD GUIDELINES']))
+
+WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718685799207.pdf'])
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToWindowIndex(0)
+
