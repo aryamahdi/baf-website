@@ -17,3 +17,43 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Header/link_Corporate'))
+
+WebUI.click(findTestObject('Header/link_Corporate Governance'))
+
+WebUI.click(findTestObject('Header/link_Others'))
+
+WebUI.focus(findTestObject('General/button_Download (based on Name)', [('content_id') : 'WHISTLEBLOWING SYSTEM & ANTI-CORRUPTION']))
+
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text_id') : 'OTHERS']), 10)
+
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text_id') : 'Kami meyakin bahwa proses manajemen risiko dan kontrol internal yang baik dan kuat merupakan bagian penting dari kegiatan operasional dan aktivitas di perusahaan. ']), 
+    10)
+
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text_id') : 'We believe a vital aspect of the company\'s operations and activities is having robust internal control and risk management processes. ']), 
+    10)
+
+WebUI.click(findTestObject('General/button_Download (based on Name)', [('content_id') : 'KODE ETIK / CODE OF CONDUCT']))
+
+WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718686645695.pdf'])
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.click(findTestObject('General/button_Download (based on Name)', [('content_id') : 'MANAJEMEN RISIKO / RISK MANAGEMENT']))
+
+WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718686628251.pdf'])
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToWindowIndex(0)
+
+WebUI.click(findTestObject('General/button_Download (based on Name)', [('content_id') : 'WHISTLEBLOWING SYSTEM & ANTI-CORRUPTION']))
+
+WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718437501546.pdf'])
+
+WebUI.closeWindowIndex(1)
+
+WebUI.switchToWindowIndex(0)
+
