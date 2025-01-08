@@ -17,25 +17,41 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Header/link_Articles'))
+'Click Menu "Articles"'
+WebUI.click(findTestObject('General/link_Content', [('href') : '/article', ('text') : 'Articles']))
 
-WebUI.click(findTestObject('Articles/a_General'))
+'Click Tab "General"'
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]']))
 
-WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+'Verify Content in "General" Tab Present'
+WebUI.verifyElementPresent(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[2]']), 
+    10)
 
-WebUI.click(findTestObject('Articles/a_New Product'))
+'Click Tab "New Product"'
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]']))
 
-WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+'Verify Content in "New Product" Tab Present'
+WebUI.verifyElementPresent(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[2]']), 
+    10)
 
-WebUI.click(findTestObject('Articles/a_Financial Literacy'))
+'Click Tab "Financial Literacy"'
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]']))
 
-WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+'Verify Content in "Financial Literacy" Tab Present'
+WebUI.verifyElementPresent(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[2]']), 
+    10)
 
-WebUI.click(findTestObject('Articles/a_Financial Insight'))
+'Click Tab "Financial Insight"'
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[4]/a[1]']))
 
-WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+'Verify Content in "Financial Insight" Tab Present'
+WebUI.verifyElementPresent(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[2]']), 
+    10)
 
-WebUI.click(findTestObject('Articles/a_Customer Insight'))
+'Click Tab "Customer Insight"'
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[5]/a[1]']))
 
-WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+'Verify Content in "Customer Insight" Tab Present'
+WebUI.verifyElementPresent(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[2]']), 
+    10)
 

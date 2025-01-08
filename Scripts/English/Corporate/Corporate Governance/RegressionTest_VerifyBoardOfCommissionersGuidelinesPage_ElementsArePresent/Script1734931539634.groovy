@@ -17,23 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Header/link_Corporate'))
+WebUI.click(findTestObject('General/link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
 
-WebUI.click(findTestObject('Header/link_Corporate Governance'))
+WebUI.click(findTestObject('General/link_Content', [('href') : '#', ('text') : 'Corporate Governance']))
 
-WebUI.click(findTestObject('Header/link_Board of Commissioners Guidelines'))
+WebUI.click(findTestObject('General/link_Content', [('href') : '/en/corporate/CorporateGovernance/BOCGuidelines', ('text') : ' Board of Commissioners Guidelines']))
 
-WebUI.focus(findTestObject('General/button_Download (based on Name)', [('content_id') : 'PEDOMAN KERJA DEWAN KOMISARIS / BOC GUIDELINES']))
+WebUI.focus(findTestObject('General/lbl_Content', [('text') : 'PEDOMAN KERJA DEWAN KOMISARIS / BOC GUIDELINES']))
 
-WebUI.verifyTextPresent('BOARD OF COMMISSIONERS GUIDELINES', true)
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : ' BOARD OF COMMISSIONERS GUIDELINES']), 10)
 
-WebUI.verifyTextPresent('Dewan Komisaris merupakan organ Perseroan yang bertanggung jawab melakukan pengawasan terhadap kebijakan pengurusan, baik mengenai Perseroan maupun usaha Perseroan, dan memberi nasihat kepada Direksi, dengan mengacu pada kaidah dan standar yang berlaku.', 
-    true)
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'Dewan Komisaris merupakan organ Perseroan yang bertanggung jawab melakukan pengawasan terhadap kebijakan pengurusan, baik mengenai Perseroan maupun usaha Perseroan, dan memberi nasihat kepada Direksi, dengan mengacu pada kaidah dan standar yang berlaku.']), 
+    10)
 
-WebUI.verifyTextPresent('The Board of Commissioners is the Company\'s organ responsible for supervising management policies, both regarding the Company and the Company\'s business, and providing advice to the Board of Directors, with reference to applicable rules and standards.', 
-    true)
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'The Board of Commissioners is the Company\'s organ responsible for supervising management policies, both regarding the Company and the Company\'s business, and providing advice to the Board of Directors, with reference to applicable rules and standards.']), 
+    10)
 
-WebUI.click(findTestObject('General/button_Download (based on Name)', [('content_id') : 'PEDOMAN KERJA DEWAN KOMISARIS / BOC GUIDELINES']))
+WebUI.click(findTestObject('General/lbl_Content', [('text') : 'PEDOMAN KERJA DEWAN KOMISARIS / BOC GUIDELINES']))
 
 WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718685759360.pdf'])
 

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Content</name>
+   <tag></tag>
+   <elementGuidId>bd3e39b1-ac0b-4c20-9c20-3bddbfe76a39</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/main/main/div[2]/img</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = '${src}']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>main.layout > div:nth-of-type(2) > img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[id=&quot;__next&quot;] div >> internal:has-text=&quot;CORPORATE SECRETARYPuji AriantiCorporate SecretaryIndonesian citizen, born in 19&quot;i >> internal:role=img >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>${src}</value>
+      <webElementGuid>d79786e6-cbf0-48db-83d3-da445d91dcc3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/main/main/div[2]/img</value>
+      <webElementGuid>e2eb419c-f02b-4041-b2ed-c83bdda49024</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/img</value>
+      <webElementGuid>4186ebb8-30c8-4bc6-808f-8d8e174cab41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fsecretary%2Fsecretary.png&amp;w=3840&amp;q=75']</value>
+      <webElementGuid>8a006c62-929b-4550-a3c9-031e51b40a25</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -38,6 +38,7 @@ class NewTestListener {
 
 	@AfterTestCase
 	def AfterTestCase(TestCaseContext testCaseContext) {
+		'Close Browser'
 		WebUI.closeBrowser()
 	}
 

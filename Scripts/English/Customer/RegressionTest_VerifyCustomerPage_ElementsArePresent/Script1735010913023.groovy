@@ -17,23 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementPresent(findTestObject('Header/img_BAF'), 10)
+WebUI.verifyElementPresent(findTestObject('General/img_Content', [('src') : '/static/images/logos/baf.svg']), 10)
 
-WebUI.click(findTestObject('Customer/button_Side'))
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/button[1]']))
 
-WebUI.verifyElementVisible(findTestObject('Customer/img_Banner 1'))
+WebUI.verifyElementVisible(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[1]/img[1]']))
 
-WebUI.click(findTestObject('Customer/button_Next Banner'))
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/a[2]']))
 
-WebUI.verifyElementVisible(findTestObject('Customer/img_Banner 2'))
+WebUI.verifyElementVisible(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[2]/img[1]']))
 
-WebUI.click(findTestObject('Customer/button_Next Banner'))
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/a[2]']))
 
-WebUI.verifyElementVisible(findTestObject('Customer/img_Banner 3'))
+WebUI.verifyElementVisible(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[3]/img[1]']))
 
-WebUI.click(findTestObject('Customer/button_Next Banner'))
-
-WebUI.click(findTestObject('Customer/button_Chat Santi'))
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/a[1]/div[1]']))
 
 WebUI.verifyLinksAccessible(['https://api.whatsapp.com/send/?phone=628118018873&text&type=phone_number&app_absent=0'])
 
@@ -41,42 +39,45 @@ WebUI.closeWindowIndex(1)
 
 WebUI.switchToWindowIndex(0)
 
-WebUI.verifyTextPresent('FAST PROCESS, RIGHT INSTALLMENT!', true)
+WebUI.verifyElementPresent(findTestObject('General/img_Content', [('src') : '/static/images/image/footer/best-brand.webp']), 
+    10)
 
-WebUI.verifyElementPresent(findTestObject('Customer/img_Best Brand'), 10)
+WebUI.verifyElementPresent(findTestObject('General/img_Content', [('src') : '/static/images/image/footer/top-brand.webp']), 
+    10)
 
-WebUI.verifyElementPresent(findTestObject('Customer/img_Top Brand'), 10)
+WebUI.focus(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[4]/div[2]']))
 
-WebUI.verifyTextPresent('PROMOS AND LATEST NEWS', true)
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'FAST PROCESS, RIGHT INSTALLMENT!']), 10)
 
-WebUI.focus(findTestObject('Customer/nav_Promo and News'))
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'PROMOS AND LATEST NEWS']), 10)
 
-WebUI.click(findTestObject('Customer/button_Next Promo and News'))
+WebUI.focus(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[4]/div[5]']))
 
-WebUI.click(findTestObject('Customer/button_Next Promo and News'))
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[4]/div[4]/button[2]']))
 
-WebUI.click(findTestObject('Customer/button_Next Promo and News'))
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[4]/div[4]/button[2]']))
 
-WebUI.click(findTestObject('Customer/button_Next Promo and News'))
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[4]/div[4]/button[2]']))
 
-WebUI.focus(findTestObject('Customer/nav_Tab Product'))
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[4]/div[4]/button[2]']))
 
-WebUI.click(findTestObject('Customer/button_Motor Baru Yamaha'))
+WebUI.focus(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]']))
 
-WebUI.click(findTestObject('Customer/button_Motor Bekas Berkualitas'))
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]']))
 
-WebUI.click(findTestObject('Customer/button_Mobil Baru'))
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]']))
 
-WebUI.click(findTestObject('Customer/button_Elektronik Gadget Furnitur'))
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[3]/button[1]']))
 
-WebUI.click(findTestObject('Customer/button_Dana Syariah'))
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[4]/button[1]']))
 
-WebUI.click(findTestObject('Customer/button_Mesin Pertanian'))
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[5]/button[1]']))
 
-WebUI.focus(findTestObject('Customer/nav_Simulasi'))
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[2]/a[1]']))
 
-WebUI.verifyTextPresent('Your Monthly Installment Estimation', true)
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[6]/button[1]']))
 
-WebUI.verifyTextPresent('The calculation is only a simulation, it is subject to change according to BAF regulations. Submit a financing application and we will contact you.', 
-    true)
+WebUI.focus(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/form[1]/div[6]/button[1]']))
+
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'Your Monthly Installment Estimation']), 10)
 

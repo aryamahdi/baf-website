@@ -17,23 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Header/link_Corporate'))
+WebUI.click(findTestObject('General/link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
 
-WebUI.click(findTestObject('Header/link_Corporate Governance'))
+WebUI.click(findTestObject('General/link_Content', [('href') : '#', ('text') : 'Corporate Governance']))
 
-WebUI.click(findTestObject('Header/link_Internal Audit Unit'))
+WebUI.click(findTestObject('General/link_Content', [('href') : '/en/corporate/CorporateGovernance/InternalAudit', ('text') : 'Internal Audit Unit']))
 
-WebUI.focus(findTestObject('General/button_Download (based on Name)', [('content_id') : 'INTERNAL AUDIT UNIT']))
+WebUI.focus(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]']))
 
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text_id') : 'INTERNAL AUDIT UNIT']), 10)
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'INTERNAL AUDIT UNIT']), 10)
 
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text_id') : 'Fungsi Audit Internal di Perseroan dijalankan oleh Satuan Kerja Audit Internal (SKAI) sebagai 3rd line of defense dalam memastikan proses pengelolaan dan operasional Perseroan. Kami terus berupaya memastikan proses tersebut berjalan sesuai dengan ketentuan dan peraturan yang berlaku.']), 
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'Fungsi Audit Internal di Perseroan dijalankan oleh Satuan Kerja Audit Internal (SKAI) sebagai 3rd line of defense dalam memastikan proses pengelolaan dan operasional Perseroan. Kami terus berupaya memastikan proses tersebut berjalan sesuai dengan ketentuan dan peraturan yang berlaku.']), 
     10)
 
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text_id') : 'The Internal Audit function in the Company is carried out by the Internal Audit Work Unit (SKAI) as the 3rd line of defense in ensuring the Company\'s management and operational processes. We continue to strive to ensure that the process runs in accordance with applicable rules and regulations.']), 
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'The Internal Audit function in the Company is carried out by the Internal Audit Work Unit (SKAI) as the 3rd line of defense in ensuring the Company\'s management and operational processes. We continue to strive to ensure that the process runs in accordance with applicable rules and regulations.']), 
     10)
 
-WebUI.click(findTestObject('General/button_Download (based on Name)', [('content_id') : 'INTERNAL AUDIT UNIT']))
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]']))
 
 WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718686593519.pdf'])
 

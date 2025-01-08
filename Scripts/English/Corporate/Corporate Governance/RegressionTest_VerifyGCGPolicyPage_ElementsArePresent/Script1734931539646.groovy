@@ -17,23 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Header/link_Corporate'))
+WebUI.click(findTestObject('General/link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
 
-WebUI.click(findTestObject('Header/link_Corporate Governance'))
+WebUI.click(findTestObject('General/link_Content', [('href') : '#', ('text') : 'Corporate Governance']))
 
-WebUI.click(findTestObject('Header/link_GCG Policy'))
+WebUI.click(findTestObject('General/link_Content', [('href') : '/en/corporate/CorporateGovernance/GCGPolicy', ('text') : 'GCG Policy']))
 
-WebUI.focus(findTestObject('General/button_Download (based on Name)', [('content_id') : 'KEBIJAKAN GCG / GCG POLICY']))
+WebUI.focus(findTestObject('General/lbl_Content', [('text') : 'KEBIJAKAN GCG / GCG POLICY']))
 
-WebUI.verifyTextPresent('GCG Policy', true)
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'GCG Policy']), 10)
 
-WebUI.verifyTextPresent('Perseroan meyakini bahwa penerapan prinsip-prinsip GCG bukan sekedar sebagai pemenuhan terhadap peraturan, melainkan ikut menentukan keberlangsungan Perseroan dalam jangka panjang. Oleh karena itu, Perseroan bertekad untuk terus menerapkan GCG sebagai sebuah standar yang bertujuan untuk meningkatkan citra, efisiensi, & efektivitas pengelolaan Perseroan secara berkesinambungan.', 
-    true)
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'Perseroan  meyakini bahwa penerapan prinsip-prinsip GCG bukan sekedar sebagai pemenuhan terhadap peraturan, melainkan ikut menentukan keberlangsungan Perseroan dalam jangka panjang. Oleh karena itu, Perseroan bertekad untuk terus menerapkan GCG sebagai sebuah standar yang bertujuan untuk meningkatkan citra, efisiensi, & efektivitas pengelolaan Perseroan secara berkesinambungan.']), 
+    10)
 
-WebUI.verifyTextPresent('The Company believes that the implementation of GCG principles is beyond compliance with the regulations, but also determines the Company’s long-term sustainability. Therefore, the Company is committed to maintain the GCG implementation as a standard that aims to improve the reputation, efficiency, & effectiveness of the Company’s management on an ongoing basis.', 
-    true)
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'The Company believes that the implementation of GCG principles is beyond compliance with the regulations, but also determines the Company’s long-term sustainability. Therefore, the Company is committed to maintain the GCG implementation as a standard that aims to improve the reputation, efficiency, & effectiveness of the Company’s management on an ongoing basis.']), 
+    10)
 
-WebUI.click(findTestObject('General/button_Download (based on Name)', [('content_id') : 'KEBIJAKAN GCG / GCG POLICY']))
+WebUI.click(findTestObject('General/lbl_Content', [('text') : 'KEBIJAKAN GCG / GCG POLICY']))
 
 WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718685687816.pdf'])
 

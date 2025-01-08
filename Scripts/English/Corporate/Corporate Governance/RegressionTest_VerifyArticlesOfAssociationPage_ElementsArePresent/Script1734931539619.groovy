@@ -17,22 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Header/link_Corporate'))
+WebUI.click(findTestObject('General/link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
 
-WebUI.click(findTestObject('Header/link_Corporate Governance'))
+WebUI.click(findTestObject('General/link_Content', [('href') : '#', ('text') : 'Corporate Governance']))
 
-WebUI.click(findTestObject('Header/link_Articles of Association'))
+WebUI.click(findTestObject('General/link_Content', [('href') : '/en/corporate/CorporateGovernance/ArticlesOfAssociation', ('text') : 'Articles of Association']))
 
-WebUI.focus(findTestObject('General/button_Download (based on Name)', [('content_id') : 'ANGGARAN DASAR / ARTICLES OF ASSOCIATION']))
+WebUI.focus(findTestObject('General/lbl_Content', [('text') : 'ANGGARAN DASAR / ARTICLES OF ASSOCIATION']))
 
-WebUI.verifyTextPresent('ARTICLES OF ASSOCIATION', true)
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'ARTICLES OF ASSOCIATION']), 10)
 
-WebUI.verifyTextPresent('Anggaran Dasar menjadi landasan internal kami dalam setiap aktivitas usaha dan operasional.', true)
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'Anggaran Dasar menjadi landasan internal kami dalam setiap aktivitas usaha dan operasional.']), 10)
 
-WebUI.verifyTextPresent('The Articles of Association are our internal foundation in every business and operational activity.', 
-    true)
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'The Articles of Association are our internal foundation in every business and operational activity.']), 10)
 
-WebUI.click(findTestObject('General/button_Download (based on Name)', [('content_id') : 'ANGGARAN DASAR / ARTICLES OF ASSOCIATION']))
+WebUI.click(findTestObject('General/lbl_Content', [('text') : 'ANGGARAN DASAR / ARTICLES OF ASSOCIATION']))
 
 WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718685656027.pdf'])
 

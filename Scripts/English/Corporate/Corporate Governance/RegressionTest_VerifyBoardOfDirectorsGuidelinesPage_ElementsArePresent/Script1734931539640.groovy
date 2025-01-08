@@ -17,23 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Header/link_Corporate'))
+WebUI.click(findTestObject('General/link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
 
-WebUI.click(findTestObject('Header/link_Corporate Governance'))
+WebUI.click(findTestObject('General/link_Content', [('href') : '#', ('text') : 'Corporate Governance']))
 
-WebUI.click(findTestObject('Header/link_Board of Directors Guidelines'))
+WebUI.click(findTestObject('General/link_Content', [('href') : '/en/corporate/CorporateGovernance/BODGuidelines', ('text') : 'Board of Directors Guidelines']))
 
-WebUI.focus(findTestObject('General/button_Download (based on Name)', [('content_id') : 'PEDOMAN KERJA DIREKSI / BOD GUIDELINES']))
+WebUI.focus(findTestObject('General/lbl_Content', [('text') : 'PEDOMAN KERJA DIREKSI / BOD GUIDELINES']))
 
-WebUI.verifyTextPresent('BOARD OF DIRECTORS GUIDELINES', true)
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'BOARD OF DIRECTORS GUIDELINES']), 10)
 
-WebUI.verifyTextPresent('Dalam menjalankan peran dan fungsi pengawasan pada Perseroan, Direksi mengacu pada Anggaran Dasar, Pedoman Tata Kelola Perusahaan dan Pedoman Kerja Direksi. ', 
-    true)
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'Dalam menjalankan peran dan fungsi pengawasan pada Perseroan, Direksi mengacu pada Anggaran Dasar, Pedoman Tata Kelola Perusahaan dan Pedoman Kerja Direksi. ']), 
+    10)
 
-WebUI.verifyTextPresent('In carrying out managerial role and function in the Company, the Board of Directors refers to the Articles of Association, Good Corporate Governance Guideline and Board of Directors ‘s Charter.', 
-    true)
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'In carrying out managerial role and function in the Company, the Board of Directors refers to the Articles of Association, Good Corporate Governance Guideline and Board of Directors ‘s Charter. ']), 
+    10)
 
-WebUI.click(findTestObject('General/button_Download (based on Name)', [('content_id') : 'PEDOMAN KERJA DIREKSI / BOD GUIDELINES']))
+WebUI.click(findTestObject('General/lbl_Content', [('text') : 'PEDOMAN KERJA DIREKSI / BOD GUIDELINES']))
 
 WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718685799207.pdf'])
 

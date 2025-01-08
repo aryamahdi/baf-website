@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Header/link_Corporate'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Header/link_About Us'))
+WebUI.click(findTestObject('null'))
 
 WebUI.verifyElementPresent(findTestObject('About Us/img_Building'), 10)
 

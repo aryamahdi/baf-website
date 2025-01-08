@@ -18,43 +18,70 @@ import internal.GlobalVariable as GlobalVariable
 import org.apache.poi.poifs.filesystem.POIFSFileSystem as POIFSFileSystem
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Header/link_Event  Promo'))
+'Click "Event & Promo" menu'
+WebUI.click(findTestObject('General/link_Content', [('href') : '/promo', ('text') : 'Event & Promo']))
 
-WebUI.verifyTextPresent('EVENT & PROMO', true)
+'Verify the "EVENT & PROMO" header is displayed'
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'EVENT & PROMO']), 10)
 
-WebUI.click(findTestObject('Event and Promo/link_All'))
+'Click the "All" tab'
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[1]/a[1]']))
 
-WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+'Verify content in the "All" tab is displayed'
+WebUI.verifyElementPresent(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[4]/div[1]']), 
+    10)
 
-WebUI.click(findTestObject('Event and Promo/link_Event'))
+'Click the "Event" tab'
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[2]/a[1]']))
 
-WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+'Verify content in the "Event" tab is displayed'
+WebUI.verifyElementPresent(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[4]/div[1]']), 
+    10)
 
-WebUI.click(findTestObject('Event and Promo/link_New Motorcycle'))
+'Click the "New Motorcycle" tab'
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[3]/a[1]']))
 
-WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+'Verify content in the "New Motorcycle" tab is displayed'
+WebUI.verifyElementPresent(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[4]/div[1]']), 
+    10)
 
-WebUI.click(findTestObject('Event and Promo/link_Used Motorcycle'))
+'Click the "Used Motorcycle" tab'
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[4]/a[1]']))
 
-WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+'Verify content in the "Used Motorcycle" tab is displayed'
+WebUI.verifyElementPresent(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[4]/div[1]']), 
+    10)
 
-WebUI.click(findTestObject('Event and Promo/link_Car'))
+'Click the "Car" tab'
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[5]/a[1]']))
 
-WebUI.verifyElementPresent(findTestObject('General/nav_Content'), 10)
+'Verify content in the "Car" tab is displayed'
+WebUI.verifyElementPresent(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[4]/div[1]']), 
+    10)
 
-WebUI.click(findTestObject('Event and Promo/link_Electronic, Gadget,  Furnitur'))
+'Click the "Electronic, Gadget, & Furniture" tab'
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[6]/a[1]']))
 
-WebUI.verifyElementPresent(findTestObject('General/nav_No Results Found'), 10)
+'Verify content in the "Electronic, Gadget, & Furniture" tab is displayed'
+WebUI.verifyElementPresent(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[4]/div[1]']), 
+    10)
 
-WebUI.click(findTestObject('Event and Promo/link_BAF Dana Syariah'))
+'Click the "BAF Dana Syariah" tab'
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[7]/a[1]']))
 
-WebUI.verifyElementPresent(findTestObject('General/nav_No Results Found'), 10)
+'Verify content in the "BAF Dana Syariah" tab is displayed'
+WebUI.verifyElementPresent(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[4]/div[1]']), 
+    10)
 
-WebUI.click(findTestObject('Event and Promo/link_Agricultural Machinery'))
+'Click the "Agricultural Machinery" tab'
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[8]/a[1]']))
 
-WebUI.verifyElementPresent(findTestObject('General/nav_No Results Found'), 10)
+'Verify the "Agricultural Machinery" tab shows "No Results Found"'
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'No Results Found']), 10)
 
-WebUI.click(findTestObject('Event and Promo/link_Fleet Financing'))
+'Click the "Fleet Financing" tab'
+WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[9]/a[1]']))
 
-WebUI.verifyElementPresent(findTestObject('General/nav_No Results Found'), 10)
+'Verify the "Fleet Financing" tab shows "No Results Found"'
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'No Results Found']), 10)
 

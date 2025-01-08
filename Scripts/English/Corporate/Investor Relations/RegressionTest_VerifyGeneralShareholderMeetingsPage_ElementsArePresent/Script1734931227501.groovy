@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Header/link_Corporate'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Header/link_Investor Relations'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Header/link_General Shareholder Meetings'))
+WebUI.click(findTestObject('null'))
 
 WebUI.focus(findTestObject('Investor Relation/Financial Statments/nav_Mid'))
 

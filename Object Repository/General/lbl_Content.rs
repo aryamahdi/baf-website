@@ -10,6 +10,10 @@
          <value>//div[@id='__next']/main/main/div[2]/div[2]/div/p</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '${text}' or . = '${text}')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>p</value>
       </entry>
@@ -24,28 +28,12 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>p</value>
-      <webElementGuid>11474a7d-20e2-49a5-af71-3771685725c1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>${text_id}</value>
-      <webElementGuid>1824c299-3213-404c-9d74-f5b0acd6d9b2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;__next&quot;)/main[@class=&quot;__className_4df22e&quot;]/main[@class=&quot;layout&quot;]/div[2]/div[@class=&quot;m-5 text-justify&quot;]/div[@class=&quot;justify-content-center corporate-description&quot;]/p[1]</value>
-      <webElementGuid>e017e352-5272-4dee-8f9c-3ea8ebaf02a0</webElementGuid>
+      <value>${text}</value>
+      <webElementGuid>1b077d58-8e22-4a51-b306-3ccceec48adb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +41,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/main/div[2]/div[2]/div/p</value>
-      <webElementGuid>862d0a85-9468-4716-920a-e973f2632391</webElementGuid>
+      <webElementGuid>9b4db2a3-c89c-4a63-886b-b19d6b6bd7d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +49,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SHARIA SUPERVISORY BOARD'])[1]/following::p[1]</value>
-      <webElementGuid>c338bad4-a3ff-4368-981c-177d9549048a</webElementGuid>
+      <webElementGuid>cc3af1ef-5244-4402-a249-83355ffc4b73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/following::p[1]</value>
-      <webElementGuid>1374f297-5d05-4a85-978f-4cf8b09a0d1c</webElementGuid>
+      <webElementGuid>4f6cadbc-81dd-416a-bcff-3606ac4b3676</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='DEWAN PENGAWAS SYARIAH / SHARIA SUPERVISORY BOARD'])[1]/preceding::p[2]</value>
-      <webElementGuid>531255ee-7cf5-44af-8707-942a266aee5d</webElementGuid>
+      <webElementGuid>f9eccee2-87d6-499d-86e3-fb76f2328801</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PT Bussan Auto Finance'])[1]/preceding::p[2]</value>
-      <webElementGuid>7cc11abe-5b7b-402e-88d7-662718b68414</webElementGuid>
+      <webElementGuid>4d2ff903-4c29-41bc-83b1-fea0ad2d360f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Dewan Pengawas Syariah (DPS) adalah bagian dari organ Perseroan yang mempunyai tugas dan fungsi pengawasan terhadap penyelenggaraan kegiatan perseroan agar sesuai dengan prinsip syariah.']/parent::*</value>
-      <webElementGuid>743b1677-e491-475f-8f4b-66fe0ccd9361</webElementGuid>
+      <webElementGuid>8e426e36-986c-4843-a361-fa9a54cd0a21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p</value>
-      <webElementGuid>8f774daf-bcd5-4174-aa6c-b6b95155030c</webElementGuid>
+      <webElementGuid>c7da178b-1929-43da-8888-f04811163b69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Dewan Pengawas Syariah (DPS) adalah bagian dari organ Perseroan yang mempunyai tugas dan fungsi pengawasan terhadap penyelenggaraan kegiatan perseroan agar sesuai dengan prinsip syariah.' or . = 'Dewan Pengawas Syariah (DPS) adalah bagian dari organ Perseroan yang mempunyai tugas dan fungsi pengawasan terhadap penyelenggaraan kegiatan perseroan agar sesuai dengan prinsip syariah.')]</value>
-      <webElementGuid>c98ee95e-ad86-449a-b3cd-0600dc59a9ae</webElementGuid>
+      <webElementGuid>e94bb3c6-e3be-4e70-9a63-30feb7d8fdbf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

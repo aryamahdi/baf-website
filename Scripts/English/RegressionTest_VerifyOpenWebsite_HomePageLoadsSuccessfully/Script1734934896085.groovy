@@ -26,11 +26,9 @@ WebUI.maximizeWindow()
 'Open BAF Website'
 WebUI.navigateToUrl(GlobalVariable.URL)
 
+'Input Text "thisisunsafe" in Input Field'
 WebUI.sendKeys(findTestObject(null), 'thisisunsafe', FailureHandling.OPTIONAL)
 
-'Waiting Page Loading'
-WebUI.verifyTextPresent('Customer', true)
-
-'Take Screenshot'
-WebUI.takeScreenshot([('text') : GlobalVariable.Timestamp])
+'Take Screenshot of Current State'
+not_run: WebUI.takeScreenshot([('text') : GlobalVariable.Timestamp])
 

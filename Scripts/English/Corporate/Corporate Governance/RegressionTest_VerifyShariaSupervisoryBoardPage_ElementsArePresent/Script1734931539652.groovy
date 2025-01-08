@@ -17,23 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Header/link_Corporate'))
+WebUI.click(findTestObject('General/link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
 
-WebUI.click(findTestObject('Header/link_Corporate Governance'))
+WebUI.click(findTestObject('General/link_Content', [('href') : '#', ('text') : 'Corporate Governance']))
 
-WebUI.click(findTestObject('Header/link_Sharia Supervisory Board'))
+WebUI.click(findTestObject('General/link_Content', [('href') : '/en/corporate/CorporateGovernance/ShariaSupervisorBoard', ('text') : 'Sharia Supervisory Board']))
 
-WebUI.focus(findTestObject('General/button_Download (based on Name)', [('content_id') : 'DEWAN PENGAWAS SYARIAH / SHARIA SUPERVISORY BOARD']))
+WebUI.focus(findTestObject('General/lbl_Content', [('text') : 'DEWAN PENGAWAS SYARIAH / SHARIA SUPERVISORY BOARD']))
 
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text_id') : 'SHARIA SUPERVISORY BOARD']), 10)
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'SHARIA SUPERVISORY BOARD']), 10)
 
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text_id') : 'Dewan Pengawas Syariah (DPS) adalah bagian dari organ Perseroan yang mempunyai tugas dan fungsi pengawasan terhadap penyelenggaraan kegiatan perseroan agar sesuai dengan prinsip syariah.']), 
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'Dewan Pengawas Syariah (DPS) adalah bagian dari organ Perseroan yang mempunyai tugas dan fungsi pengawasan terhadap penyelenggaraan kegiatan perseroan agar sesuai dengan prinsip syariah.']), 
     10)
 
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text_id') : 'The Sharia Supervisory Board (DPS) is part of the Company’s organ with duty and function of supervising implementation of company activities based on sharia principles.']), 
+WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'The Sharia Supervisory Board (DPS) is part of the Company’s organ with duty and function of supervising implementation of company activities based on sharia principles.']), 
     10)
 
-WebUI.click(findTestObject('General/button_Download (based on Name)', [('content_id') : 'DEWAN PENGAWAS SYARIAH / SHARIA SUPERVISORY BOARD']))
+WebUI.click(findTestObject('General/lbl_Content', [('text') : 'DEWAN PENGAWAS SYARIAH / SHARIA SUPERVISORY BOARD']))
 
 WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718685827379.pdf'])
 
