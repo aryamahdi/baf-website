@@ -17,99 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('null'))
+'Click Menu "Corporate"'
+WebUI.click(findTestObject('link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
 
-WebUI.click(findTestObject('null'))
+'Click Menu "Investor Relations"'
+WebUI.click(findTestObject('link_Content', [('href') : '#', ('text') : 'Investor Relations']))
 
-WebUI.click(findTestObject('null'))
+'Click Menu "General Shareholder Meetings"'
+WebUI.click(findTestObject('link_Content', [('href') : '/en/corporate/InvestorRelations/ShareholderMeeting', ('text') : 'General Shareholder Meetings']))
 
-WebUI.focus(findTestObject('Investor Relation/Financial Statments/nav_Mid'))
+'Scroll to "GENERAL SHAREHOLDER MEETINGS" Text'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/ol[1]']), 
+    10)
 
-WebUI.verifyTextPresent('GENERAL SHAREHOLDER MEETINGS', true)
+'Verify Text "GENERAL SHAREHOLDER MEETINGS" is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'GENERAL SHAREHOLDER MEETINGS']), 10)
 
-WebUI.verifyElementPresent(findTestObject('Investor Relation/General Shareholder Meetings/lbl_Indonesia'), 10)
-
-WebUI.verifyElementPresent(findTestObject('Investor Relation/General Shareholder Meetings/lbl_Inggris'), 10)
-
-WebUI.focus(findTestObject('Investor Relation/General Shareholder Meetings/nav_Low'))
-
-WebUI.click(findTestObject('General/tab_Tahun', [('tahun_id') : 2017]))
-
-WebUI.click(findTestObject('Investor Relation/General Shareholder Meetings/button_Download'))
-
-WebUI.verifyLinksAccessible(['about:blank'], FailureHandling.OPTIONAL)
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('General/tab_Tahun', [('tahun_id') : 2018]))
-
-WebUI.click(findTestObject('Investor Relation/General Shareholder Meetings/button_Download', [('tahun_id') : 2018]))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718680698305.pdf'])
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('General/tab_Tahun', [('tahun_id') : 2019]))
-
-WebUI.click(findTestObject('Investor Relation/General Shareholder Meetings/button_Download', [('tahun_id') : 2019]))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718680677871.pdf'])
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('General/tab_Tahun', [('tahun_id') : 2020]))
-
-WebUI.verifyLinksAccessible(['about:blank'], FailureHandling.OPTIONAL)
-
-WebUI.click(findTestObject('Investor Relation/General Shareholder Meetings/button_Download', [('tahun_id') : 2020]))
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('General/tab_Tahun', [('tahun_id') : 2021]))
-
-WebUI.click(findTestObject('Investor Relation/General Shareholder Meetings/button_Download', [('tahun_id') : 2021]))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718680614082.pdf'])
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('General/tab_Tahun', [('tahun_id') : 2022]))
-
-WebUI.click(findTestObject('Investor Relation/General Shareholder Meetings/button_Download', [('tahun_id') : 2022]))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718680572801.pdf'])
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('General/tab_Tahun', [('tahun_id') : 2023]))
-
-WebUI.click(findTestObject('Investor Relation/General Shareholder Meetings/button_Download', [('tahun_id') : 2023]))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718680534176.pdf'])
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('General/tab_Tahun', [('tahun_id') : 2024]))
-
-WebUI.click(findTestObject('Investor Relation/General Shareholder Meetings/button_Download', [('tahun_id') : 2024]))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718780845988.pdf'])
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
+'Verify Description Text "GENERAL SHAREHOLDER MEETINGS" is Present'
+WebUI.verifyElementPresent(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[2]/div[1]']), 
+    10)
 

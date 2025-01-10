@@ -17,19 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('null'))
+'Click Menu "Corporate"'
+WebUI.click(findTestObject('link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
 
-WebUI.click(findTestObject('null'))
+'Click Menu "Investor Relations"'
+WebUI.click(findTestObject('link_Content', [('href') : '#', ('text') : 'Investor Relations']))
 
-WebUI.click(findTestObject('null'))
+'Click Menu "Financial Highlights"'
+WebUI.click(findTestObject('link_Content', [('href') : '/en/corporate/InvestorRelations/FinancialHighlights', ('text') : 'Financial Highlights']))
 
-WebUI.verifyTextPresent('FINANCIAL HIGHLIGHTS', true)
+'Scroll to "FINANCIAL HIGHLIGHTS" Text'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/ol[1]']), 
+    10)
 
-WebUI.verifyTextPresent('Kami terus memberikan upaya terbaik kami dalam menjaga kinerja keuangan secara berkelanjutan sehingga dapat terus memberikan nilai yang optimal bagi seluruh pemegang saham.', 
-    true)
+'Verify Text "FINANCIAL HIGHLIGHTS" is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'FINANCIAL HIGHLIGHTS']), 10)
 
-WebUI.verifyTextPresent('We continue to ensure our best efforts in maintaining our sustain financial performance so that we can continue to deliver optimal value for all shareholders.', 
-    true)
+'Verify Text Description in Indonesia is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'Kami terus memberikan upaya terbaik kami dalam menjaga kinerja keuangan secara berkelanjutan sehingga dapat terus memberikan nilai yang optimal bagi seluruh pemegang saham.']), 
+    10)
 
-WebUI.waitForElementPresent(findTestObject('Investor Relation/Financial Highlight/img_Financial Highlight'), 10)
+'Verify Text Description in English is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'We continue to ensure our best efforts in maintaining our sustain financial performance so that we can continue to deliver optimal value for all shareholders.']), 
+    10)
+
+'Verify Image "FINANCIAL HIGHLIGHTS" is Present'
+WebUI.verifyElementPresent(findTestObject('img_Content', [('src') : 'https://baf-web.oss-ap-southeast-5.aliyuncs.com/files/FINANCIAL%20HIGHLIGHTS.jpg']), 
+    10)
 

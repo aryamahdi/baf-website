@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>RegressionTest_VerifyMengapaBAFPage_ElementsArePresent</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>dbf1722b-05e3-48bd-bcb2-58aa7bfcc8d0</testCaseGuid>
-</TestCaseEntity>

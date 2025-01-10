@@ -6,16 +6,16 @@
    <elementGuidId>bd3e39b1-ac0b-4c20-9c20-3bddbfe76a39</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div/main/main/div[2]/img</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[@src = '${src}']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>main.layout > div:nth-of-type(2) > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/main/main/div[2]/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

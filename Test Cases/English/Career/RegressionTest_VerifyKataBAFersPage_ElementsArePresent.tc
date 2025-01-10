@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>RegressionTest_VerifyKataBAFersPage_ElementsArePresent</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>4d30febc-73f1-4112-8063-a4eccc9d1014</testCaseGuid>
-</TestCaseEntity>

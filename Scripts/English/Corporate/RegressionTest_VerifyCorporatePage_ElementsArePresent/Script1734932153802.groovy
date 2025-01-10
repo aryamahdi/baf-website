@@ -17,44 +17,44 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('null'))
+'Click Menu "Corporate"'
+WebUI.click(findTestObject('link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
 
-WebUI.waitForElementPresent(findTestObject('Corporate/img_Banner 1'), 10)
+'Verify Banner Image is Present'
+WebUI.verifyElementPresent(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/div[1]/div[1]/img[1]']), 
+    10)
 
-WebUI.click(findTestObject('Corporate/a_Next Banner'))
+'Scroll to "Company Profile Video"'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/ol[1]']), 
+    10)
 
-WebUI.waitForElementPresent(findTestObject('Corporate/img_Banner 2'), 10)
+'Verify "Company Profile Video" Text is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'Company Profile Video']), 10)
 
-WebUI.click(findTestObject('Corporate/a_Next Banner'))
+'Verify Text Description is Present'
+WebUI.verifyElementPresent(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/p[1]']), 
+    10)
 
-WebUI.waitForElementPresent(findTestObject('Corporate/img_Banner 3'), 10)
+'Click "Let\'s Watch" button'
+WebUI.click(findTestObject('link_Content', [('href') : 'https://www.youtube.com/watch?v=_0-hV5gwpwU', ('text') : 'Let\'s watch']))
 
-WebUI.click(findTestObject('Corporate/a_Next Banner'))
-
-WebUI.focus(findTestObject('Corporate/nav_Company Profile Video'))
-
-WebUI.verifyTextPresent('Company Profile Video', true)
-
-WebUI.verifyTextPresent('Established since 1997, BAF continues to innovate with a wide selection of financing products.', 
-    true)
-
-WebUI.click(findTestObject('Corporate/button_Lets watch'))
-
+'Verify Youtube Link Accessibility'
 WebUI.verifyLinksAccessible(['https://www.youtube.com/watch?v=_0-hV5gwpwU'])
 
+'Close Browser Windows'
 WebUI.closeWindowIndex(1)
 
+'Switch Browser Windows'
 WebUI.switchToWindowIndex(0)
 
-WebUI.verifyTextPresent('PROMOS AND LATEST NEWS', true)
+'Scroll to "Promo and Latest News"'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/section[1]']), 
+    10)
 
-WebUI.focus(findTestObject('Corporate/nav_Promo and News Corporate'))
+'Verify "Promo and Latest News" text is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'PROMOS AND LATEST NEWS']), 10)
 
-WebUI.click(findTestObject('Corporate/button_Next Promo and News Corporate'))
-
-WebUI.click(findTestObject('Corporate/button_Next Promo and News Corporate'))
-
-WebUI.click(findTestObject('Corporate/button_Next Promo and News Corporate'))
-
-WebUI.click(findTestObject('Corporate/button_Next Promo and News Corporate'))
+'Verify Content Promo and Latest News is Present'
+WebUI.verifyElementPresent(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/ul[1]/li[1]/div[1]']), 
+    10)
 

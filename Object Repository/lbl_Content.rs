@@ -6,16 +6,16 @@
    <elementGuidId>ee9d3d52-2115-41f0-a652-14b2eab3ac95</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/main/main/div[2]/div[2]/div/p</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(text() = '${text}' or . = '${text}')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>p</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/main/div[2]/div[2]/div/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

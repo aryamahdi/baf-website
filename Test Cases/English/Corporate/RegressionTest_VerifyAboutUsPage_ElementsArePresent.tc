@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>61750af0-fe4b-4623-a0e8-ad50fd4ace47</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f3683b0f-a999-4bd9-99d2-af6944ec0cdc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'\tPT Bussan Auto Finance (“the Company”) was established in 1995 as PT Pembiayaan Getraco Indonesia, a company that operated in the financing business and Joint Venture among PT Danamon Sanggrahan, Mitsui &amp; Co. Ltd., Yamaha Motor Co., Ltd., and PT Yamaha Motor Kencana Indonesia in 1997 focusing on financing new Yamaha-brand motorcycles. The company had its name changed to PT Danamon Mits Otomotif Finance, and every September 24, 1997, is commemorated as the anniversary of the company until today. In 1998, Mitsui &amp; Co., Ltd. purchased entire shares of PT Danamon Sanggrahan where Mitsui &amp; Co., Ltd. Became majority shareholders with 75% ownership, while remaining shares were owned by PT Lenggara Gunasejahtera (15%), Yamaha Motor Co., Ltd., Japan (7%) and PT Yamaha Motor Kencana Indonesia (3%). As a consequence of the acquisition, the company had its name changed to PT Bussan Auto Finance and sustained its business focus on financing new Yamaha-brand motorcycles.'</defaultValue>
+      <description></description>
+      <id>f3683b0f-a999-4bd9-99d2-af6944ec0cdc</id>
+      <masked>false</masked>
+      <name>txt_BAFatGlance</name>
+   </variable>
 </TestCaseEntity>

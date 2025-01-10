@@ -17,27 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
+'Click Menu "Corporate"'
+WebUI.click(findTestObject('link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '#', ('text') : 'Corporate Governance']))
+'Click Menu "Investor Relations"'
+WebUI.click(findTestObject('link_Content', [('href') : '#', ('text') : 'Corporate Governance']))
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '/en/corporate/CorporateGovernance/BOCGuidelines', ('text') : ' Board of Commissioners Guidelines']))
+'Click Menu "Board of Commissioners Guidelines"'
+WebUI.click(findTestObject('link_Content', [('href') : '/en/corporate/CorporateGovernance/BOCGuidelines', ('text') : ' Board of Commissioners Guidelines']))
 
-WebUI.focus(findTestObject('General/lbl_Content', [('text') : 'PEDOMAN KERJA DEWAN KOMISARIS / BOC GUIDELINES']))
-
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : ' BOARD OF COMMISSIONERS GUIDELINES']), 10)
-
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'Dewan Komisaris merupakan organ Perseroan yang bertanggung jawab melakukan pengawasan terhadap kebijakan pengurusan, baik mengenai Perseroan maupun usaha Perseroan, dan memberi nasihat kepada Direksi, dengan mengacu pada kaidah dan standar yang berlaku.']), 
+'Scroll to "BOARD OF COMMISSIONERS GUIDELINES" Text'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/ol[1]']), 
     10)
 
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'The Board of Commissioners is the Company\'s organ responsible for supervising management policies, both regarding the Company and the Company\'s business, and providing advice to the Board of Directors, with reference to applicable rules and standards.']), 
-    10)
+'Verify Text "BOARD OF COMMISSIONERS GUIDELINES" is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : ' BOARD OF COMMISSIONERS GUIDELINES']), 10)
 
-WebUI.click(findTestObject('General/lbl_Content', [('text') : 'PEDOMAN KERJA DEWAN KOMISARIS / BOC GUIDELINES']))
+'Click First Button in Board of Commissioners Guidelines'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]']))
 
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718685759360.pdf'])
+'Verify Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718346019578.pdf'])
 
+'Close Browser Windows'
 WebUI.closeWindowIndex(1)
 
+'Switch Browser Windows'
 WebUI.switchToWindowIndex(0)
 

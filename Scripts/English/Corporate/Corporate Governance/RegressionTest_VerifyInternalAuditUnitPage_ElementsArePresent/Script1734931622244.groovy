@@ -17,27 +17,75 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
+'Click Menu "Corporate"'
+WebUI.click(findTestObject('link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '#', ('text') : 'Corporate Governance']))
+'Click Menu "Investor Relations"'
+WebUI.click(findTestObject('link_Content', [('href') : '#', ('text') : 'Corporate Governance']))
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '/en/corporate/CorporateGovernance/InternalAudit', ('text') : 'Internal Audit Unit']))
+'Click Menu "Internal Audit Unit"'
+WebUI.click(findTestObject('link_Content', [('href') : '/en/corporate/CorporateGovernance/InternalAudit', ('text') : 'Internal Audit Unit']))
 
-WebUI.focus(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]']))
-
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'INTERNAL AUDIT UNIT']), 10)
-
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'Fungsi Audit Internal di Perseroan dijalankan oleh Satuan Kerja Audit Internal (SKAI) sebagai 3rd line of defense dalam memastikan proses pengelolaan dan operasional Perseroan. Kami terus berupaya memastikan proses tersebut berjalan sesuai dengan ketentuan dan peraturan yang berlaku.']), 
+'Scroll to "INTERNAL AUDIT UNIT" Text'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/ol[1]']), 
     10)
 
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'The Internal Audit function in the Company is carried out by the Internal Audit Work Unit (SKAI) as the 3rd line of defense in ensuring the Company\'s management and operational processes. We continue to strive to ensure that the process runs in accordance with applicable rules and regulations.']), 
+'Verify Text "INTERNAL AUDIT UNIT" is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'INTERNAL AUDIT UNIT']), 10)
+
+'Verify Description Text "INTERNAL AUDIT UNIT" is Present'
+WebUI.verifyElementPresent(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[2]']), 
     10)
 
-WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]']))
+'Click First Button in INTERNAL AUDIT UNIT'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]']))
 
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718686593519.pdf'])
+'Verify Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/About%2FCorporateGovernance%2F1734574771283.pdf?Expires=1736537685&OSSAccessKeyId=LTAI5t78APQ3CX3zFy4qKiTQ&Signature=903uuEsaR2hnQdQqYCUoB3RIIIg%3D'])
 
+'Close Browser Windows'
 WebUI.closeWindowIndex(1)
 
+'Switch Browser Windows'
+WebUI.switchToWindowIndex(0)
+
+'Click Second Button in INTERNAL AUDIT UNIT'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]']))
+
+'Verify Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/About%2FCorporateGovernance%2F1733278812550.pdf?Expires=1736537686&OSSAccessKeyId=LTAI5t78APQ3CX3zFy4qKiTQ&Signature=oQszbMmXM8HfaZk6VfH5ogC85EA%3D'])
+
+'Close Browser Windows'
+WebUI.closeWindowIndex(1)
+
+'Switch Browser Windows'
+WebUI.switchToWindowIndex(0)
+
+'Click Third Button in INTERNAL AUDIT UNIT'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[5]']))
+
+'Verify Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/corporate-content-file%2F1731574737773.pdf?Expires=1736537687&OSSAccessKeyId=LTAI5t78APQ3CX3zFy4qKiTQ&Signature=J%2BWteFmmggYqW7WIS7zbqrPsUiY%3D'])
+
+'Close Browser Windows'
+WebUI.closeWindowIndex(1)
+
+'Switch Browser Windows'
+WebUI.switchToWindowIndex(0)
+
+'Scroll to Last Button'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/h3[1]']), 
+    10)
+
+'Click Fourth Button in INTERNAL AUDIT UNIT'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[6]']))
+
+'Verify Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/About%2FCorporateGovernance%2F1724659501026.pdf?Expires=1736537687&OSSAccessKeyId=LTAI5t78APQ3CX3zFy4qKiTQ&Signature=Vog5bSRd1kQ%2BAOQN6QCI9pMoRUg%3D'])
+
+'Close Browser Windows'
+WebUI.closeWindowIndex(1)
+
+'Switch Browser Windows'
 WebUI.switchToWindowIndex(0)
 

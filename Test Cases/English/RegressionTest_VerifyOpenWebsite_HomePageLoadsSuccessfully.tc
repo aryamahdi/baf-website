@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>RegressionTest_VerifyOpenWebsite_HomePageLoadsSuccessfully</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>23647712-c1f6-4495-be30-5ab7a6602210</testCaseGuid>
-</TestCaseEntity>

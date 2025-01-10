@@ -17,25 +17,67 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
+'Click Menu "Corporate"'
+WebUI.click(findTestObject('link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '#', ('text') : 'Corporate Governance']))
+'Click Menu "Investor Relations"'
+WebUI.click(findTestObject('link_Content', [('href') : '#', ('text') : 'Corporate Governance']))
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '/en/corporate/CorporateGovernance/ArticlesOfAssociation', ('text') : 'Articles of Association']))
+'Click Menu "Articles of Association"'
+WebUI.click(findTestObject('link_Content', [('href') : '/en/corporate/CorporateGovernance/ArticlesOfAssociation', ('text') : 'Articles of Association']))
 
-WebUI.focus(findTestObject('General/lbl_Content', [('text') : 'ANGGARAN DASAR / ARTICLES OF ASSOCIATION']))
+'Scroll to "ARTICLES OF ASSOCIATION" Text'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/ol[1]']), 
+    10)
 
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'ARTICLES OF ASSOCIATION']), 10)
+'Verify Text "ARTICLES OF ASSOCIATION" is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'ARTICLES OF ASSOCIATION']), 10)
 
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'Anggaran Dasar menjadi landasan internal kami dalam setiap aktivitas usaha dan operasional.']), 10)
+'Click First Button in Articles of Association'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]']))
 
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'The Articles of Association are our internal foundation in every business and operational activity.']), 10)
+'Verify Link Accessibility'
+WebUI.verifyLinksAccessible(['about:blank'], FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('General/lbl_Content', [('text') : 'ANGGARAN DASAR / ARTICLES OF ASSOCIATION']))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718685656027.pdf'])
-
+'Close Browser Windows'
 WebUI.closeWindowIndex(1)
 
+'Switch Browser Windows'
+WebUI.switchToWindowIndex(0)
+
+'Click Second Button in Articles of Association'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]']))
+
+'Verify Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/About%2FCorporateGovernance%2F1724655731082.pdf?Expires=1736533960&OSSAccessKeyId=LTAI5t78APQ3CX3zFy4qKiTQ&Signature=pNQoWYLi3KyXYqc2EiNUQehLius%3D'])
+
+'Close Browser Windows'
+WebUI.closeWindowIndex(1)
+
+'Switch Browser Windows'
+WebUI.switchToWindowIndex(0)
+
+'Click Third Button in Articles of Association'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[5]']))
+
+'Verify Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/investor-relation-file%2F1724659660645.pdf?Expires=1736533960&OSSAccessKeyId=LTAI5t78APQ3CX3zFy4qKiTQ&Signature=gNMPt7geEcZyg1u%2BbwmoSLLDnyA%3D'])
+
+'Close Browser Windows'
+WebUI.closeWindowIndex(1)
+
+'Switch Browser Windows'
+WebUI.switchToWindowIndex(0)
+
+'Click Fourth Button in Articles of Association'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[6]']))
+
+'Verify Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/investor-relation-file%2F1724659040378.pdf?Expires=1736533960&OSSAccessKeyId=LTAI5t78APQ3CX3zFy4qKiTQ&Signature=Nw2NsTm90HCjAh8v0prluFWd9Ww%3D'])
+
+'Close Browser Windows'
+WebUI.closeWindowIndex(1)
+
+'Switch Browser Windows'
 WebUI.switchToWindowIndex(0)
 

@@ -19,69 +19,62 @@ import org.apache.poi.poifs.filesystem.POIFSFileSystem as POIFSFileSystem
 import org.openqa.selenium.Keys as Keys
 
 'Click "Event & Promo" menu'
-WebUI.click(findTestObject('General/link_Content', [('href') : '/promo', ('text') : 'Event & Promo']))
+WebUI.click(findTestObject('link_Content', [('href') : '/promo', ('text') : 'Event & Promo']))
 
 'Verify the "EVENT & PROMO" header is displayed'
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'EVENT & PROMO']), 10)
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'EVENT & PROMO']), 10)
 
 'Click the "All" tab'
-WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[1]/a[1]']))
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[1]/a[1]']))
 
-'Verify content in the "All" tab is displayed'
-WebUI.verifyElementPresent(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[4]/div[1]']), 
-    10)
+'Verify content in the "All" tab shows "No Results Found"'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'No Results Found']), 10)
 
 'Click the "Event" tab'
-WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[2]/a[1]']))
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[2]/a[1]']))
 
-'Verify content in the "Event" tab is displayed'
-WebUI.verifyElementPresent(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[4]/div[1]']), 
-    10)
+'Verify content in the "Event" tab shows "No Results Found"'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'No Results Found']), 10)
 
 'Click the "New Motorcycle" tab'
-WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[3]/a[1]']))
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[3]/a[1]']))
 
-'Verify content in the "New Motorcycle" tab is displayed'
-WebUI.verifyElementPresent(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[4]/div[1]']), 
-    10)
+'Verify content in the "New Motorcycle" tab shows "No Results Found"'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'No Results Found']), 10)
 
 'Click the "Used Motorcycle" tab'
-WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[4]/a[1]']))
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[4]/a[1]']))
 
-'Verify content in the "Used Motorcycle" tab is displayed'
-WebUI.verifyElementPresent(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[4]/div[1]']), 
-    10)
+'Verify content in the "Used Motorcycle" tab shows "No Results Found"'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'No Results Found']), 10)
 
 'Click the "Car" tab'
-WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[5]/a[1]']))
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[5]/a[1]']))
 
-'Verify content in the "Car" tab is displayed'
-WebUI.verifyElementPresent(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[4]/div[1]']), 
-    10)
+'Verify content in the "Car" tab shows "No Results Found"'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'No Results Found']), 10)
 
 'Click the "Electronic, Gadget, & Furniture" tab'
-WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[6]/a[1]']))
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[6]/a[1]']))
 
-'Verify content in the "Electronic, Gadget, & Furniture" tab is displayed'
-WebUI.verifyElementPresent(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[4]/div[1]']), 
-    10)
+'Verify content in the "Electronic, Gadget, & Furniture" tab shows "No Results Found"'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'No Results Found']), 10)
 
 'Click the "BAF Dana Syariah" tab'
-WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[7]/a[1]']))
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[7]/a[1]']))
 
-'Verify content in the "BAF Dana Syariah" tab is displayed'
-WebUI.verifyElementPresent(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[4]/div[1]']), 
-    10)
+'Verify content in the "BAF Dana Syariah" tab shows "No Results Found"'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'No Results Found']), 10)
 
 'Click the "Agricultural Machinery" tab'
-WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[8]/a[1]']))
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[8]/a[1]']))
 
 'Verify the "Agricultural Machinery" tab shows "No Results Found"'
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'No Results Found']), 10)
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'No Results Found']), 10)
 
 'Click the "Fleet Financing" tab'
-WebUI.click(findTestObject('General/var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[9]/a[1]']))
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[9]/a[1]']))
 
 'Verify the "Fleet Financing" tab shows "No Results Found"'
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'No Results Found']), 10)
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'No Results Found']), 10)
 

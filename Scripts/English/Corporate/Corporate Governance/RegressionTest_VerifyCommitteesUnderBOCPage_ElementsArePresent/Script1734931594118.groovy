@@ -17,43 +17,75 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
+'Click Menu "Corporate"'
+WebUI.click(findTestObject('link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '#', ('text') : 'Corporate Governance']))
+'Click Menu "Investor Relations"'
+WebUI.click(findTestObject('link_Content', [('href') : '#', ('text') : 'Corporate Governance']))
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '/en/corporate/CorporateGovernance/BOCCommittees', ('text') : 'Committees under BOC']))
+'Click Menu "Committees under BOC"'
+WebUI.click(findTestObject('link_Content', [('href') : '/en/corporate/CorporateGovernance/BOCCommittees', ('text') : 'Committees under BOC']))
 
-WebUI.focus(findTestObject('General/lbl_Content', [('text') : 'KOMITE AUDIT / AUDIT COMMITTEE']))
-
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'Committees under BOC']), 10)
-
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'Dalam melaksanakan fungsi pengawasan, Dewan Komisaris dibantu oleh 3 (tiga) komite yang berada di bawah supervisi Dewan Komisaris dalam membantu pelaksanaan pengawasan atas pengelolaan Perseroan.']), 
+'Scroll to "Committees under BOC" Text'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/ol[1]']), 
     10)
 
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'In carrying out its supervisory function, the Board of Commissioners is supported by 3 (three) committees which are under the supervision of the Board of Commissioners in assisting the implementation of supervision over the management of the Company.']), 
+'Verify Text "Committees under BOC" is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'Committees under BOC']), 10)
+
+'Verify Description Text "Committees under BOC" is Present'
+WebUI.verifyElementPresent(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[2]']), 
     10)
 
-WebUI.click(findTestObject('General/lbl_Content', [('text') : 'KOMITE NOMINASI REMUNERASI / NOMREM COMMITTEE']))
+'Click First Button in Committees under BOC'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]']))
 
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718686500595.pdf'])
+'Verify Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/About%2FCorporateGovernance%2F1724659722421.pdf?Expires=1736536046&OSSAccessKeyId=LTAI5t78APQ3CX3zFy4qKiTQ&Signature=JjqkNGvH%2FukkemumlRy%2FqXlVL4g%3D'])
 
+'Close Browser Windows'
 WebUI.closeWindowIndex(1)
 
+'Switch Browser Windows'
 WebUI.switchToWindowIndex(0)
 
-WebUI.click(findTestObject('General/lbl_Content', [('text') : 'KOMITE PEMANTAU RISIKO / RISK MONITORING COMMITTEE']))
+'Click Second Button in Committees under BOC'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]']))
 
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718686069830.pdf'])
+'Verify Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718346221437.pdf'])
 
+'Close Browser Windows'
 WebUI.closeWindowIndex(1)
 
+'Switch Browser Windows'
 WebUI.switchToWindowIndex(0)
 
-WebUI.click(findTestObject('General/lbl_Content', [('text') : 'KOMITE AUDIT / AUDIT COMMITTEE']))
+'Click Third Button in Committees under BOC'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[5]']))
 
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718685960154.pdf'])
+'Verify Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718346194231.pdf'])
 
+'Close Browser Windows'
 WebUI.closeWindowIndex(1)
 
+'Switch Browser Windows'
+WebUI.switchToWindowIndex(0)
+
+'Scroll to Last Button'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/h3[1]']), 
+    10)
+
+'Click Fourth Button in Committees under BOC'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[6]']))
+
+'Verify Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718346147325.pdf'])
+
+'Close Browser Windows'
+WebUI.closeWindowIndex(1)
+
+'Switch Browser Windows'
 WebUI.switchToWindowIndex(0)
 

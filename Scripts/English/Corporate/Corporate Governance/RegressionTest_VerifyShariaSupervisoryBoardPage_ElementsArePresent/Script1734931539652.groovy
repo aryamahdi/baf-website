@@ -17,27 +17,35 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
+'Click Menu "Corporate"'
+WebUI.click(findTestObject('link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '#', ('text') : 'Corporate Governance']))
+'Click Menu "Investor Relations"'
+WebUI.click(findTestObject('link_Content', [('href') : '#', ('text') : 'Corporate Governance']))
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '/en/corporate/CorporateGovernance/ShariaSupervisorBoard', ('text') : 'Sharia Supervisory Board']))
+'Click Menu "Board of Directors Guidelines"'
+WebUI.click(findTestObject('link_Content', [('href') : '/en/corporate/CorporateGovernance/ShariaSupervisorBoard', ('text') : 'Sharia Supervisory Board']))
 
-WebUI.focus(findTestObject('General/lbl_Content', [('text') : 'DEWAN PENGAWAS SYARIAH / SHARIA SUPERVISORY BOARD']))
-
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'SHARIA SUPERVISORY BOARD']), 10)
-
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'Dewan Pengawas Syariah (DPS) adalah bagian dari organ Perseroan yang mempunyai tugas dan fungsi pengawasan terhadap penyelenggaraan kegiatan perseroan agar sesuai dengan prinsip syariah.']), 
+'Scroll to "SHARIA SUPERVISORY BOARD" Text'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/ol[1]']), 
     10)
 
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'The Sharia Supervisory Board (DPS) is part of the Company’s organ with duty and function of supervising implementation of company activities based on sharia principles.']), 
+'Verify Text "BOARD OF DIRECTORS GUIDELINES" is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'SHARIA SUPERVISORY BOARD']), 10)
+
+'Verify Description Text "SHARIA SUPERVISORY BOARD" is Present'
+WebUI.verifyElementPresent(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[2]']), 
     10)
 
-WebUI.click(findTestObject('General/lbl_Content', [('text') : 'DEWAN PENGAWAS SYARIAH / SHARIA SUPERVISORY BOARD']))
+'Click First Button in SHARIA SUPERVISORY BOARD'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]']))
 
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718685827379.pdf'])
+'Verify Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718346089767.pdf'])
 
+'Close Browser Windows'
 WebUI.closeWindowIndex(1)
 
+'Switch Browser Windows'
 WebUI.switchToWindowIndex(0)
 

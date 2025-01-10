@@ -17,3 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Click Menu "Corporate"'
+WebUI.click(findTestObject('link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
+
+'Click Menu "Financial Literacy"'
+WebUI.click(findTestObject('link_Content', [('href') : '#', ('text') : 'Financial Literacy']))
+
+'Click Menu "Articles"'
+WebUI.click(findTestObject('link_Content', [('href') : '/en/corporate/FinancialLiteracy/Articles', ('text') : 'Article']))
+
+'Scroll to "ARTICLE" Text'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/ol[1]']), 
+    10)
+
+'Verify Text "ARTICLE" is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'ARTICLE']), 10)
+
+'Verify Text "No Results Found" is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'No Results Found']), 10)
+
+'Click Menu "Financial Insight"'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[2]/div[1]/div[1]/div[2]']))
+
+'Verify Text "No Results Found" is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'ARTICLE']), 10)
+

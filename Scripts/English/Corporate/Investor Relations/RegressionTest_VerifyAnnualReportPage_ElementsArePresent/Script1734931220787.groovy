@@ -17,53 +17,191 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('null'))
+'Click Menu "Corporate"'
+WebUI.click(findTestObject('link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
 
-WebUI.click(findTestObject('null'))
+'Click Menu "Investor Relations"'
+WebUI.click(findTestObject('link_Content', [('href') : '#', ('text') : 'Investor Relations']))
 
-WebUI.click(findTestObject('null'))
+'Click Menu "Annual Report"'
+WebUI.click(findTestObject('link_Content', [('href') : '/en/corporate/InvestorRelations/AnnualReport', ('text') : 'Annual Report']))
 
-WebUI.focus(findTestObject('Investor Relation/Annual Report/nav_Annual Report'))
-
-WebUI.verifyTextPresent('ANNUAL REPORT', true)
-
-WebUI.verifyTextPresent('Laporan tahunan merupakan bentuk transparansi kami dalam menyajikan capaian kinerja secara keseluruhan kepada para pemangku kepentingan, baik dari sisi pencapain keuangan, bisnis, dan tata kelola.', 
-    true)
-
-WebUI.verifyTextPresent('The annual report is a form of transparency in presenting our overall performance achievements to stakeholders, both in terms of financial, business and governance.', 
-    true)
-
-WebUI.focus(findTestObject('Investor Relation/Annual Report/nav_Annual Report Sustainability Report 2023'))
-
-WebUI.verifyElementPresent(findTestObject('Investor Relation/Annual Report/nav_Annual Report Sustainability Report 2023'), 
+'Scroll to "ANNUAL REPORT" Text'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/ol[1]']), 
     10)
 
-WebUI.focus(findTestObject('Investor Relation/Annual Report/nav_Annual Report Sustainability Report 2022'))
+'Verify Text "ANNUAL REPORT" is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'ANNUAL REPORT']), 10)
 
-WebUI.verifyElementPresent(findTestObject('Investor Relation/Annual Report/nav_Annual Report Sustainability Report 2022'), 
+'Click First Card'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]/div[1]/div[2]/a[1]']))
+
+'Verify First Card Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/investor-relation-file%2F1726125798818.pdf?Expires=1736518504&OSSAccessKeyId=LTAI5t78APQ3CX3zFy4qKiTQ&Signature=gcXpApvwWmXTfSSiFlU9CahfQQo%3D'])
+
+'Close Browser Windows'
+WebUI.closeWindowIndex(1)
+
+'Switch Browser Windows'
+WebUI.switchToWindowIndex(0)
+
+'Scroll to Second Card Text'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]/div[1]/div[2]/a[1]']), 
     10)
 
-WebUI.focus(findTestObject('Investor Relation/Annual Report/nav_Annual Report Sustainability Report 2021'))
+'Click Second Card'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]/div[2]/div[2]/a[1]']))
 
-WebUI.verifyElementPresent(findTestObject('Investor Relation/Annual Report/nav_Annual Report Sustainability Report 2021'), 
+'Verify Second Card Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718445909688.pdf'])
+
+'Close Browser Windows'
+WebUI.closeWindowIndex(1)
+
+'Switch Browser Windows'
+WebUI.switchToWindowIndex(0)
+
+'Scroll to Third Card Text'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]/div[2]/div[2]/a[1]']), 
     10)
 
-WebUI.focus(findTestObject('Investor Relation/Annual Report/nav_Annual Report Sustainability Report 2020'))
+'Click Third Card'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]/div[3]/div[2]/a[1]']))
 
-WebUI.verifyElementPresent(findTestObject('Investor Relation/Annual Report/nav_Annual Report Sustainability Report 2020'), 
+'Verify Third Card Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718452463352.pdf'])
+
+'Close Browser Windows'
+WebUI.closeWindowIndex(1)
+
+'Switch Browser Windows'
+WebUI.switchToWindowIndex(0)
+
+'Scroll to Fourth Card Text'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]/div[3]/div[2]/a[1]']), 
     10)
 
-WebUI.focus(findTestObject('Investor Relation/Annual Report/nav_Annual Report 2019'))
+'Click Fourth Card'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]/div[4]/div[2]/a[1]']))
 
-WebUI.verifyElementPresent(findTestObject('Investor Relation/Annual Report/nav_Annual Report 2019'), 10)
+'Verify Fourth Card Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718439730189.pdf'])
 
-WebUI.click(findTestObject('Investor Relation/Annual Report/button__Next Page'))
+'Close Browser Windows'
+WebUI.closeWindowIndex(1)
 
-WebUI.focus(findTestObject('Investor Relation/Annual Report/nav_Annual Report 2018'))
+'Switch Browser Windows'
+WebUI.switchToWindowIndex(0)
 
-WebUI.verifyElementPresent(findTestObject('Investor Relation/Annual Report/nav_Annual Report 2018'), 10)
+'Scroll to Fifth Card Text'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]/div[4]/div[2]/a[1]']), 
+    10)
 
-WebUI.focus(findTestObject('Investor Relation/Annual Report/nav_Annual Report 2017'))
+'Click Fifth Card'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]/div[5]/div[2]/a[1]']))
 
-WebUI.verifyElementPresent(findTestObject('Investor Relation/Annual Report/nav_Annual Report 2017'), 10)
+'Verify Fifth Card Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718442732937.pdf'])
+
+'Close Browser Windows'
+WebUI.closeWindowIndex(1)
+
+'Switch Browser Windows'
+WebUI.switchToWindowIndex(0)
+
+'Scroll to Pagination Bar'
+WebUI.focus(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[2]']), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'Click Limit Page'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[2]/div[1]/button[1]']))
+
+'Click Page Limit to 10'
+WebUI.click(findTestObject('link_Content', [('href') : '#', ('text') : '10']))
+
+'Scroll to Pagination Bar'
+WebUI.focus(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[2]']), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'Click Limit Page'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[2]/div[1]/button[1]']))
+
+'Click Page Limit to 25'
+WebUI.click(findTestObject('link_Content', [('href') : '#', ('text') : '25']))
+
+'Scroll to Pagination Bar'
+WebUI.focus(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[2]']), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'Click Limit Page'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[2]/div[1]/button[1]']))
+
+'Click Page Limit to 50'
+WebUI.click(findTestObject('link_Content', [('href') : '#', ('text') : '50']))
+
+'Scroll to Pagination Bar'
+WebUI.focus(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[2]']), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'Click Limit Page'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[2]/div[1]/button[1]']))
+
+'Click Page Limit to 5'
+WebUI.click(findTestObject('link_Content', [('href') : '#', ('text') : '5']))
+
+'Scroll to Pagination Bar'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]/div[4]/div[2]/div[1]/div[1]']), 
+    10)
+
+'Click Next Page'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[2]/div[2]/button[5]']))
+
+'Scroll to Card Annual Report'
+WebUI.focus(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]']), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'Verify Card Annual Report is Present'
+WebUI.verifyElementPresent(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]']), 
+    10)
+
+'Scroll to Pagination Bar'
+WebUI.focus(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[2]']), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'Click Next Page'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[2]/div[2]/button[5]']))
+
+'Scroll to Card Annual Report'
+WebUI.focus(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]']), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'Verify Card Annual Report is Present'
+WebUI.verifyElementPresent(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]']), 
+    10)
+
+'Scroll to Pagination Bar'
+WebUI.focus(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[2]']), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'Click Next Page'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[2]/div[2]/button[5]']))
+
+'Scroll to Card Annual Report'
+WebUI.focus(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]']), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'Verify Card Annual Report is Present'
+WebUI.verifyElementPresent(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]']), 
+    10)
+
+'Scroll to Pagination Bar'
+WebUI.focus(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[2]']), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'Click Next Page'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[2]/div[2]/button[5]']))
+
+'Verify Card Annual Report is Present'
+WebUI.verifyElementPresent(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]']), 
+    10)
 

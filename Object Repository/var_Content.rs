@@ -6,16 +6,16 @@
    <elementGuidId>f8dde6dc-3aef-4441-98d6-27c35c63c2b0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/main/main/div[4]/div</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>id(&quot;__next&quot;)/main[@class=&quot;__className_4df22e&quot;]/main[@class=&quot;layout&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;justify-content-center d-flex align-items-stretch mb-5 col-lg-4 col-md-6 col-sm-12&quot;]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.justify-content-center.d-flex.align-items-stretch.mb-5.col-lg-4.col-md-6.col-sm-12</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/main/main/div[4]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

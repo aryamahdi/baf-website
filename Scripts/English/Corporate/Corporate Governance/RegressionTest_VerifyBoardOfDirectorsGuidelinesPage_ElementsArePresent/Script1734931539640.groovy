@@ -17,27 +17,47 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
+'Click Menu "Corporate"'
+WebUI.click(findTestObject('link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '#', ('text') : 'Corporate Governance']))
+'Click Menu "Investor Relations"'
+WebUI.click(findTestObject('link_Content', [('href') : '#', ('text') : 'Corporate Governance']))
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '/en/corporate/CorporateGovernance/BODGuidelines', ('text') : 'Board of Directors Guidelines']))
+'Click Menu "Board of Directors Guidelines"'
+WebUI.click(findTestObject('link_Content', [('href') : '/en/corporate/CorporateGovernance/BODGuidelines', ('text') : 'Board of Directors Guidelines']))
 
-WebUI.focus(findTestObject('General/lbl_Content', [('text') : 'PEDOMAN KERJA DIREKSI / BOD GUIDELINES']))
-
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'BOARD OF DIRECTORS GUIDELINES']), 10)
-
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'Dalam menjalankan peran dan fungsi pengawasan pada Perseroan, Direksi mengacu pada Anggaran Dasar, Pedoman Tata Kelola Perusahaan dan Pedoman Kerja Direksi. ']), 
+'Scroll to "BOARD OF DIRECTORS GUIDELINES" Text'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/ol[1]']), 
     10)
 
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'In carrying out managerial role and function in the Company, the Board of Directors refers to the Articles of Association, Good Corporate Governance Guideline and Board of Directors ‘s Charter. ']), 
+'Verify Text "BOARD OF DIRECTORS GUIDELINES" is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'BOARD OF DIRECTORS GUIDELINES']), 10)
+
+'Verify Description Text "BOARD OF DIRECTORS GUIDELINES" is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'Direksi Bussan Auto Finance bertanggung jawab atas pengelolaan operasional sehari-hari perusahaan dengan integritas, kehati-hatian, dan kepatuhan terhadap prinsip-prinsip Good Corporate Governance (GCG). Direksi terdiri dari individu yang memiliki pengalaman dan keahlian di bidang keuangan, manajemen risiko, dan industri keuangan secara umum. Tugas utama Direksi meliputi perumusan strategi perusahaan, implementasi kebijakan, dan pengambilan keputusan strategis yang mendukung pencapaian tujuan jangka panjang perusahaan. Direksi juga bertanggung jawab untuk mengelola risiko perusahaan dengan baik, memastikan kepatuhan terhadap regulasi yang berlaku, serta mempromosikan budaya perusahaan yang sehat dan berintegritas. Direksi harus menjaga komunikasi terbuka dan efektif dengan Dewan Komisaris, serta melaporkan secara berkala kinerja perusahaan kepada pemegang saham dan publik secara transparan.']), 
     10)
 
-WebUI.click(findTestObject('General/lbl_Content', [('text') : 'PEDOMAN KERJA DIREKSI / BOD GUIDELINES']))
+'Click First Button in Board of Directors Guidelines'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]']))
 
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718685799207.pdf'])
+'Verify Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718878606110.pdf'])
 
+'Close Browser Windows'
 WebUI.closeWindowIndex(1)
 
+'Switch Browser Windows'
+WebUI.switchToWindowIndex(0)
+
+'Click Second Button in Board of Directors Guidelines'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]']))
+
+'Verify Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718346043593.pdf'])
+
+'Close Browser Windows'
+WebUI.closeWindowIndex(1)
+
+'Switch Browser Windows'
 WebUI.switchToWindowIndex(0)
 

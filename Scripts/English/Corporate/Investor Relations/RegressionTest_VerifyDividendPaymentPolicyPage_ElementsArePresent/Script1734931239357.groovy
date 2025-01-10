@@ -17,31 +17,59 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('null'))
+'Click Menu "Corporate"'
+WebUI.click(findTestObject('link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
 
-WebUI.click(findTestObject('null'))
+'Click Menu "Investor Relations"'
+WebUI.click(findTestObject('link_Content', [('href') : '#', ('text') : 'Investor Relations']))
 
-WebUI.click(findTestObject('null'))
+'Click Menu "Dividend Payment Policy"'
+WebUI.click(findTestObject('link_Content', [('href') : '/en/corporate/InvestorRelations/DividentPolicy', ('text') : 'Dividend Payment Policy']))
 
-WebUI.focus(findTestObject('Investor Relation/Financial Statments/nav_Mid'))
+'Scroll to "DIVIDEND PAYMENT POLICY" Text'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/ol[1]']), 
+    10)
 
-WebUI.verifyTextPresent('DIVIDEND PAYMENT POLICY', true)
+'Verify Text "DIVIDEND PAYMENT POLICY" is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'DIVIDEND PAYMENT POLICY']), 10)
 
-WebUI.verifyTextPresent('Dalam rangka memastikan pelaksanaan prinsip Tata Kelola Perusahaan yang baik dalam hal pendistribusian dividen, Perseroan memiliki kebijakan pembayaran dividen yang tertuang dalam Anggaran Dasar Perseroan.', 
-    true)
+'Click First Button in Dividend Payment Policy'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]']))
 
-WebUI.verifyTextPresent('In order to ensure implementation of Good Corporate Governance principles in terms of dividend distribution, the Company has a dividend policy as stipulated in the Company’s Articles of Association.', 
-    true)
+'Verify Link Accessibility'
+WebUI.verifyLinksAccessible([''], FailureHandling.OPTIONAL)
 
-WebUI.focus(findTestObject('Investor Relation/Dividend Payment Policy/img_Divident Policy'))
-
-WebUI.click(findTestObject('Investor Relation/Dividend Payment Policy/button_KEBIJAKAN PEMBAYARAN DIVIDEN'))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718178324514.pdf'])
-
+'Close Browser Windows'
 WebUI.closeWindowIndex(1)
 
+'Switch Browser Windows'
 WebUI.switchToWindowIndex(0)
 
-WebUI.verifyElementPresent(findTestObject('Investor Relation/Dividend Payment Policy/img_Divident Policy'), 10)
+'Click Second Button in Dividend Payment Policy'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[2]']))
+
+'Verify Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718178324514.pdf'])
+
+'Close Browser Windows'
+WebUI.closeWindowIndex(1)
+
+'Switch Browser Windows'
+WebUI.switchToWindowIndex(0)
+
+'Click Third Button in Dividend Payment Policy'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[3]']))
+
+'Verify Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718178324514.pdf'])
+
+'Close Browser Windows'
+WebUI.closeWindowIndex(1)
+
+'Switch Browser Windows'
+WebUI.switchToWindowIndex(0)
+
+'Verify Image Table Dividend Payment Policy is Present'
+WebUI.verifyElementPresent(findTestObject('img_Content', [('src') : 'https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/banner/1713491017329.png']), 
+    10)
 

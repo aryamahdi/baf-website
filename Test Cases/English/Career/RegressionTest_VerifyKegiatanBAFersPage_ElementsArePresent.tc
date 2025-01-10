@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>RegressionTest_VerifyKegiatanBAFersPage_ElementsArePresent</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>94fc040d-09b6-41f3-89a5-7db34707d184</testCaseGuid>
-</TestCaseEntity>

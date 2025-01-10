@@ -28,11 +28,17 @@ class NewTestListener {
 		def timestamp = new Date().format('dd-MM-yyyy ss:mm:HH')
 		GlobalVariable.Timestamp = timestamp
 		
-		String currentTestCaseName = testCaseContext.getTestCaseId()
-		String targetTestCase = 'Test Cases/English/RegressionTest_VerifyOpenWebsite_HomePageLoadsSuccessfully'
-		if (currentTestCaseName != targetTestCase) {
-			WebUI.callTestCase(findTestCase('English/RegressionTest_VerifyOpenWebsite_HomePageLoadsSuccessfully'), [:], FailureHandling.STOP_ON_FAILURE)
-        }
+		'Open Browser'
+		WebUI.openBrowser('')
+		
+		'Maximize Window Browser'
+		WebUI.maximizeWindow()
+		
+		'Open BAF Website'
+		WebUI.navigateToUrl(GlobalVariable.URL)
+		
+		'Input Text "thisisunsafe" in Input Field'
+		WebUI.sendKeys(findTestObject(null), 'thisisunsafe', FailureHandling.OPTIONAL)
 		
 	}
 

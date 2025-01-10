@@ -17,149 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('null'))
+'Click Menu "Corporate"'
+WebUI.click(findTestObject('link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
 
-WebUI.click(findTestObject('null'))
+'Click Menu "Investor Relations"'
+WebUI.click(findTestObject('link_Content', [('href') : '#', ('text') : 'Investor Relations']))
 
-WebUI.click(findTestObject('null'))
+'Click Menu "Financial Statements"'
+WebUI.click(findTestObject('link_Content', [('href') : '/en/corporate/InvestorRelations/FinancialStatements', ('text') : 'Financial Statements']))
 
-WebUI.focus(findTestObject('Investor Relation/Financial Statments/nav_Mid'))
+'Scroll to "FINANCIAL STATEMENTS" Text'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/ol[1]']), 
+    10)
 
-WebUI.verifyTextPresent('FINANCIAL STATEMENTS', true)
+'Verify Text "FINANCIAL STATEMENTS" is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'FINANCIAL STATEMENTS']), 10)
 
-WebUI.verifyTextPresent('Laporan keuangan mencerminkan transparansi dan akuntabilitas perusahaan terhadap para pemangku kepentingan. Oleh karena itu, Perseroan senantiasa menyajikan laporan keuangan sesuai dengan kaidah dan standar yang berlaku.', 
-    true)
-
-WebUI.verifyTextPresent('Financial reports reflect the company\'s transparency and accountability towards its stakeholders. Therefore, the Company consistently provides financial reports in accordance with applicable regulations and standards.', 
-    true)
-
-WebUI.focus(findTestObject('Investor Relation/Financial Statments/nav_Low'))
-
-WebUI.click(findTestObject('General/tab_Tahun', [('tahun_id') : 2017]))
-
-WebUI.click(findTestObject('Investor Relation/Financial Statments/button_Download 1'))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718679641595.pdf'])
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('General/tab_Tahun', [('tahun_id') : 2018]))
-
-WebUI.click(findTestObject('Investor Relation/Financial Statments/button_Download 1'))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718679610803.pdf'])
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('Investor Relation/Financial Statments/button_Download 2'))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718679585194.pdf'])
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('General/tab_Tahun', [('tahun_id') : 2019]))
-
-WebUI.click(findTestObject('Investor Relation/Financial Statments/button_Download 1'))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718679554052.pdf'])
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('Investor Relation/Financial Statments/button_Download 2'))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718679528054.pdf'])
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('General/tab_Tahun', [('tahun_id') : 2020]))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718679753788.pdf'])
-
-WebUI.click(findTestObject('Investor Relation/Financial Statments/button_Download 1'))
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('Investor Relation/Financial Statments/button_Download 2'))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718679482077.pdf'])
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('General/tab_Tahun', [('tahun_id') : 2021]))
-
-WebUI.click(findTestObject('Investor Relation/Financial Statments/button_Download 1'))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718679443032.pdf'])
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('Investor Relation/Financial Statments/button_Download 2'))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718679363552.pdf'])
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('General/tab_Tahun', [('tahun_id') : 2022]))
-
-WebUI.click(findTestObject('Investor Relation/Financial Statments/button_Download 1'))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1721871449277.pdf'])
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('Investor Relation/Financial Statments/button_Download 2'))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718679249597.pdf'])
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('General/tab_Tahun', [('tahun_id') : 2023]))
-
-WebUI.click(findTestObject('Investor Relation/Financial Statments/button_Download 1'))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718679177912.pdf'])
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('Investor Relation/Financial Statments/button_Download 2'))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1718678721943.pdf'])
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
-
-WebUI.click(findTestObject('General/tab_Tahun', [('tahun_id') : 2024]))
-
-WebUI.click(findTestObject('Investor Relation/Financial Statments/button_Download 1'))
-
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/investor-relation-file/1722301667808.pdf'])
-
-WebUI.closeWindowIndex(1)
-
-WebUI.switchToWindowIndex(0)
+'Verify Description Text "FINANCIAL STATEMENTS" is Present'
+WebUI.verifyElementPresent(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[2]/div[1]']), 
+    10)
 

@@ -17,27 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
+'Click Menu "Corporate"'
+WebUI.click(findTestObject('link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '#', ('text') : 'Corporate Governance']))
+'Click Menu "Investor Relations"'
+WebUI.click(findTestObject('link_Content', [('href') : '#', ('text') : 'Corporate Governance']))
 
-WebUI.click(findTestObject('General/link_Content', [('href') : '/en/corporate/CorporateGovernance/GCGPolicy', ('text') : 'GCG Policy']))
+'Click Menu "GCG Policy"'
+WebUI.click(findTestObject('link_Content', [('href') : '/en/corporate/CorporateGovernance/GCGPolicy', ('text') : 'GCG Policy']))
 
-WebUI.focus(findTestObject('General/lbl_Content', [('text') : 'KEBIJAKAN GCG / GCG POLICY']))
-
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'GCG Policy']), 10)
-
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'Perseroan  meyakini bahwa penerapan prinsip-prinsip GCG bukan sekedar sebagai pemenuhan terhadap peraturan, melainkan ikut menentukan keberlangsungan Perseroan dalam jangka panjang. Oleh karena itu, Perseroan bertekad untuk terus menerapkan GCG sebagai sebuah standar yang bertujuan untuk meningkatkan citra, efisiensi, & efektivitas pengelolaan Perseroan secara berkesinambungan.']), 
+'Scroll to "GCG Policy" Text'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/ol[1]']), 
     10)
 
-WebUI.verifyElementPresent(findTestObject('General/lbl_Content', [('text') : 'The Company believes that the implementation of GCG principles is beyond compliance with the regulations, but also determines the Company’s long-term sustainability. Therefore, the Company is committed to maintain the GCG implementation as a standard that aims to improve the reputation, efficiency, & effectiveness of the Company’s management on an ongoing basis.']), 
-    10)
+'Verify Text "GCG Policy" is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'GCG Policy']), 10)
 
-WebUI.click(findTestObject('General/lbl_Content', [('text') : 'KEBIJAKAN GCG / GCG POLICY']))
+'Click First Button in GCG Policy'
+WebUI.click(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]']))
 
-WebUI.verifyLinksAccessible(['https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/About/CorporateGovernance/1718685687816.pdf'])
+'Verify Link Accessibility'
+WebUI.verifyLinksAccessible(['https://baf-mobile-dev.oss-ap-southeast-5.aliyuncs.com/About%2FCorporateGovernance%2F1621586949600.pdf?Expires=1736535171&OSSAccessKeyId=LTAI5t78APQ3CX3zFy4qKiTQ&Signature=fVvRbKeo7nBVWX15I2U4DzsZcTI%3D'])
 
+'Close Browser Windows'
 WebUI.closeWindowIndex(1)
 
+'Switch Browser Windows'
 WebUI.switchToWindowIndex(0)
 
