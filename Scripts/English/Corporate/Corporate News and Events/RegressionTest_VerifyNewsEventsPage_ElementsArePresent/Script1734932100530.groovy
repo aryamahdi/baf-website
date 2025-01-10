@@ -17,3 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Click Menu "Corporate"'
+WebUI.click(findTestObject('link_Content', [('href') : '/corporate', ('text') : 'Corporate']))
+
+'Click Menu "Corporate News and Events"'
+WebUI.click(findTestObject('link_Content', [('href') : '#', ('text') : 'Corporate News and Events']))
+
+'Click Menu "Library"'
+WebUI.click(findTestObject('link_Content', [('href') : '/en/corporate/CorporateNewsAndEvents/NewsAndEvents', ('text') : 'News & Events']))
+
+'Scroll to "NEWS & EVENTS" Text'
+WebUI.scrollToElement(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/ol[1]']), 
+    10)
+
+'Verify Text "NEWS & EVENTS" is Present'
+WebUI.verifyElementPresent(findTestObject('lbl_Content', [('text') : 'NEWS & EVENTS']), 10)
+
+'Verify Card "NEWS & EVENTS" is Present'
+WebUI.verifyElementPresent(findTestObject('var_Content', [('xpath') : '//body[1]/div[1]/main[1]/main[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]']), 
+    10)
+
