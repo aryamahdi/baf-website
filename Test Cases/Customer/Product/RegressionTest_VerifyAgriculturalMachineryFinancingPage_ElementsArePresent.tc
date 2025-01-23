@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RegressionTest_VerifyAgriculturalMachineryFinancingPage_ElementsArePresent</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ba1d22f3-40fa-4586-9944-cdf4ea8ab4f0</testCaseGuid>
+</TestCaseEntity>

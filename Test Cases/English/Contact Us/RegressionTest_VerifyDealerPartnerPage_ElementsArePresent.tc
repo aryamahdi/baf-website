@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>RegressionTest_VerifyDealerPartnerPage_ElementsArePresent</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>f1193b06-e519-4e5e-a8ec-946ebf6f525c</testCaseGuid>
-</TestCaseEntity>

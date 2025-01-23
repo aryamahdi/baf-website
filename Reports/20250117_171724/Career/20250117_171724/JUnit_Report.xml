@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Career" time="81.904" tests="1" failures="0" errors="0">
+   <testsuite name="Career" tests="1" failures="0" errors="0" time="81.904" skipped="0" timestamp="17-01-2025T17:17:34" hostname="P251224001 - BAF0120161599V.bussan.co.id" id="Test Suites/Career">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\P251224001\\git\\BAF-website\\Reports\\20250117_171724\\Career\\20250117_171724"/>
+         <property name="logFiles" value="C:\\Users\\P251224001\\git\\BAF-website\\Reports\\20250117_171724\\Career\\20250117_171724\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="P251224001 - BAF0120161599V.bussan.co.id"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="10.1.214.138"/>
+         <property name="sessionId" value="ad9dfb1a0f2bae3a2a6850751969cd82"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/RegressionTest_VerifyCareerPage_ElementsArePresent" time="69.177" classname="Test Cases/RegressionTest_VerifyCareerPage_ElementsArePresent" status="PASSED">
+         <system-out><![CDATA[17-01-2025T17:17:46 - [TEST_CASE][PASSED] - Test Cases/RegressionTest_VerifyCareerPage_ElementsArePresent: Test Cases/RegressionTest_VerifyCareerPage_ElementsArePresent
+
+17-01-2025T17:17:46 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+17-01-2025T17:17:47 - [TEST_STEP][PASSED] - click(findTestObject("link_Content", ["href":"/career", "text":"Career"])): Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:17:49 - [MESSAGE][PASSED] - Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:17:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"GAPAILAH MIMPIMU"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:02 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Bersama BAF"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:03 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:03 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[2]/div[1]/p[1]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:18:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:18:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Kata #BAFers"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:04 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[2]/div[2]/ul[1]/li[1]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:18:04 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:18:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[2]/div[2]/ul[1]/li[2]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:18:04 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:18:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[2]/div[2]/ul[1]/li[3]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:18:05 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:18:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[1]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:18:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:18:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[3]/div[1]/div[1]/img[1]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:18:05 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:18:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Hari Kartini di BAF"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:06 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:06 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/div[1]/button[2]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[4]/div[1]/div[1]/img[1]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:18:06 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:18:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Ruang kerja berkonsep terbuka meningkatkan kolaborasi dan interaksi"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:07 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:07 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/div[1]/button[2]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[5]/div[1]/div[1]/img[1]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:18:07 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:18:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Kegiatan HUT BAF ke 25 Tahun"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:08 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:08 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/div[1]/button[2]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:08 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/img[1]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:18:08 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:18:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Kompetisi UMKM"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:09 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:09 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/div[1]/button[2]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:09 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[7]/div[1]/div[1]/img[1]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:18:09 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:18:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Pojok Kayuh"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:09 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:09 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/div[1]/button[2]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:10 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[8]/div[1]/div[1]/img[1]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:18:10 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:18:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Senam BAF agar BAFers selalu fit"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:10 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:10 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[4]/div[1]/div[1]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:18:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:18:11 - [TEST_STEP][PASSED] - mouseOver(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[4]/div[1]/div[2]/div[1]"]), STOP_ON_FAILURE): Object: 'Object Repository/var_Content' is hovered
+
+17-01-2025T17:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is hovered
+
+17-01-2025T17:18:11 - [TEST_STEP][PASSED] - mouseOver(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[4]/div[1]/div[2]/div[2]"]), STOP_ON_FAILURE): Object: 'Object Repository/var_Content' is hovered
+
+17-01-2025T17:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is hovered
+
+17-01-2025T17:18:12 - [TEST_STEP][PASSED] - mouseOver(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[4]/div[1]/div[2]/div[3]"]), STOP_ON_FAILURE): Object: 'Object Repository/var_Content' is hovered
+
+17-01-2025T17:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is hovered
+
+17-01-2025T17:18:12 - [TEST_STEP][PASSED] - mouseOver(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[4]/div[1]/div[2]/div[4]"]), STOP_ON_FAILURE): Object: 'Object Repository/var_Content' is hovered
+
+17-01-2025T17:18:13 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is hovered
+
+17-01-2025T17:18:13 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[5]/div[1]/div[1]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:18:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:18:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("img_Content", ["src":"/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fcareer%2Fdev-program-pict-new.webp&w=3840&q=75"]), 10): Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:18:13 - [MESSAGE][PASSED] - Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:18:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("img_Content", ["src":"/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fcareer%2Fentry-level-pict-new.webp&w=3840&q=75"]), 10): Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:18:16 - [MESSAGE][PASSED] - Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:18:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("img_Content", ["src":"/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fcareer%2Fexperienced-pict-new.webp&w=3840&q=75"]), 10): Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:18:16 - [MESSAGE][PASSED] - Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:18:16 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[5]/div[1]/div[2]/div[1]/div[1]/button[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:17 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Technology Associate Program"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:18 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Technology Associate Program (TAP) merupakan program pengembangan yang dilakukan untuk mempersiapkan para lulusan muda yang memiliki latar belakang IT dan Digital. Para peserta diberikan kesempatan untuk mempelajari hal baru dalam lingkup sektor pembiayaan. Melalui pelatihan intensif, On Job Training dan mentoring selama 12 bulan. Diharapkan dapat menghasilkan pemimpin muda yang berkualitas dan berkontribusi untuk memajukan perusahaan, khususnya dalam bidang IT dan Digital."]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:18 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Periode : 12 Bulan"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:18 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Penempatan : Kantor Pusat"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:19 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:19 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:19 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Management Development Program"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:19 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Management Development Program (MDP) merupakan program pengembangan yang dilakukan untuk mempersiapkan para lulusan muda menjadi calon pemimpin di BAF. Program ini ditujukan untuk calon pemimpin di Kantor Jaringan. Para peserta diberikan kesempatan untuk mempelajari hal baru dalam lingkup sektor pembiayaan. Melalui pelatihan intensif, On Job Training dan mentoring selama 18 bulan. Diharapkan dapat menghasilkan pemimpin muda yang berkualitas dan berkontribusi untuk memajukan perusahaan."]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:19 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Periode : 18 Bulan"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:20 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Penempatan : Kantor Pusat dan Kantor Jaringan"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:20 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:20 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Corporate Development Program"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:21 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Corporate Development Program (CDP) merupakan program pengembangan yang dilakukan untuk mempersiapkan para lulusan muda menjadi calon pemimpin di BAF. Program ini ditujukan untuk calon pemimpin di Kantor Jaringan. Para peserta diberikan kesempatan untuk mempelajari hal baru dalam lingkup sektor pembiayaan. Melalui pelatihan intensif, On Job Training dan mentoring selama 18 bulan. Diharapkan dapat menghasilkan pemimpin muda yang berkualitas dan berkontribusi untuk memajukan perusahaan."]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:21 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Periode : 18 Bulan"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:21 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Penempatan : Kantor Pusat"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:22 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:22 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[1]/section[1]/div[1]/button[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:22 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[5]/div[1]/div[2]/div[2]/div[1]/button[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:34 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Entry Level"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:35 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"BAF memberikan kesempatan untuk talenta muda dapat mengembangkan awal karier mereka melalui posisi staf dan magang. Pada posisi ini BAFers diberikan kesempatan untuk menambah pengalaman dalam dunia kerja, mengasah kemampuan sehingga menjadi pekerja yang berkompeten."]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:35 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:35 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[1]/section[1]/div[1]/button[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:35 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[5]/div[1]/div[2]/div[3]/div[1]/button[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:36 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Experienced"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:36 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"BAF mengajak para profesional yang berbakat dan berpengalaman agar bergabung menjadi BAFers dalam berkarier dan berkontribusi melalui pengalaman serta skill yang dimiliki."]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:37 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:18:37 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[1]/section[1]/div[1]/button[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:38 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:38 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[5]/div[1]/section[1]/button[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:52 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:18:52 - [TEST_STEP][PASSED] - verifyLinksAccessible(["https://id.jobstreet.com/jobs?cid=company-profile&companyid=443452"]): All links are accessible
+
+17-01-2025T17:18:55 - [MESSAGE][INFO] - HAR: C:\Users\P251224001\git\BAF-website\Reports\20250117_171724\Career\20250117_171724\requests\main\0.har
+
+17-01-2025T17:18:55 - [MESSAGE][PASSED] - Send request successfully
+
+17-01-2025T17:18:55 - [MESSAGE][PASSED] - All links are accessible
+
+17-01-2025T17:18:55 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-01-2025T17:17:34 - [TEST_SUITE][PASSED] - Career: Test Cases/RegressionTest_VerifyCareerPage_ElementsArePresent]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//iframe[@id = 'viewer' and @src = 'https://whistleblowing.baf.id/' and @title = 'Whistleblowing']</value>
+         <value>//iframe[@id = 'viewer' and @src = '${src}' and @title = '${tittle}']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>iframe</value>
-      <webElementGuid>062d7248-1c8c-431b-9bf2-dbe3c6adec34</webElementGuid>
+      <webElementGuid>9fcc7887-94ff-4b79-ad0c-f47f1fc3a53e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>viewer</value>
-      <webElementGuid>42d05cb8-0dff-4795-8097-1795f9ff7c12</webElementGuid>
+      <webElementGuid>a86e6369-4727-4fb5-a203-518c0feba46a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>border-0</value>
-      <webElementGuid>f2627812-b388-423f-83d7-e31ffae1dadb</webElementGuid>
+      <webElementGuid>98f16f36-f0b0-4868-9b94-59fae6b55946</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>height</name>
       <type>Main</type>
       <value>800</value>
-      <webElementGuid>5d1ff420-cc8e-4849-94a1-e695a411b36f</webElementGuid>
+      <webElementGuid>9ce128bd-58e2-4726-b99c-888667156b56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,23 +65,23 @@
       <name>width</name>
       <type>Main</type>
       <value>100%</value>
-      <webElementGuid>d9f75f4a-20aa-487e-b7b6-d336f40aa8c6</webElementGuid>
+      <webElementGuid>74098ac1-2e41-47e8-b2ea-3a958eade215</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>https://whistleblowing.baf.id/</value>
-      <webElementGuid>1df37235-8026-4138-8582-1a3e293689e1</webElementGuid>
+      <value>${src}</value>
+      <webElementGuid>80fabc50-1fdb-403c-8c2c-3fdd3179f67c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Whistleblowing</value>
-      <webElementGuid>de04d3be-1bae-4b5f-a38d-e56a355a7f44</webElementGuid>
+      <value>${tittle}</value>
+      <webElementGuid>92de9aff-999e-4bd6-8ad5-8c52da7180ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;viewer&quot;)</value>
-      <webElementGuid>5b5699ed-6b97-4832-af96-acb19bc80d99</webElementGuid>
+      <webElementGuid>b58ff12b-0d2b-4b21-84d5-5c4ebd918466</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//iframe[@id='viewer']</value>
-      <webElementGuid>6976102a-cd7d-485e-b99e-4c746d6f5a5b</webElementGuid>
+      <webElementGuid>6a7b995c-f275-43b8-b2a8-8a8fc4a73680</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/main/main/div[2]/iframe</value>
-      <webElementGuid>39849d8f-1f78-4223-9806-19624f3546cc</webElementGuid>
+      <webElementGuid>6eff690b-e593-4b0f-a864-5f61d09ce169</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//iframe</value>
-      <webElementGuid>ab4e6472-c553-44b9-8470-6a202961232b</webElementGuid>
+      <webElementGuid>8a7db107-8750-4bee-ba44-d652ec1f7ae0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//iframe[@id = 'viewer' and @src = 'https://whistleblowing.baf.id/' and @title = 'Whistleblowing']</value>
-      <webElementGuid>21947d80-97fc-471b-9b57-5e86353a44be</webElementGuid>
+      <webElementGuid>b36f626c-9a12-4de1-86d0-b7e6a7fa9a55</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>RegressionTest_VerifyRegistrationPage_ElementsArePresent</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>e58c5d8b-8f5a-4f38-890d-d99e17115f4d</testCaseGuid>
-</TestCaseEntity>

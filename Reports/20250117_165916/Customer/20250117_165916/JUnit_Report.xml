@@ -1,0 +1,1831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Customer" time="276.488" tests="11" failures="0" errors="0">
+   <testsuite name="Customer" tests="11" failures="0" errors="0" time="276.488" skipped="0" timestamp="17-01-2025T16:59:22" hostname="P251224001 - BAF0120161599V.bussan.co.id" id="Test Suites/Customer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\P251224001\\git\\BAF-website\\Reports\\20250117_165916\\Customer\\20250117_165916"/>
+         <property name="logFiles" value="C:\\Users\\P251224001\\git\\BAF-website\\Reports\\20250117_165916\\Customer\\20250117_165916\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="P251224001 - BAF0120161599V.bussan.co.id"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="10.1.214.138"/>
+         <property name="sessionId" value="fbb8833eb1ba532354afa8f3203de7f4"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Customer/RegressionTest_VerifyCustomerPage_ElementsArePresent" time="13.745" classname="Test Cases/Customer/RegressionTest_VerifyCustomerPage_ElementsArePresent" status="PASSED">
+         <system-out><![CDATA[17-01-2025T16:59:32 - [TEST_CASE][PASSED] - Test Cases/Customer/RegressionTest_VerifyCustomerPage_ElementsArePresent: Test Cases/Customer/RegressionTest_VerifyCustomerPage_ElementsArePresent
+
+17-01-2025T16:59:32 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+17-01-2025T16:59:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("img_Content", ["src":"/static/images/logos/baf.svg"]), 10): Object 'Object Repository/img_Content' is present
+
+17-01-2025T16:59:33 - [MESSAGE][PASSED] - Object 'Object Repository/img_Content' is present
+
+17-01-2025T16:59:33 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[1]/button[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T16:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T16:59:34 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/a[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T16:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T16:59:34 - [TEST_STEP][PASSED] - verifyLinksAccessible(["https://api.whatsapp.com/send/?phone=628118018873&text&type=phone_number&app_absent=0"]): All links are accessible
+
+17-01-2025T16:59:38 - [MESSAGE][INFO] - HAR: C:\Users\P251224001\git\BAF-website\Reports\20250117_165916\Customer\20250117_165916\requests\main\0.har
+
+17-01-2025T16:59:38 - [MESSAGE][PASSED] - Send request successfully
+
+17-01-2025T16:59:38 - [MESSAGE][PASSED] - All links are accessible
+
+17-01-2025T16:59:38 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+17-01-2025T16:59:38 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+17-01-2025T16:59:38 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+17-01-2025T16:59:38 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+17-01-2025T16:59:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"FAST PROCESS, RIGHT INSTALLMENT!"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T16:59:38 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T16:59:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"PROMOS AND LATEST NEWS"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T16:59:39 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T16:59:39 - [TEST_STEP][PASSED] - focus(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[4]/div[5]"])): Object: 'Object Repository/var_Content' is focused
+
+17-01-2025T16:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is focused
+
+17-01-2025T16:59:40 - [TEST_STEP][PASSED] - focus(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is focused
+
+17-01-2025T16:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is focused
+
+17-01-2025T16:59:40 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/button[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T16:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T16:59:40 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[2]/button[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T16:59:41 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T16:59:41 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[3]/button[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T16:59:42 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T16:59:42 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[4]/button[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T16:59:43 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T16:59:43 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[5]/button[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T16:59:44 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T16:59:44 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[2]/a[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T16:59:45 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T16:59:45 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[6]/button[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T16:59:45 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T16:59:45 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer/Product/RegressionTest_VerifyAgriculturalMachineryFinancingPage_ElementsArePresent" time="27.94" classname="Test Cases/Customer/Product/RegressionTest_VerifyAgriculturalMachineryFinancingPage_ElementsArePresent" status="PASSED">
+         <system-out><![CDATA[17-01-2025T16:59:46 - [TEST_CASE][PASSED] - Test Cases/Customer/Product/RegressionTest_VerifyAgriculturalMachineryFinancingPage_ElementsArePresent: Test Cases/Customer/Product/RegressionTest_VerifyAgriculturalMachineryFinancingPage_ElementsArePresent
+
+17-01-2025T16:59:46 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+17-01-2025T16:59:46 - [TEST_STEP][PASSED] - click(findTestObject("link_Content", ["href":"#", "text":"Product"])): Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T16:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T16:59:46 - [TEST_STEP][PASSED] - click(findTestObject("link_Content", ["href":"/product/MesinPertanian", "text":"Agricultural Machinery Financing"])): Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T16:59:48 - [MESSAGE][PASSED] - Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T16:59:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Agricultural Machinery Financing"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T16:59:50 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T16:59:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T16:59:50 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T16:59:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Check estimated monthly installments for Agricultural Machinery Financing, Simulation Here!"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T16:59:51 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T16:59:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[2]/h3[1]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T16:59:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T16:59:51 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("70 VW", ENTER)): Text 'ENTER + 70 VW' is set on object 'Object Repository/var_Content'
+
+17-01-2025T16:59:52 - [MESSAGE][PASSED] - Text 'ENTER + 70 VW' is set on object 'Object Repository/var_Content'
+
+17-01-2025T16:59:52 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("Yanmar", ENTER)): Text 'ENTER + Yanmar' is set on object 'Object Repository/var_Content'
+
+17-01-2025T16:59:53 - [MESSAGE][PASSED] - Text 'ENTER + Yanmar' is set on object 'Object Repository/var_Content'
+
+17-01-2025T16:59:53 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("Palembang", ENTER)): Text 'ENTER + Palembang' is set on object 'Object Repository/var_Content'
+
+17-01-2025T16:59:54 - [MESSAGE][PASSED] - Text 'ENTER + Palembang' is set on object 'Object Repository/var_Content'
+
+17-01-2025T16:59:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Success"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T16:59:56 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T16:59:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Successfully Retrieved OTR Price Data"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T16:59:56 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T16:59:56 - [TEST_STEP][PASSED] - click(findTestObject("lbl_Content", ["text":"OK"])): Object: 'Object Repository/lbl_Content' is clicked on
+
+17-01-2025T16:59:56 - [MESSAGE][PASSED] - Object: 'Object Repository/lbl_Content' is clicked on
+
+17-01-2025T16:59:56 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("25", ENTER)): Text 'ENTER + 25' is set on object 'Object Repository/var_Content'
+
+17-01-2025T16:59:57 - [MESSAGE][PASSED] - Text 'ENTER + 25' is set on object 'Object Repository/var_Content'
+
+17-01-2025T16:59:57 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[5]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("30%", ENTER)): Text 'ENTER + 30%' is set on object 'Object Repository/var_Content'
+
+17-01-2025T16:59:59 - [MESSAGE][PASSED] - Text 'ENTER + 30%' is set on object 'Object Repository/var_Content'
+
+17-01-2025T16:59:59 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/label[1]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T16:59:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T16:59:59 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[7]/button[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Success"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:01 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Successfully Retrieved Installment Data"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:01 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:01 - [TEST_STEP][PASSED] - click(findTestObject("lbl_Content", ["text":"OK"])): Object: 'Object Repository/lbl_Content' is clicked on
+
+17-01-2025T17:00:02 - [MESSAGE][PASSED] - Object: 'Object Repository/lbl_Content' is clicked on
+
+17-01-2025T17:00:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Your Monthly Installment Estimation"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:02 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"19.145.864"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:02 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"165.000.000.00"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:03 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:03 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/form[1]/div[7]/button[1]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[3]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:03 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[4]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:03 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:03 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[4]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:04 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:04 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:05 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:05 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:05 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:05 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:06 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:07 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:07 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:07 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:07 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:08 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:08 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:09 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:10 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:10 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:10 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:11 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:11 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:11 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:11 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:12 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:12 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:12 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:12 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:13 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:13 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer/Product/RegressionTest_VerifyBAFDanaSyariahPage_ElementsArePresent" time="20.818" classname="Test Cases/Customer/Product/RegressionTest_VerifyBAFDanaSyariahPage_ElementsArePresent" status="PASSED">
+         <system-out><![CDATA[17-01-2025T17:00:13 - [TEST_CASE][PASSED] - Test Cases/Customer/Product/RegressionTest_VerifyBAFDanaSyariahPage_ElementsArePresent: Test Cases/Customer/Product/RegressionTest_VerifyBAFDanaSyariahPage_ElementsArePresent
+
+17-01-2025T17:00:13 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+17-01-2025T17:00:14 - [TEST_STEP][PASSED] - click(findTestObject("link_Content", ["href":"#", "text":"Product"])): Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:00:14 - [MESSAGE][PASSED] - Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:00:14 - [TEST_STEP][PASSED] - click(findTestObject("link_Content", ["href":"/product/DanaSyariah", "text":"BAF Dana Syariah"])): Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:00:15 - [MESSAGE][PASSED] - Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:00:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"BAF Dana Syariah"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:16 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:16 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Check estimated monthly installments for BAF Dana Syariah, Simulation Here!"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:17 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:17 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:17 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:17 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:17 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[2]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:18 - [TEST_STEP][PASSED] - focus(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[4]"]), STOP_ON_FAILURE): Object: 'Object Repository/var_Content' is focused
+
+17-01-2025T17:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is focused
+
+17-01-2025T17:00:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[3]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:19 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[4]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:19 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:19 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[4]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:19 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:19 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:19 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:20 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:20 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:21 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:21 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:21 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:21 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:22 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:22 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:23 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:23 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:24 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:24 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:24 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:24 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:25 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:25 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:26 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:26 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:26 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:26 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:27 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:27 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:27 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:28 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:28 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:28 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:28 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:29 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:29 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:30 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[10]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:31 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[10]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:31 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:32 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[11]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:32 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:32 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[11]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:33 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[12]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:33 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[12]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:34 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:34 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer/Product/RegressionTest_VerifyCarFinancingPage_ElementsArePresent" time="22.872" classname="Test Cases/Customer/Product/RegressionTest_VerifyCarFinancingPage_ElementsArePresent" status="PASSED">
+         <system-out><![CDATA[17-01-2025T17:00:34 - [TEST_CASE][PASSED] - Test Cases/Customer/Product/RegressionTest_VerifyCarFinancingPage_ElementsArePresent: Test Cases/Customer/Product/RegressionTest_VerifyCarFinancingPage_ElementsArePresent
+
+17-01-2025T17:00:34 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+17-01-2025T17:00:34 - [TEST_STEP][PASSED] - click(findTestObject("link_Content", ["href":"#", "text":"Product"])): Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:00:35 - [TEST_STEP][PASSED] - click(findTestObject("link_Content", ["href":"/product/Mobil", "text":"Car Financing"])): Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:00:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Car Financing"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:38 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[2]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:38 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Check estimated monthly installments for Car Financing, Simulation Here!"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:39 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]/h3[1]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:39 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/input[1]"]), Keys.chord("100000000", ENTER)): Text 'ENTER + 100000000' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:00:40 - [MESSAGE][PASSED] - Text 'ENTER + 100000000' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:00:40 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]"]), STOP_ON_FAILURE): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:40 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:40 - [TEST_STEP][PASSED] - click(findTestObject("lbl_Content", ["text":"JABODETABEKJABAR"]), STOP_ON_FAILURE): Object: 'Object Repository/lbl_Content' is clicked on
+
+17-01-2025T17:00:42 - [MESSAGE][PASSED] - Object: 'Object Repository/lbl_Content' is clicked on
+
+17-01-2025T17:00:42 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("12", ENTER)): Text 'ENTER + 12' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:00:43 - [MESSAGE][PASSED] - Text 'ENTER + 12' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:00:43 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("20%", ENTER)): Text 'ENTER + 20%' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:00:44 - [MESSAGE][PASSED] - Text 'ENTER + 20%' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:00:44 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[4]/button[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:44 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Success"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:45 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Successfully Retrieved Installment Data"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:46 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:46 - [TEST_STEP][PASSED] - click(findTestObject("lbl_Content", ["text":"OK"])): Object: 'Object Repository/lbl_Content' is clicked on
+
+17-01-2025T17:00:46 - [MESSAGE][PASSED] - Object: 'Object Repository/lbl_Content' is clicked on
+
+17-01-2025T17:00:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Your Monthly Installment Estimation"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:46 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"7.889.000"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:47 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"20.000.000.00"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:47 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:00:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[4]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[3]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:48 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[4]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:48 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:48 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[4]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:48 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:48 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:49 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:49 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:50 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:51 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:51 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:52 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:52 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:53 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:53 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:54 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:54 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:55 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:55 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:00:56 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:56 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:56 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:57 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:00:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:57 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:00:57 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer/Product/RegressionTest_VerifyElectronicGadgetFurnitureFinancingPage_ElementsArePresent" time="25.048" classname="Test Cases/Customer/Product/RegressionTest_VerifyElectronicGadgetFurnitureFinancingPage_ElementsArePresent" status="PASSED">
+         <system-out><![CDATA[17-01-2025T17:00:57 - [TEST_CASE][PASSED] - Test Cases/Customer/Product/RegressionTest_VerifyElectronicGadgetFurnitureFinancingPage_ElementsArePresent: Test Cases/Customer/Product/RegressionTest_VerifyElectronicGadgetFurnitureFinancingPage_ElementsArePresent
+
+17-01-2025T17:00:57 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+17-01-2025T17:00:57 - [TEST_STEP][PASSED] - click(findTestObject("link_Content", ["href":"#", "text":"Product"])): Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:00:58 - [TEST_STEP][PASSED] - click(findTestObject("link_Content", ["href":"/product/Multiproduk", "text":"Electronic, Gadget, & Furniture Financing"])): Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:00:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Electronic, Gadget, & Furnitur"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:00 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[2]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:01:01 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:01:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Check estimated monthly installments for Electronic, Gadget, & Furnitur, Simulation Here!"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:01 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:01 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:01:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:01:01 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("CCTV", ENTER)): Text 'ENTER + CCTV' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:01:02 - [MESSAGE][PASSED] - Text 'ENTER + CCTV' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:01:02 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("AVTECH", ENTER)): Text 'ENTER + AVTECH' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:01:03 - [MESSAGE][PASSED] - Text 'ENTER + AVTECH' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:01:03 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[3]/input[1]"]), Keys.chord("2000000", ENTER)): Text 'ENTER + 2000000' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:01:04 - [MESSAGE][PASSED] - Text 'ENTER + 2000000' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:01:04 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[4]/button[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:05 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Success"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:06 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Successfully Retrieved Tenor and DP Option"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:06 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:06 - [TEST_STEP][PASSED] - click(findTestObject("lbl_Content", ["text":"OK"])): Object: 'Object Repository/lbl_Content' is clicked on
+
+17-01-2025T17:01:06 - [MESSAGE][PASSED] - Object: 'Object Repository/lbl_Content' is clicked on
+
+17-01-2025T17:01:06 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("5 Bulan", ENTER)): Text 'ENTER + 5 Bulan' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:01:07 - [MESSAGE][PASSED] - Text 'ENTER + 5 Bulan' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:01:07 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[5]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("5%", ENTER)): Text 'ENTER + 5%' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:01:08 - [MESSAGE][PASSED] - Text 'ENTER + 5%' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:01:08 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[6]/button[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Success"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:10 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Successfully Retrieved Installment Data"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:10 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:10 - [TEST_STEP][PASSED] - click(findTestObject("lbl_Content", ["text":"OK"])): Object: 'Object Repository/lbl_Content' is clicked on
+
+17-01-2025T17:01:11 - [MESSAGE][PASSED] - Object: 'Object Repository/lbl_Content' is clicked on
+
+17-01-2025T17:01:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Your Monthly Installment Estimation"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:11 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"491.000"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:11 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"100.000"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:11 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:11 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/button[1]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:01:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:01:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[3]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:01:12 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:01:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[4]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:01:12 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:01:12 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[4]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:01:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:01:12 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:13 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:13 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:14 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:01:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:01:15 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:15 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:16 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:17 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:17 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:18 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:18 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:19 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:20 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:20 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:01:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:01:20 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:20 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:20 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:21 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:22 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:22 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer/Product/RegressionTest_VerifyFleetFinancingPage_ElementsArePresent" time="55.856" classname="Test Cases/Customer/Product/RegressionTest_VerifyFleetFinancingPage_ElementsArePresent" status="PASSED">
+         <system-out><![CDATA[17-01-2025T17:01:22 - [TEST_CASE][PASSED] - Test Cases/Customer/Product/RegressionTest_VerifyFleetFinancingPage_ElementsArePresent: Test Cases/Customer/Product/RegressionTest_VerifyFleetFinancingPage_ElementsArePresent
+
+17-01-2025T17:01:22 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+17-01-2025T17:01:22 - [TEST_STEP][PASSED] - click(findTestObject("link_Content", ["href":"#", "text":"Product"])): Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:01:23 - [MESSAGE][PASSED] - Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:01:23 - [TEST_STEP][PASSED] - click(findTestObject("link_Content", ["href":"/product/PembiayaanFleet", "text":"Fleet Financing"])): Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:01:23 - [MESSAGE][PASSED] - Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:01:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Fleet Financing"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:25 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:01:26 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:01:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"FINANCING FLOW"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:26 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:01:26 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:01:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:01:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[3]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:01:26 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:01:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[4]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:01:27 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:01:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[4]/div[1]/div[1]/div[1]/div[1]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:01:27 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:01:27 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:27 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:28 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:28 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:54 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:54 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:55 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:55 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:01:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:01:55 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:55 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:55 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:56 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:56 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:57 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:57 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:58 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:58 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:59 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:01:59 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:00 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:00 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:00 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:00 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:01 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:01 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:02 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:02 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:03 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:03 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:03 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:03 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[10]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:04 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:04 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[10]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:04 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:04 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:05 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[11]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:05 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:05 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[11]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:06 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[12]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:06 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[12]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:07 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[13]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:07 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[13]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:08 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:08 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[14]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:09 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[14]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:09 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[13]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:10 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[15]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:10 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:10 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[15]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:11 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:11 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[16]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:11 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:11 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[16]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:12 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:12 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[17]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:12 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:12 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[17]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:13 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[18]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:14 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[18]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:14 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[17]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:15 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[19]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:15 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[19]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:16 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:16 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[20]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:16 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:16 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[20]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:17 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[21]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:17 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[21]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:18 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer/Product/RegressionTest_VerifyUsedMotorcycleFinancingPage_ElementsArePresent" time="22.971" classname="Test Cases/Customer/Product/RegressionTest_VerifyUsedMotorcycleFinancingPage_ElementsArePresent" status="PASSED">
+         <system-out><![CDATA[17-01-2025T17:02:18 - [TEST_CASE][PASSED] - Test Cases/Customer/Product/RegressionTest_VerifyUsedMotorcycleFinancingPage_ElementsArePresent: Test Cases/Customer/Product/RegressionTest_VerifyUsedMotorcycleFinancingPage_ElementsArePresent
+
+17-01-2025T17:02:18 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+17-01-2025T17:02:18 - [TEST_STEP][PASSED] - click(findTestObject("link_Content", ["href":"#", "text":"Product"])): Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:02:19 - [MESSAGE][PASSED] - Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:02:19 - [TEST_STEP][PASSED] - click(findTestObject("link_Content", ["href":"/product/MotorBekas", "text":"Used Motorcycle Financing"])): Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:02:20 - [MESSAGE][PASSED] - Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:02:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Used Motorcycle Financing"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:21 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[2]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:02:21 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:02:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Check estimated monthly installments for Used Motorcycle Financing, Simulation Here!"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:21 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:21 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:21 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("GSX", ENTER)): Text 'ENTER + GSX' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:22 - [MESSAGE][PASSED] - Text 'ENTER + GSX' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:22 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("AEROX 155 GP", ENTER)): Text 'ENTER + AEROX 155 GP' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:23 - [MESSAGE][PASSED] - Text 'ENTER + AEROX 155 GP' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:23 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("2020", ENTER)): Text 'ENTER + 2020' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:24 - [MESSAGE][PASSED] - Text 'ENTER + 2020' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:24 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[4]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("BANDUNG, KARAWANG, SUKABUMI, KARAWANG, MAJALENGKA", ENTER)): Text 'ENTER + BANDUNG, KARAWANG, SUKABUMI, KARAWANG, MAJALENGKA' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:25 - [MESSAGE][PASSED] - Text 'ENTER + BANDUNG, KARAWANG, SUKABUMI, KARAWANG, MAJALENGKA' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Success"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:26 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Successfully Retrieved OTR Price Data"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:26 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:26 - [TEST_STEP][PASSED] - click(findTestObject("lbl_Content", ["text":"OK"])): Object: 'Object Repository/lbl_Content' is clicked on
+
+17-01-2025T17:02:26 - [MESSAGE][PASSED] - Object: 'Object Repository/lbl_Content' is clicked on
+
+17-01-2025T17:02:26 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("11", ENTER)): Text 'ENTER + 11' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:27 - [MESSAGE][PASSED] - Text 'ENTER + 11' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:27 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[6]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("15%", ENTER)): Text 'ENTER + 15%' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:28 - [MESSAGE][PASSED] - Text 'ENTER + 15%' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:29 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[8]/button[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Success"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:30 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Successfully Retrieved Installment Data"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:30 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:30 - [TEST_STEP][PASSED] - click(findTestObject("lbl_Content", ["text":"OK"])): Object: 'Object Repository/lbl_Content' is clicked on
+
+17-01-2025T17:02:30 - [MESSAGE][PASSED] - Object: 'Object Repository/lbl_Content' is clicked on
+
+17-01-2025T17:02:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Your Monthly Installment Estimation"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:30 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"5.891.000"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:31 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"3.450.000.00"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:31 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:31 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[8]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[3]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:02:32 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:02:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[4]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:02:32 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:02:32 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[4]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:32 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:33 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:33 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:33 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:33 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:34 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:34 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:34 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:34 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:35 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:35 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:35 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:36 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:36 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:36 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:36 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:37 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:37 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:37 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:37 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:38 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:38 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:39 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:39 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:39 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:39 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:40 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:40 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:40 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:41 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:02:41 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:02:41 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer/Product/RegressionTest_VerifyYamahaMotorsFinancingPage_ElementsArePresent" time="37.601" classname="Test Cases/Customer/Product/RegressionTest_VerifyYamahaMotorsFinancingPage_ElementsArePresent" status="PASSED">
+         <system-out><![CDATA[17-01-2025T17:02:41 - [TEST_CASE][PASSED] - Test Cases/Customer/Product/RegressionTest_VerifyYamahaMotorsFinancingPage_ElementsArePresent: Test Cases/Customer/Product/RegressionTest_VerifyYamahaMotorsFinancingPage_ElementsArePresent
+
+17-01-2025T17:02:41 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+17-01-2025T17:02:41 - [TEST_STEP][PASSED] - click(findTestObject("link_Content", ["href":"#", "text":"Product"])): Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:02:42 - [MESSAGE][PASSED] - Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:02:42 - [TEST_STEP][PASSED] - click(findTestObject("link_Content", ["href":"/product/MotorYamaha", "text":"Yamaha Motors Financing"])): Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:02:42 - [MESSAGE][PASSED] - Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:02:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Yamaha Motors Financing"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:43 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[2]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:02:43 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:02:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Check estimated monthly installments for Yamaha Motors Financing, Simulation Here!"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:43 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:44 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[3]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:44 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("LEXI LX", ENTER)): Text 'ENTER + LEXI LX' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:45 - [MESSAGE][PASSED] - Text 'ENTER + LEXI LX' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:45 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("LEXI LX 155", ENTER)): Text 'ENTER + LEXI LX 155' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:46 - [MESSAGE][PASSED] - Text 'ENTER + LEXI LX 155' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:46 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[3]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("ACEH BARAT", ENTER)): Text 'ENTER + ACEH BARAT' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:46 - [MESSAGE][PASSED] - Text 'ENTER + ACEH BARAT' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Success"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:47 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Successfully Retrieved OTR Price Data"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:47 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:47 - [TEST_STEP][PASSED] - click(findTestObject("lbl_Content", ["text":"OK"])): Object: 'Object Repository/lbl_Content' is clicked on
+
+17-01-2025T17:02:48 - [MESSAGE][PASSED] - Object: 'Object Repository/lbl_Content' is clicked on
+
+17-01-2025T17:02:48 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("12", ENTER)): Text 'ENTER + 12' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:48 - [MESSAGE][PASSED] - Text 'ENTER + 12' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:48 - [TEST_STEP][PASSED] - setText(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[5]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/input[1]"]), Keys.chord("10%", ENTER)): Text 'ENTER + 10%' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:49 - [MESSAGE][PASSED] - Text 'ENTER + 10%' is set on object 'Object Repository/var_Content'
+
+17-01-2025T17:02:49 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/label[1]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:50 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[7]/button[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:50 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Success"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:51 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Successfully Retrieved Installment Data"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:51 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:51 - [TEST_STEP][PASSED] - click(findTestObject("lbl_Content", ["text":"OK"])): Object: 'Object Repository/lbl_Content' is clicked on
+
+17-01-2025T17:02:51 - [MESSAGE][PASSED] - Object: 'Object Repository/lbl_Content' is clicked on
+
+17-01-2025T17:02:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Your Monthly Installment Estimation"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:52 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"2.801.000"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:52 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"2.777.000.00"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:52 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:02:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/form[1]/div[7]/button[1]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[3]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:02:53 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:02:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[4]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:02:53 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:02:53 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[4]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:53 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:54 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:54 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:55 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:55 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:55 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:55 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:02:56 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:56 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:56 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:57 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:57 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:58 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:58 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:58 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:58 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[5]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:59 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:02:59 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:00 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:00 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:00 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:00 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[6]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:03:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:03:01 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:01 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:01 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[7]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:02 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:02 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:02 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:02 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:03 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:03 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:03 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:03 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:04 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:04 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[10]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:05 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:05 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[10]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:05 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[9]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:03:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:03:06 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[11]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:06 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[11]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:07 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[12]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:07 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[12]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:08 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:08 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[13]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:08 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:08 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[13]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:09 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[14]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:09 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[14]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:10 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[13]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:03:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:03:11 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[15]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:11 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:11 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[15]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:11 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:11 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[16]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:12 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:12 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[16]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:13 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:13 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[17]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:13 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:13 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[17]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:14 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:14 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[18]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:14 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:14 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[18]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[17]"]), 10): Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:03:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/var_Content' successfully
+
+17-01-2025T17:03:15 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[19]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:16 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:16 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[19]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:16 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:16 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[20]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:17 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[20]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:17 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[21]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:18 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:18 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[21]/div[1]/div[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:19 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer/RegressionTest_VerifyEventsPromoPage_ElementsArePresent" time="11.539" classname="Test Cases/Customer/RegressionTest_VerifyEventsPromoPage_ElementsArePresent" status="PASSED">
+         <system-out><![CDATA[17-01-2025T17:03:19 - [TEST_CASE][PASSED] - Test Cases/Customer/RegressionTest_VerifyEventsPromoPage_ElementsArePresent: Test Cases/Customer/RegressionTest_VerifyEventsPromoPage_ElementsArePresent
+
+17-01-2025T17:03:19 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+17-01-2025T17:03:19 - [TEST_STEP][PASSED] - click(findTestObject("link_Content", ["href":"/promo", "text":"Event & Promo"])): Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:03:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"EVENT & PROMO"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:21 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:21 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[1]/a[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[4]/div[1]/div[1]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:03:22 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:03:22 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[2]/a[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"No Results Found"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:23 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:23 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[3]/a[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:24 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[4]/div[1]/div[1]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:03:24 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:03:24 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[4]/a[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"No Results Found"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:25 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:25 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[5]/a[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"No Results Found"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:26 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:26 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[6]/a[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:27 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"No Results Found"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:27 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:27 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[7]/a[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"No Results Found"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:28 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:28 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[8]/a[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:29 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"No Results Found"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:29 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:29 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[9]/a[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:29 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"No Results Found"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:30 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:30 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer/RegressionTest_VerifyArticlesPage_ElementsArePresent" time="6.038" classname="Test Cases/Customer/RegressionTest_VerifyArticlesPage_ElementsArePresent" status="PASSED">
+         <system-out><![CDATA[17-01-2025T17:03:30 - [TEST_CASE][PASSED] - Test Cases/Customer/RegressionTest_VerifyArticlesPage_ElementsArePresent: Test Cases/Customer/RegressionTest_VerifyArticlesPage_ElementsArePresent
+
+17-01-2025T17:03:30 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+17-01-2025T17:03:30 - [TEST_STEP][PASSED] - click(findTestObject("link_Content", ["href":"/article", "text":"Articles"])): Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:03:31 - [MESSAGE][PASSED] - Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:03:31 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:32 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:03:32 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:03:32 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:32 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:03:33 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:03:33 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[3]/a[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"No Results Found"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:34 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:34 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[4]/a[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"No Results Found"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:35 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:35 - [TEST_STEP][PASSED] - click(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[5]/a[1]"])): Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is clicked on
+
+17-01-2025T17:03:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]"]), 10): Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:03:36 - [MESSAGE][PASSED] - Object 'Object Repository/var_Content' is present
+
+17-01-2025T17:03:36 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer/RegressionTest_VerifyBAFMobilePage_ElementsArePresent" time="22.4" classname="Test Cases/Customer/RegressionTest_VerifyBAFMobilePage_ElementsArePresent" status="PASSED">
+         <system-out><![CDATA[17-01-2025T17:03:36 - [TEST_CASE][PASSED] - Test Cases/Customer/RegressionTest_VerifyBAFMobilePage_ElementsArePresent: Test Cases/Customer/RegressionTest_VerifyBAFMobilePage_ElementsArePresent
+
+17-01-2025T17:03:36 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCase: null
+
+17-01-2025T17:03:36 - [TEST_STEP][PASSED] - click(findTestObject("link_Content", ["href":"/baf-mobile", "text":"BAF Mobile"])): Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/link_Content' is clicked on
+
+17-01-2025T17:03:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"PROSES CEPAT ANGSURAN TEPAT"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:37 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:37 - [TEST_STEP][PASSED] - focus(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/h1[1]"])): Object: 'Object Repository/var_Content' is focused
+
+17-01-2025T17:03:38 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is focused
+
+17-01-2025T17:03:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"KEUNGGULAN"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:38 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("img_Content", ["src":"/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fbaf-mobile%2Fkeunggulan-1-fitur-lengkap.webp&w=3840&q=75"]), 10): Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:03:38 - [MESSAGE][PASSED] - Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:03:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"FITUR LENGKAP"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:39 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("img_Content", ["src":"/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fbaf-mobile%2Fkeunggulan-2-mudah.webp&w=3840&q=75"]), 10): Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:03:39 - [MESSAGE][PASSED] - Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:03:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"MUDAH"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:39 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("img_Content", ["src":"/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fbaf-mobile%2Fkeunggulan-3-sistem-aman-fix.webp&w=3840&q=75"]), 10): Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:03:39 - [MESSAGE][PASSED] - Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:03:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"SISTEM AMAN"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:40 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:40 - [TEST_STEP][PASSED] - focus(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[3]/div[1]/ul[1]/li[13]/div[1]/p[1]"])): Object: 'Object Repository/var_Content' is focused
+
+17-01-2025T17:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is focused
+
+17-01-2025T17:03:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"SEMAKIN LENGKAP DENGAN BANYAK FITUR"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:40 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("img_Content", ["src":"/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fbaf-mobile%2Ffitur-1-status-order.webp&w=256&q=75"]), 10): Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:03:41 - [MESSAGE][PASSED] - Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:03:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"STATUS ORDER"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:41 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Cek status pengajuan pembiayaan"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:41 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("img_Content", ["src":"/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fbaf-mobile%2Ffitur-2-pengambilan-bpkb.webp&w=256&q=75"]), 10): Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:03:41 - [MESSAGE][PASSED] - Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:03:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"PENGAMBILAN BPKB"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:42 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Pengambilan BPKB lebih mudah dengan fitur reservasi atau pengiriman di BAF Mobile"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:42 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("img_Content", ["src":"/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fbaf-mobile%2Ffitur-3-cek-cicilan.webp&w=256&q=75"]), 10): Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:03:42 - [MESSAGE][PASSED] - Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:03:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"CEK CICILAN"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:43 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Cek cicilan di mana dan kapan saja"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:43 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("img_Content", ["src":"/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fbaf-mobile%2Ffitur-4-tabungan.webp&w=256&q=75"]), 10): Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:03:43 - [MESSAGE][PASSED] - Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:03:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"TABUNGAN"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:43 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Makin mudah menabung di blu pakai BAF Mobile"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:44 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("img_Content", ["src":"/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fbaf-mobile%2Ffitur-5-pembayaran-cicilan.webp&w=256&q=75"]), 10): Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:03:44 - [MESSAGE][PASSED] - Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:03:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"PEMBAYARAN CICILAN"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:44 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Bayar cicilan gak ribet di BAF Mobile aja"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:44 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("img_Content", ["src":"/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fbaf-mobile%2Ffitur-6-baf-point.webp&w=256&q=75"]), 10): Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:03:45 - [MESSAGE][PASSED] - Object 'Object Repository/img_Content' is present
+
+17-01-2025T17:03:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"BAF POINTS"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:45 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("lbl_Content", ["text":"Kumpulkan BAF Points nya dan tukarkan dalam bentuk potongan angsuran ataupun dengan beragam voucher"]), 10): Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:45 - [MESSAGE][PASSED] - Object 'Object Repository/lbl_Content' is present
+
+17-01-2025T17:03:45 - [TEST_STEP][PASSED] - focus(findTestObject("var_Content", ["xpath":"//body[1]/div[1]/main[1]/main[1]/div[4]/div[2]/div[1]/div[3]/a[1]/span[1]/img[1]"])): Object: 'Object Repository/var_Content' is focused
+
+17-01-2025T17:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/var_Content' is focused
+
+17-01-2025T17:03:46 - [TEST_STEP][PASSED] - click(findTestObject("img_Content", ["src":"/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fbaf-mobile%2Fcta-appstore.webp&w=256&q=75"])): Object: 'Object Repository/img_Content' is clicked on
+
+17-01-2025T17:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/img_Content' is clicked on
+
+17-01-2025T17:03:46 - [TEST_STEP][PASSED] - verifyLinksAccessible(["https://apps.apple.com/id/app/baf-mobile/id1499452126"]): All links are accessible
+
+17-01-2025T17:03:51 - [MESSAGE][INFO] - HAR: C:\Users\P251224001\git\BAF-website\Reports\20250117_165916\Customer\20250117_165916\requests\main\1.har
+
+17-01-2025T17:03:51 - [MESSAGE][PASSED] - Send request successfully
+
+17-01-2025T17:03:51 - [MESSAGE][PASSED] - All links are accessible
+
+17-01-2025T17:03:51 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+17-01-2025T17:03:51 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+17-01-2025T17:03:51 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+17-01-2025T17:03:52 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+17-01-2025T17:03:52 - [TEST_STEP][PASSED] - click(findTestObject("img_Content", ["src":"/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fbaf-mobile%2Fcta-googleplay.webp&w=256&q=75"])): Object: 'Object Repository/img_Content' is clicked on
+
+17-01-2025T17:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/img_Content' is clicked on
+
+17-01-2025T17:03:52 - [TEST_STEP][PASSED] - verifyLinksAccessible(["https://play.google.com/store/apps/details?id=com.id.bussanautofinance"]): All links are accessible
+
+17-01-2025T17:03:58 - [MESSAGE][INFO] - HAR: C:\Users\P251224001\git\BAF-website\Reports\20250117_165916\Customer\20250117_165916\requests\main\2.har
+
+17-01-2025T17:03:58 - [MESSAGE][PASSED] - Send request successfully
+
+17-01-2025T17:03:58 - [MESSAGE][PASSED] - All links are accessible
+
+17-01-2025T17:03:58 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+17-01-2025T17:03:59 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+17-01-2025T17:03:59 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+17-01-2025T17:03:59 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+17-01-2025T17:03:59 - [TEST_STEP][PASSED] - Start listener action : AfterTestCase: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[17-01-2025T16:59:22 - [TEST_SUITE][PASSED] - Customer: Test Cases/Customer/RegressionTest_VerifyBAFMobilePage_ElementsArePresent]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

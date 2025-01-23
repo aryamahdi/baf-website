@@ -1,0 +1,100 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Contact Us,Chrome 131.0.0.0,,,17-01-2025 17:13:25,17-01-2025 17:17:01,3m - 36.208s,PASSED
+,,,,,,,
+Test Cases/Contact Us/RegressionTest_VerifyContactUsPage_ElementsArePresent,Chrome 131.0.0.0,,,17-01-2025 17:13:34,17-01-2025 17:14:03,28.852s,PASSED
+Start listener action : BeforeTestCase,Chrome 131.0.0.0,,,17-01-2025 17:13:34,17-01-2025 17:13:34,0.001s,PASSED
+"click(findTestObject(""link_Content"", [""href"":""/contactus"", ""text"":""Contact Us""]))",Chrome 131.0.0.0,"Click Menu ""Contact Us""",,17-01-2025 17:13:34,17-01-2025 17:13:36,1.566s,PASSED
+"verifyElementPresent(findTestObject(""lbl_Content"", [""text"":""Please ask questions about Bussan Auto Finance. We are ready to help and answer questions from Customers, Partners, Media and other parties.""]), 10)",Chrome 131.0.0.0,"Verify Text ""Please ask..."" is Present",,17-01-2025 17:13:36,17-01-2025 17:13:46,10.606s,PASSED
+"verifyElementPresent(findTestObject(""img_Content"", [""src"":""/static/images/image/contactUsImage.svg""]), 10)",Chrome 131.0.0.0,Verify Image Contact Us is Present,,17-01-2025 17:13:46,17-01-2025 17:13:49,2.939s,PASSED
+"scrollToElement(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/button[1]""]), 10)",Chrome 131.0.0.0,"Scroll to ""Complaint Flow"" Text",,17-01-2025 17:13:49,17-01-2025 17:13:50,0.336s,PASSED
+"verifyElementPresent(findTestObject(""lbl_Content"", [""text"":""Complaint Flow""]), 10)",Chrome 131.0.0.0,"Verify Text ""Complaint Flow"" is Present",,17-01-2025 17:13:50,17-01-2025 17:13:50,0.309s,PASSED
+"mouseOver(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]""]))",Chrome 131.0.0.0,"Verify Shape ""Penerimaan Pengaduan"" is Present",,17-01-2025 17:13:50,17-01-2025 17:13:51,0.528s,PASSED
+"mouseOver(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]""]))",Chrome 131.0.0.0,"Verify Shape ""Eskalasi & Penyelesaian"" is Present",,17-01-2025 17:13:51,17-01-2025 17:13:51,0.545s,PASSED
+"mouseOver(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]""]))",Chrome 131.0.0.0,"Verify Shape ""Penyelesaian Pengaduan"" is Present",,17-01-2025 17:13:51,17-01-2025 17:13:52,0.650s,PASSED
+"mouseOver(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[4]""]))",Chrome 131.0.0.0,"Verify Shape ""Pemantauan"" is Present",,17-01-2025 17:13:52,17-01-2025 17:13:52,0.449s,PASSED
+"click(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]/a[1]""]))",Chrome 131.0.0.0,"Click Button ""Click For More Detailed Information""",,17-01-2025 17:13:52,17-01-2025 17:13:53,0.437s,PASSED
+"verifyLinksAccessible([""https://baf-mobile-prod.oss-ap-southeast-5.aliyuncs.com/Document/1727403920532.pdf""])",Chrome 131.0.0.0,Verify Link Accessibility,,17-01-2025 17:13:53,17-01-2025 17:13:55,2.788s,PASSED
+closeWindowIndex(1),Chrome 131.0.0.0,Close Browser Windows,,17-01-2025 17:13:55,17-01-2025 17:13:56,0.168s,PASSED
+switchToWindowIndex(0),Chrome 131.0.0.0,Switch Browser Windows,,17-01-2025 17:13:56,17-01-2025 17:13:56,0.118s,PASSED
+"verifyElementPresent(findTestObject(""lbl_Content"", [""text"":""Contact BAF at:""]), 10)",Chrome 131.0.0.0,"Verify Text ""Contact BAF at:"" is Present",,17-01-2025 17:13:56,17-01-2025 17:13:56,0.287s,PASSED
+"verifyElementPresent(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]""]), 10)",Chrome 131.0.0.0,Verify Kirim Email BAF is Present,,17-01-2025 17:13:56,17-01-2025 17:13:56,0.257s,PASSED
+"verifyElementPresent(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]""]), 10)",Chrome 131.0.0.0,Verify Telepon BAF Care is Present,,17-01-2025 17:13:56,17-01-2025 17:13:57,0.287s,PASSED
+"verifyElementPresent(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[3]""]), 10)",Chrome 131.0.0.0,Verify Chat WhatsApp resmi BAF is Present,,17-01-2025 17:13:57,17-01-2025 17:13:57,0.277s,PASSED
+"scrollToElement(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[1]""]), 10)",Chrome 131.0.0.0,Scroll to Up,,17-01-2025 17:13:57,17-01-2025 17:13:57,0.304s,PASSED
+"setText(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/input[1]""]), ""Test"")",Chrome 131.0.0.0,Input Field Full Name,,17-01-2025 17:13:57,17-01-2025 17:13:58,0.899s,PASSED
+"setText(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[2]/input[1]""]), ""085771720025"")",Chrome 131.0.0.0,Input Field Phone Number,,17-01-2025 17:13:58,17-01-2025 17:13:59,0.914s,PASSED
+"setText(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[3]/input[1]""]), ""aria.mahdy@baf.id"")",Chrome 131.0.0.0,Input Field Email,,17-01-2025 17:13:59,17-01-2025 17:14:00,0.758s,PASSED
+"setText(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[4]/textarea[1]""]), ""Testing"")",Chrome 131.0.0.0,Input Field Message,,17-01-2025 17:14:00,17-01-2025 17:14:00,0.668s,PASSED
+"click(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/button[1]""]))",Chrome 131.0.0.0,Click Submit Button,,17-01-2025 17:14:00,17-01-2025 17:14:01,0.417s,PASSED
+"verifyElementPresent(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[2]/div[1]""]), 10)",Chrome 131.0.0.0,Verify Submit Success,,17-01-2025 17:14:01,17-01-2025 17:14:03,1.856s,PASSED
+Start listener action : AfterTestCase,Chrome 131.0.0.0,,,17-01-2025 17:14:03,17-01-2025 17:14:03,0.000s,PASSED
+,,,,,,,
+Test Cases/Contact Us/RegressionTest_VerifyOurFAQPage_ElementsArePresent,Chrome 131.0.0.0,,,17-01-2025 17:14:03,17-01-2025 17:16:43,2m - 40.228s,PASSED
+Start listener action : BeforeTestCase,Chrome 131.0.0.0,,,17-01-2025 17:14:03,17-01-2025 17:14:03,0.001s,PASSED
+"click(findTestObject(""link_Content"", [""href"":""/contactus"", ""text"":""Contact Us""]))",Chrome 131.0.0.0,"Click Menu ""Contact Us""",,17-01-2025 17:14:03,17-01-2025 17:14:04,1.179s,PASSED
+"click(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/div[1]/div[2]""]))",Chrome 131.0.0.0,"Click Menu ""Our FAQ""",,17-01-2025 17:14:04,17-01-2025 17:14:06,1.828s,PASSED
+"callTestCase(findTestCase(""Contact Us/Our FAQ/RegressionTest_VerifyPEMBIAYAAN MOTOR YAMAHAPage_ElementsArePresent""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,17-01-2025 17:14:06,17-01-2025 17:14:28,22.206s,PASSED
+"focus(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[1]""]))",Chrome 131.0.0.0,,,17-01-2025 17:14:28,17-01-2025 17:14:29,0.572s,PASSED
+"callTestCase(findTestCase(""Contact Us/Our FAQ/RegressionTest_VerifyPEMBIAYAAN MOTOR BEKASPage_ElementsArePresent""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,17-01-2025 17:14:29,17-01-2025 17:14:35,6.534s,PASSED
+"focus(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[1]""]))",Chrome 131.0.0.0,,,17-01-2025 17:14:35,17-01-2025 17:14:36,0.662s,PASSED
+"callTestCase(findTestCase(""Contact Us/Our FAQ/RegressionTest_VerifyPEMBIAYAAN MOBILPage_ElementsArePresent""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,17-01-2025 17:14:36,17-01-2025 17:14:49,12.592s,PASSED
+"focus(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[1]""]))",Chrome 131.0.0.0,,,17-01-2025 17:14:49,17-01-2025 17:14:49,0.629s,PASSED
+"callTestCase(findTestCase(""Contact Us/Our FAQ/RegressionTest_VerifyXTRA BAFPage_ElementsArePresent""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,17-01-2025 17:14:49,17-01-2025 17:14:51,1.814s,PASSED
+"focus(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[1]""]))",Chrome 131.0.0.0,,,17-01-2025 17:14:51,17-01-2025 17:14:52,0.645s,PASSED
+"callTestCase(findTestCase(""Contact Us/Our FAQ/RegressionTest_VerifyPEMBIAYAAN MESIN PERTANIANPage_ElementsArePresent""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,17-01-2025 17:14:52,17-01-2025 17:14:54,1.753s,PASSED
+"focus(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[1]""]))",Chrome 131.0.0.0,,,17-01-2025 17:14:54,17-01-2025 17:14:54,0.649s,PASSED
+"callTestCase(findTestCase(""Contact Us/Our FAQ/RegressionTest_VerifyPEMBIAYAAN ELEKTRONIK, GADGET, FURNITURPage_ElementsArePresent""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,17-01-2025 17:14:54,17-01-2025 17:15:02,7.901s,PASSED
+"focus(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[1]""]))",Chrome 131.0.0.0,,,17-01-2025 17:15:02,17-01-2025 17:15:03,0.632s,PASSED
+"callTestCase(findTestCase(""Contact Us/Our FAQ/RegressionTest_VerifyPEMBIAYAAN FLEETPage_ElementsArePresent""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,17-01-2025 17:15:03,17-01-2025 17:15:15,12.416s,PASSED
+"focus(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[1]""]))",Chrome 131.0.0.0,,,17-01-2025 17:15:15,17-01-2025 17:15:16,0.648s,PASSED
+"callTestCase(findTestCase(""Contact Us/Our FAQ/RegressionTest_VerifyBAF ADIDANAPage_ElementsArePresent""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,17-01-2025 17:15:16,17-01-2025 17:16:05,48.809s,PASSED
+"focus(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[1]""]))",Chrome 131.0.0.0,,,17-01-2025 17:16:05,17-01-2025 17:16:05,0.662s,PASSED
+"callTestCase(findTestCase(""Contact Us/Our FAQ/RegressionTest_VerifyBAF PRADANAPage_ElementsArePresent""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,17-01-2025 17:16:05,17-01-2025 17:16:15,9.474s,PASSED
+"focus(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[1]""]))",Chrome 131.0.0.0,,,17-01-2025 17:16:15,17-01-2025 17:16:15,0.641s,PASSED
+"callTestCase(findTestCase(""Contact Us/Our FAQ/RegressionTest_Verifylagi tesPage_ElementsArePresent""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,17-01-2025 17:16:15,17-01-2025 17:16:17,1.759s,PASSED
+"focus(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[1]""]))",Chrome 131.0.0.0,,,17-01-2025 17:16:17,17-01-2025 17:16:18,0.661s,PASSED
+"callTestCase(findTestCase(""Contact Us/Our FAQ/RegressionTest_Verifyoke kita cobaPage_ElementsArePresent""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,17-01-2025 17:16:18,17-01-2025 17:16:19,1.714s,PASSED
+"focus(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[1]""]))",Chrome 131.0.0.0,,,17-01-2025 17:16:19,17-01-2025 17:16:20,0.616s,PASSED
+"callTestCase(findTestCase(""Contact Us/Our FAQ/RegressionTest_VerifyCARA PEMBAYARAN CICILANPage_ElementsArePresent""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,17-01-2025 17:16:20,17-01-2025 17:16:23,3.170s,PASSED
+"focus(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[1]""]))",Chrome 131.0.0.0,,,17-01-2025 17:16:23,17-01-2025 17:16:24,0.679s,PASSED
+"callTestCase(findTestCase(""Contact Us/Our FAQ/RegressionTest_VerifyPEMROSESAN DATA PRIBADI KONSUMENPage_ElementsArePresent""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,17-01-2025 17:16:24,17-01-2025 17:16:26,1.810s,PASSED
+"focus(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[1]""]))",Chrome 131.0.0.0,,,17-01-2025 17:16:26,17-01-2025 17:16:26,0.640s,PASSED
+"callTestCase(findTestCase(""Contact Us/Our FAQ/RegressionTest_VerifyBAF DANA SYARIAHPage_ElementsArePresent""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,17-01-2025 17:16:26,17-01-2025 17:16:40,13.976s,PASSED
+"focus(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[1]""]))",Chrome 131.0.0.0,,,17-01-2025 17:16:40,17-01-2025 17:16:41,0.635s,PASSED
+"callTestCase(findTestCase(""Contact Us/Our FAQ/RegressionTest_VerifyProgram LoyalitasPage_ElementsArePresent""), [:], STOP_ON_FAILURE)",Chrome 131.0.0.0,,,17-01-2025 17:16:41,17-01-2025 17:16:43,1.890s,PASSED
+Start listener action : AfterTestCase,Chrome 131.0.0.0,,,17-01-2025 17:16:43,17-01-2025 17:16:43,0.000s,PASSED
+,,,,,,,
+Test Cases/Contact Us/RegressionTest_VerifyOurNetworkPage_ElementsArePresent,Chrome 131.0.0.0,,,17-01-2025 17:16:43,17-01-2025 17:16:54,10.920s,PASSED
+Start listener action : BeforeTestCase,Chrome 131.0.0.0,,,17-01-2025 17:16:43,17-01-2025 17:16:43,0.000s,PASSED
+"click(findTestObject(""link_Content"", [""href"":""/contactus"", ""text"":""Contact Us""]))",Chrome 131.0.0.0,"Click Menu ""Contact Us""",,17-01-2025 17:16:43,17-01-2025 17:16:43,0.002s,NOT_RUN
+"click(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/div[1]/div[3]""]))",Chrome 131.0.0.0,"Click Menu ""Our Network""",,17-01-2025 17:16:43,17-01-2025 17:16:44,0.439s,PASSED
+"click(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]""]))",Chrome 131.0.0.0,,,17-01-2025 17:16:44,17-01-2025 17:16:46,2.273s,PASSED
+"sendKeys(findTestObject(""var_Content"", [""xpath"":""//input[@id='react-select-OfficeCity-input']""]), Keys.chord(""JAKARTA"", ENTER))",Chrome 131.0.0.0,,,17-01-2025 17:16:46,17-01-2025 17:16:47,0.728s,PASSED
+"click(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[2]/button[1]""]))",Chrome 131.0.0.0,,,17-01-2025 17:16:47,17-01-2025 17:16:47,0.869s,PASSED
+"verifyElementPresent(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]""]), 10)",Chrome 131.0.0.0,,,17-01-2025 17:16:47,17-01-2025 17:16:48,1.006s,PASSED
+"verifyElementPresent(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]""]), 10)",Chrome 131.0.0.0,,,17-01-2025 17:16:48,17-01-2025 17:16:49,0.310s,PASSED
+"sendKeys(findTestObject(""var_Content"", [""xpath"":""//input[@id='react-select-OfficeCity-input']""]), Keys.chord(""BANDUNG"", ENTER))",Chrome 131.0.0.0,,,17-01-2025 17:16:49,17-01-2025 17:16:49,0.613s,PASSED
+"click(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[2]/button[1]""]))",Chrome 131.0.0.0,,,17-01-2025 17:16:49,17-01-2025 17:16:50,0.637s,PASSED
+"verifyElementPresent(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]""]), 10)",Chrome 131.0.0.0,,,17-01-2025 17:16:50,17-01-2025 17:16:51,1.137s,PASSED
+"verifyElementPresent(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]""]), 10)",Chrome 131.0.0.0,,,17-01-2025 17:16:51,17-01-2025 17:16:51,0.269s,PASSED
+"sendKeys(findTestObject(""var_Content"", [""xpath"":""//input[@id='react-select-OfficeCity-input']""]), Keys.chord(""BOGOR"", ENTER))",Chrome 131.0.0.0,,,17-01-2025 17:16:51,17-01-2025 17:16:52,0.413s,PASSED
+"click(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/form[1]/div[2]/button[1]""]))",Chrome 131.0.0.0,,,17-01-2025 17:16:52,17-01-2025 17:16:52,0.626s,PASSED
+"verifyElementPresent(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]""]), 10)",Chrome 131.0.0.0,,,17-01-2025 17:16:52,17-01-2025 17:16:54,1.114s,PASSED
+"verifyElementPresent(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[2]""]), 10)",Chrome 131.0.0.0,,,17-01-2025 17:16:54,17-01-2025 17:16:54,0.262s,PASSED
+Start listener action : AfterTestCase,Chrome 131.0.0.0,,,17-01-2025 17:16:54,17-01-2025 17:16:54,0.000s,PASSED
+,,,,,,,
+Test Cases/Contact Us/RegressionTest_VerifyPrivacyPolicyPage_ElementsArePresent,Chrome 131.0.0.0,,,17-01-2025 17:16:54,17-01-2025 17:16:56,1.975s,PASSED
+Start listener action : BeforeTestCase,Chrome 131.0.0.0,,,17-01-2025 17:16:54,17-01-2025 17:16:54,0.000s,PASSED
+"click(findTestObject(""link_Content"", [""href"":""/contactus"", ""text"":""Contact Us""]))",Chrome 131.0.0.0,"Click Menu ""Contact Us""",,17-01-2025 17:16:54,17-01-2025 17:16:54,0.002s,NOT_RUN
+"click(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/div[1]/div[4]""]))",Chrome 131.0.0.0,"Click Menu ""Our Network""",,17-01-2025 17:16:54,17-01-2025 17:16:54,0.411s,PASSED
+"verifyElementPresent(findTestObject(""lbl_Content"", [""text"":""Privacy Policy""]), 10)",Chrome 131.0.0.0,"Verify Text ""Privacy Policy"" is Present",,17-01-2025 17:16:54,17-01-2025 17:16:56,1.162s,PASSED
+"verifyElementPresent(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]""]), 10)",Chrome 131.0.0.0,"Verify Description Text ""Privacy Policy"" is Present",,17-01-2025 17:16:56,17-01-2025 17:16:56,0.285s,PASSED
+Start listener action : AfterTestCase,Chrome 131.0.0.0,,,17-01-2025 17:16:56,17-01-2025 17:16:56,0.000s,PASSED
+,,,,,,,
+Test Cases/Contact Us/RegressionTest_VerifyDealerPartnerPage_ElementsArePresent,Chrome 131.0.0.0,,,17-01-2025 17:16:56,17-01-2025 17:17:01,5.311s,PASSED
+Start listener action : BeforeTestCase,Chrome 131.0.0.0,,,17-01-2025 17:16:56,17-01-2025 17:16:56,0.000s,PASSED
+"click(findTestObject(""link_Content"", [""href"":""/contactus"", ""text"":""Contact Us""]))",Chrome 131.0.0.0,"Click Menu ""Contact Us""",,17-01-2025 17:16:56,17-01-2025 17:16:56,0.002s,NOT_RUN
+"click(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[1]/div[1]/div[1]/div[5]""]))",Chrome 131.0.0.0,"Click Menu ""Dealer/Partners""",,17-01-2025 17:16:56,17-01-2025 17:16:56,0.465s,PASSED
+"click(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[1]""]))",Chrome 131.0.0.0,"Click Menu ""Dealer Motor""",,17-01-2025 17:16:56,17-01-2025 17:16:58,1.206s,PASSED
+"click(findTestObject(""var_Content"", [""xpath"":""//body[1]/div[1]/main[1]/main[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]/div[2]""]))",Chrome 131.0.0.0,"Click Menu ""Rekanan BAF""",,17-01-2025 17:16:58,17-01-2025 17:17:01,3.503s,PASSED
+Start listener action : AfterTestCase,Chrome 131.0.0.0,,,17-01-2025 17:17:01,17-01-2025 17:17:01,0.000s,PASSED

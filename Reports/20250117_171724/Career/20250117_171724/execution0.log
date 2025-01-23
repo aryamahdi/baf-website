@@ -1,0 +1,3553 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-01-17T10:17:34.033354400Z</date>
+  <millis>1737109054033</millis>
+  <nanos>354400</nanos>
+  <sequence>1</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Career</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">true</property>
+  <property name="retryCount">3</property>
+  <property name="name">Career</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Career</property>
+</record>
+<record>
+  <date>2025-01-17T10:17:34.081901400Z</date>
+  <millis>1737109054081</millis>
+  <nanos>901400</nanos>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = P251224001 - BAF0120161599V.bussan.co.id</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">P251224001 - BAF0120161599V.bussan.co.id</property>
+</record>
+<record>
+  <date>2025-01-17T10:17:34.083901Z</date>
+  <millis>1737109054083</millis>
+  <nanos>901000</nanos>
+  <sequence>5</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 11 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 11 64bit</property>
+</record>
+<record>
+  <date>2025-01-17T10:17:34.086900700Z</date>
+  <millis>1737109054086</millis>
+  <nanos>900700</nanos>
+  <sequence>7</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 10.1.214.138</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">10.1.214.138</property>
+</record>
+<record>
+  <date>2025-01-17T10:17:34.089897500Z</date>
+  <millis>1737109054089</millis>
+  <nanos>897500</nanos>
+  <sequence>9</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 10.0.1.223</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">10.0.1.223</property>
+</record>
+<record>
+  <date>2025-01-17T10:17:34.121977500Z</date>
+  <millis>1737109054121</millis>
+  <nanos>977500</nanos>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : BeforeTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:17:34.175068900Z</date>
+  <millis>1737109054175</millis>
+  <nanos>68900</nanos>
+  <sequence>12</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : timestamp = Date().format(&amp;quot;dd-MM-yyyy ss:mm:HH&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">52</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2025-01-17T10:17:34.269578200Z</date>
+  <millis>1737109054269</millis>
+  <nanos>578200</nanos>
+  <sequence>13</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : timestamp = Date().format(&amp;quot;dd-MM-yyyy ss:mm:HH&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:17:34.270580300Z</date>
+  <millis>1737109054270</millis>
+  <nanos>580300</nanos>
+  <sequence>14</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Timestamp = timestamp</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">53</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2025-01-17T10:17:34.564210200Z</date>
+  <millis>1737109054564</millis>
+  <nanos>210200</nanos>
+  <sequence>15</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Timestamp = timestamp</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:17:34.565213300Z</date>
+  <millis>1737109054565</millis>
+  <nanos>213300</nanos>
+  <sequence>16</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">56</property>
+  <property name="stepIndex">3</property>
+  <property name="description">Open Browser</property>
+</record>
+<record>
+  <date>2025-01-17T10:17:35.362533100Z</date>
+  <millis>1737109055362</millis>
+  <nanos>533100</nanos>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:17:35.501063900Z</date>
+  <millis>1737109055501</millis>
+  <nanos>63900</nanos>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:17:41.316838300Z</date>
+  <millis>1737109061316</millis>
+  <nanos>838300</nanos>
+  <sequence>25</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = ad9dfb1a0f2bae3a2a6850751969cd82</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">ad9dfb1a0f2bae3a2a6850751969cd82</property>
+</record>
+<record>
+  <date>2025-01-17T10:17:41.337850700Z</date>
+  <millis>1737109061337</millis>
+  <nanos>850700</nanos>
+  <sequence>27</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 131.0.0.0</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Chrome 131.0.0.0</property>
+</record>
+<record>
+  <date>2025-01-17T10:17:41.339850900Z</date>
+  <millis>1737109061339</millis>
+  <nanos>850900</nanos>
+  <sequence>29</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 11</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 11</property>
+</record>
+<record>
+  <date>2025-01-17T10:17:41.341849700Z</date>
+  <millis>1737109061341</millis>
+  <nanos>849700</nanos>
+  <sequence>31</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 4.22.0</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">4.22.0</property>
+</record>
+<record>
+  <date>2025-01-17T10:17:41.343850300Z</date>
+  <millis>1737109061343</millis>
+  <nanos>850300</nanos>
+  <sequence>33</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2025-01-17T10:17:41.433587500Z</date>
+  <millis>1737109061433</millis>
+  <nanos>587500</nanos>
+  <sequence>34</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:17:41.439804300Z</date>
+  <millis>1737109061439</millis>
+  <nanos>804300</nanos>
+  <sequence>35</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:17:41.440798300Z</date>
+  <millis>1737109061440</millis>
+  <nanos>798300</nanos>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">59</property>
+  <property name="stepIndex">4</property>
+  <property name="description">Maximize Window Browser</property>
+</record>
+<record>
+  <date>2025-01-17T10:17:41.559680200Z</date>
+  <millis>1737109061559</millis>
+  <nanos>680200</nanos>
+  <sequence>38</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.MaximizeWindowKeyword.maximizeWindow</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:17:41.569675700Z</date>
+  <millis>1737109061569</millis>
+  <nanos>675700</nanos>
+  <sequence>39</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:17:41.570675300Z</date>
+  <millis>1737109061570</millis>
+  <nanos>675300</nanos>
+  <sequence>40</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl(URL)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">62</property>
+  <property name="stepIndex">5</property>
+  <property name="description">Open BAF Website</property>
+</record>
+<record>
+  <date>2025-01-17T10:17:42.061385300Z</date>
+  <millis>1737109062061</millis>
+  <nanos>385300</nanos>
+  <sequence>43</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://baf-web-baf-uat.apps.cntrdev.bussan.co.id/&amp;apos; successfully</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:17:42.067385200Z</date>
+  <millis>1737109062067</millis>
+  <nanos>385200</nanos>
+  <sequence>44</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl(URL)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:17:42.068385400Z</date>
+  <millis>1737109062068</millis>
+  <nanos>385400</nanos>
+  <sequence>45</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findTestObject(null), &amp;quot;thisisunsafe&amp;quot;, OPTIONAL)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">65</property>
+  <property name="stepIndex">6</property>
+  <property name="description">Input Text &quot;thisisunsafe&quot; in Input Field</property>
+</record>
+<record>
+  <date>2025-01-17T10:17:42.120385800Z</date>
+  <millis>1737109062120</millis>
+  <nanos>385800</nanos>
+  <sequence>47</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test object id is null</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:17:42.189928600Z</date>
+  <millis>1737109062189</millis>
+  <nanos>928600</nanos>
+  <sequence>50</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test object with id &amp;apos;Object Repository/&amp;apos; does not exist</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:17:46.467342Z</date>
+  <millis>1737109066467</millis>
+  <nanos>342000</nanos>
+  <sequence>57</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys &amp;apos;thisisunsafe&amp;apos; sent to object: &amp;apos;tempBody&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:17:46.467342Z</date>
+  <millis>1737109066467</millis>
+  <nanos>342000</nanos>
+  <sequence>59</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findTestObject(null), &amp;quot;thisisunsafe&amp;quot;, OPTIONAL)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:17:46.467342Z</date>
+  <millis>1737109066467</millis>
+  <nanos>342000</nanos>
+  <sequence>60</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : BeforeTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:17:46.760984800Z</date>
+  <millis>1737109066760</millis>
+  <nanos>984800</nanos>
+  <sequence>63</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/RegressionTest_VerifyCareerPage_ElementsArePresent</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/RegressionTest_VerifyCareerPage_ElementsArePresent</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/RegressionTest_VerifyCareerPage_ElementsArePresent</property>
+  <property name="source">C:\Users\P251224001\git\BAF-website\Test Cases\RegressionTest_VerifyCareerPage_ElementsArePresent.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2025-01-17T10:17:46.996898800Z</date>
+  <millis>1737109066996</millis>
+  <nanos>898800</nanos>
+  <sequence>65</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : BeforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:17:46.997904700Z</date>
+  <millis>1737109066997</millis>
+  <nanos>904700</nanos>
+  <sequence>68</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : BeforeTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:17:47.339960600Z</date>
+  <millis>1737109067339</millis>
+  <nanos>960600</nanos>
+  <sequence>69</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;link_Content&amp;quot;, [&amp;quot;href&amp;quot;:&amp;quot;/career&amp;quot;, &amp;quot;text&amp;quot;:&amp;quot;Career&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">21</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Click Menu &quot;Carrer&quot;</property>
+</record>
+<record>
+  <date>2025-01-17T10:17:49.776990500Z</date>
+  <millis>1737109069776</millis>
+  <nanos>990500</nanos>
+  <sequence>79</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/link_Content&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:17:49.780249100Z</date>
+  <millis>1737109069780</millis>
+  <nanos>249100</nanos>
+  <sequence>80</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;link_Content&amp;quot;, [&amp;quot;href&amp;quot;:&amp;quot;/career&amp;quot;, &amp;quot;text&amp;quot;:&amp;quot;Career&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:17:49.781245400Z</date>
+  <millis>1737109069781</millis>
+  <nanos>245400</nanos>
+  <sequence>81</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;GAPAILAH MIMPIMU&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">24</property>
+  <property name="stepIndex">2</property>
+  <property name="description">Verify Text &quot;GAPAILAH MIMPIMU&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:02.940472700Z</date>
+  <millis>1737109082940</millis>
+  <nanos>472700</nanos>
+  <sequence>89</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:02.940472700Z</date>
+  <millis>1737109082940</millis>
+  <nanos>472700</nanos>
+  <sequence>90</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;GAPAILAH MIMPIMU&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:02.940472700Z</date>
+  <millis>1737109082940</millis>
+  <nanos>472700</nanos>
+  <sequence>91</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Bersama BAF&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">27</property>
+  <property name="stepIndex">3</property>
+  <property name="description">Verify Text &quot;Bersama BAF&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:03.682287700Z</date>
+  <millis>1737109083682</millis>
+  <nanos>287700</nanos>
+  <sequence>99</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:03.682287700Z</date>
+  <millis>1737109083682</millis>
+  <nanos>287700</nanos>
+  <sequence>100</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Bersama BAF&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:03.688959100Z</date>
+  <millis>1737109083688</millis>
+  <nanos>959100</nanos>
+  <sequence>101</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[2]/div[1]/p[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">30</property>
+  <property name="stepIndex">4</property>
+  <property name="description">Scroll to &quot;Kata #BAFers&quot; Text</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:03.999753500Z</date>
+  <millis>1737109083999</millis>
+  <nanos>753500</nanos>
+  <sequence>111</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/var_Content&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:04.003785600Z</date>
+  <millis>1737109084003</millis>
+  <nanos>785600</nanos>
+  <sequence>112</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[2]/div[1]/p[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:04.003785600Z</date>
+  <millis>1737109084003</millis>
+  <nanos>785600</nanos>
+  <sequence>113</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Kata #BAFers&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">34</property>
+  <property name="stepIndex">5</property>
+  <property name="description">Verify Text &quot;Kata #BAFers&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:04.304031Z</date>
+  <millis>1737109084304</millis>
+  <nanos>31000</nanos>
+  <sequence>121</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:04.304031Z</date>
+  <millis>1737109084304</millis>
+  <nanos>31000</nanos>
+  <sequence>122</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Kata #BAFers&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:04.304031Z</date>
+  <millis>1737109084304</millis>
+  <nanos>31000</nanos>
+  <sequence>123</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[2]/div[2]/ul[1]/li[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">37</property>
+  <property name="stepIndex">6</property>
+  <property name="description">Verify Card &quot;Rajiv Permadi&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:04.604038200Z</date>
+  <millis>1737109084604</millis>
+  <nanos>38200</nanos>
+  <sequence>131</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/var_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:04.616777900Z</date>
+  <millis>1737109084616</millis>
+  <nanos>777900</nanos>
+  <sequence>132</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[2]/div[2]/ul[1]/li[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:04.616777900Z</date>
+  <millis>1737109084616</millis>
+  <nanos>777900</nanos>
+  <sequence>133</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[2]/div[2]/ul[1]/li[2]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">41</property>
+  <property name="stepIndex">7</property>
+  <property name="description">Verify Card &quot;Calvin Jefen&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:04.904039100Z</date>
+  <millis>1737109084904</millis>
+  <nanos>39100</nanos>
+  <sequence>141</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/var_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:04.904039100Z</date>
+  <millis>1737109084904</millis>
+  <nanos>39100</nanos>
+  <sequence>142</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[2]/div[2]/ul[1]/li[2]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:04.909793900Z</date>
+  <millis>1737109084909</millis>
+  <nanos>793900</nanos>
+  <sequence>143</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[2]/div[2]/ul[1]/li[3]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">45</property>
+  <property name="stepIndex">8</property>
+  <property name="description">Verify Card &quot;Meiske Erdinarini&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:05.183324400Z</date>
+  <millis>1737109085183</millis>
+  <nanos>324400</nanos>
+  <sequence>151</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/var_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:05.183324400Z</date>
+  <millis>1737109085183</millis>
+  <nanos>324400</nanos>
+  <sequence>152</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[2]/div[2]/ul[1]/li[3]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:05.183324400Z</date>
+  <millis>1737109085183</millis>
+  <nanos>324400</nanos>
+  <sequence>153</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">49</property>
+  <property name="stepIndex">9</property>
+  <property name="description">Scroll to &quot;Keseharian dan Keseruan #BAFers&quot; Text</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:05.507206500Z</date>
+  <millis>1737109085507</millis>
+  <nanos>206500</nanos>
+  <sequence>163</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/var_Content&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:05.507206500Z</date>
+  <millis>1737109085507</millis>
+  <nanos>206500</nanos>
+  <sequence>164</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:05.507206500Z</date>
+  <millis>1737109085507</millis>
+  <nanos>206500</nanos>
+  <sequence>165</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[3]/div[1]/div[1]/img[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">53</property>
+  <property name="stepIndex">10</property>
+  <property name="description">Verify Banner &quot;Hari Kartini di BAF&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:05.787182300Z</date>
+  <millis>1737109085787</millis>
+  <nanos>182300</nanos>
+  <sequence>173</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/var_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:05.798095400Z</date>
+  <millis>1737109085798</millis>
+  <nanos>95400</nanos>
+  <sequence>174</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[3]/div[1]/div[1]/img[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:05.800106900Z</date>
+  <millis>1737109085800</millis>
+  <nanos>106900</nanos>
+  <sequence>175</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Hari Kartini di BAF&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">57</property>
+  <property name="stepIndex">11</property>
+  <property name="description">Verify Text &quot;Hari Kartini di BAF&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:06.107478900Z</date>
+  <millis>1737109086107</millis>
+  <nanos>478900</nanos>
+  <sequence>183</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:06.107478900Z</date>
+  <millis>1737109086107</millis>
+  <nanos>478900</nanos>
+  <sequence>184</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Hari Kartini di BAF&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:06.107478900Z</date>
+  <millis>1737109086107</millis>
+  <nanos>478900</nanos>
+  <sequence>185</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/div[1]/button[2]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">60</property>
+  <property name="stepIndex">12</property>
+  <property name="description">Click Button Next Banner</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:06.510551800Z</date>
+  <millis>1737109086510</millis>
+  <nanos>551800</nanos>
+  <sequence>195</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/var_Content&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:06.510551800Z</date>
+  <millis>1737109086510</millis>
+  <nanos>551800</nanos>
+  <sequence>196</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/div[1]/button[2]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:06.510551800Z</date>
+  <millis>1737109086510</millis>
+  <nanos>551800</nanos>
+  <sequence>197</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[4]/div[1]/div[1]/img[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">63</property>
+  <property name="stepIndex">13</property>
+  <property name="description">Verify Banner &quot;Ruang kerja berkonsep terbuka meningkatkan kolaborasi dan interaksi&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:06.785118200Z</date>
+  <millis>1737109086785</millis>
+  <nanos>118200</nanos>
+  <sequence>205</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/var_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:06.786146200Z</date>
+  <millis>1737109086786</millis>
+  <nanos>146200</nanos>
+  <sequence>206</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[4]/div[1]/div[1]/img[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:06.789537700Z</date>
+  <millis>1737109086789</millis>
+  <nanos>537700</nanos>
+  <sequence>207</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Ruang kerja berkonsep terbuka meningkatkan kolaborasi dan interaksi&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">67</property>
+  <property name="stepIndex">14</property>
+  <property name="description">Verify Text &quot;Ruang kerja berkonsep terbuka meningkatkan kolaborasi dan interaksi&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:07.081381700Z</date>
+  <millis>1737109087081</millis>
+  <nanos>381700</nanos>
+  <sequence>215</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:07.081381700Z</date>
+  <millis>1737109087081</millis>
+  <nanos>381700</nanos>
+  <sequence>216</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Ruang kerja berkonsep terbuka meningkatkan kolaborasi dan interaksi&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:07.081381700Z</date>
+  <millis>1737109087081</millis>
+  <nanos>381700</nanos>
+  <sequence>217</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/div[1]/button[2]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">71</property>
+  <property name="stepIndex">15</property>
+  <property name="description">Click Button Next Banner</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:07.487039900Z</date>
+  <millis>1737109087487</millis>
+  <nanos>39900</nanos>
+  <sequence>227</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/var_Content&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:07.487039900Z</date>
+  <millis>1737109087487</millis>
+  <nanos>39900</nanos>
+  <sequence>228</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/div[1]/button[2]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:07.487039900Z</date>
+  <millis>1737109087487</millis>
+  <nanos>39900</nanos>
+  <sequence>229</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[5]/div[1]/div[1]/img[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">74</property>
+  <property name="stepIndex">16</property>
+  <property name="description">Verify Banner &quot;Kegiatan HUT BAF ke 25 Tahun&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:07.785740600Z</date>
+  <millis>1737109087785</millis>
+  <nanos>740600</nanos>
+  <sequence>237</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/var_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:07.785740600Z</date>
+  <millis>1737109087785</millis>
+  <nanos>740600</nanos>
+  <sequence>238</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[5]/div[1]/div[1]/img[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:07.785740600Z</date>
+  <millis>1737109087785</millis>
+  <nanos>740600</nanos>
+  <sequence>239</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Kegiatan HUT BAF ke 25 Tahun&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">78</property>
+  <property name="stepIndex">17</property>
+  <property name="description">Verify Text &quot;Kegiatan HUT BAF ke 25 Tahun&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:08.064827300Z</date>
+  <millis>1737109088064</millis>
+  <nanos>827300</nanos>
+  <sequence>247</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:08.081014200Z</date>
+  <millis>1737109088081</millis>
+  <nanos>14200</nanos>
+  <sequence>248</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Kegiatan HUT BAF ke 25 Tahun&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:08.081014200Z</date>
+  <millis>1737109088081</millis>
+  <nanos>14200</nanos>
+  <sequence>249</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/div[1]/button[2]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">81</property>
+  <property name="stepIndex">18</property>
+  <property name="description">Click Button Next Banner</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:08.451391700Z</date>
+  <millis>1737109088451</millis>
+  <nanos>391700</nanos>
+  <sequence>259</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/var_Content&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:08.453099100Z</date>
+  <millis>1737109088453</millis>
+  <nanos>99100</nanos>
+  <sequence>260</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/div[1]/button[2]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:08.455732600Z</date>
+  <millis>1737109088455</millis>
+  <nanos>732600</nanos>
+  <sequence>261</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/img[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">84</property>
+  <property name="stepIndex">19</property>
+  <property name="description">Verify Banner &quot;Kompetisi UMKM&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:08.735274400Z</date>
+  <millis>1737109088735</millis>
+  <nanos>274400</nanos>
+  <sequence>269</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/var_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:08.735274400Z</date>
+  <millis>1737109088735</millis>
+  <nanos>274400</nanos>
+  <sequence>270</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/img[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:08.735274400Z</date>
+  <millis>1737109088735</millis>
+  <nanos>274400</nanos>
+  <sequence>271</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Kompetisi UMKM&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">88</property>
+  <property name="stepIndex">20</property>
+  <property name="description">Verify Text &quot;Kompetisi UMKM&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:09.032029200Z</date>
+  <millis>1737109089032</millis>
+  <nanos>29200</nanos>
+  <sequence>279</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:09.032029200Z</date>
+  <millis>1737109089032</millis>
+  <nanos>29200</nanos>
+  <sequence>280</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Kompetisi UMKM&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:09.032029200Z</date>
+  <millis>1737109089032</millis>
+  <nanos>29200</nanos>
+  <sequence>281</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/div[1]/button[2]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">91</property>
+  <property name="stepIndex">21</property>
+  <property name="description">Click Button Next Banner</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:09.378574300Z</date>
+  <millis>1737109089378</millis>
+  <nanos>574300</nanos>
+  <sequence>291</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/var_Content&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:09.378574300Z</date>
+  <millis>1737109089378</millis>
+  <nanos>574300</nanos>
+  <sequence>292</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/div[1]/button[2]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:09.378574300Z</date>
+  <millis>1737109089378</millis>
+  <nanos>574300</nanos>
+  <sequence>293</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[7]/div[1]/div[1]/img[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">94</property>
+  <property name="stepIndex">22</property>
+  <property name="description">Verify Banner &quot;Pojok Kayuh&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:09.663856400Z</date>
+  <millis>1737109089663</millis>
+  <nanos>856400</nanos>
+  <sequence>301</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/var_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:09.666875400Z</date>
+  <millis>1737109089666</millis>
+  <nanos>875400</nanos>
+  <sequence>302</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[7]/div[1]/div[1]/img[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:09.667702800Z</date>
+  <millis>1737109089667</millis>
+  <nanos>702800</nanos>
+  <sequence>303</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Pojok Kayuh&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">98</property>
+  <property name="stepIndex">23</property>
+  <property name="description">Verify Text &quot;Pojok Kayuh&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:09.948284200Z</date>
+  <millis>1737109089948</millis>
+  <nanos>284200</nanos>
+  <sequence>311</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:09.948284200Z</date>
+  <millis>1737109089948</millis>
+  <nanos>284200</nanos>
+  <sequence>312</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Pojok Kayuh&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:09.948284200Z</date>
+  <millis>1737109089948</millis>
+  <nanos>284200</nanos>
+  <sequence>313</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/div[1]/button[2]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">101</property>
+  <property name="stepIndex">24</property>
+  <property name="description">Click Button Next Banner</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:10.339555800Z</date>
+  <millis>1737109090339</millis>
+  <nanos>555800</nanos>
+  <sequence>323</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/var_Content&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:10.339555800Z</date>
+  <millis>1737109090339</millis>
+  <nanos>555800</nanos>
+  <sequence>324</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/div[1]/button[2]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:10.339555800Z</date>
+  <millis>1737109090339</millis>
+  <nanos>555800</nanos>
+  <sequence>325</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[8]/div[1]/div[1]/img[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">104</property>
+  <property name="stepIndex">25</property>
+  <property name="description">Verify Banner &quot;Senam BAF agar BAFers selalu fit&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:10.601808500Z</date>
+  <millis>1737109090601</millis>
+  <nanos>808500</nanos>
+  <sequence>333</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/var_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:10.601808500Z</date>
+  <millis>1737109090601</millis>
+  <nanos>808500</nanos>
+  <sequence>334</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[3]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[8]/div[1]/div[1]/img[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:10.601808500Z</date>
+  <millis>1737109090601</millis>
+  <nanos>808500</nanos>
+  <sequence>335</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Senam BAF agar BAFers selalu fit&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">108</property>
+  <property name="stepIndex">26</property>
+  <property name="description">Verify Text &quot;Senam BAF agar BAFers selalu fit&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:10.896713700Z</date>
+  <millis>1737109090896</millis>
+  <nanos>713700</nanos>
+  <sequence>343</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:10.896713700Z</date>
+  <millis>1737109090896</millis>
+  <nanos>713700</nanos>
+  <sequence>344</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Senam BAF agar BAFers selalu fit&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:10.896713700Z</date>
+  <millis>1737109090896</millis>
+  <nanos>713700</nanos>
+  <sequence>345</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[4]/div[1]/div[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">111</property>
+  <property name="stepIndex">27</property>
+  <property name="description">Scroll to &quot;Keseharian dan Keseruan #BAFers&quot; Text</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:11.184584300Z</date>
+  <millis>1737109091184</millis>
+  <nanos>584300</nanos>
+  <sequence>355</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/var_Content&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:11.184584300Z</date>
+  <millis>1737109091184</millis>
+  <nanos>584300</nanos>
+  <sequence>356</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[4]/div[1]/div[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:11.184584300Z</date>
+  <millis>1737109091184</millis>
+  <nanos>584300</nanos>
+  <sequence>357</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : mouseOver(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[4]/div[1]/div[2]/div[1]&amp;quot;]), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">115</property>
+  <property name="stepIndex">28</property>
+  <property name="description">Verify Card &quot;Kantor Jaringan Kami Menyebar ke Seluruh Indonesia&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:11.718298100Z</date>
+  <millis>1737109091718</millis>
+  <nanos>298100</nanos>
+  <sequence>367</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/var_Content&amp;apos; is hovered</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword.mouseOver</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:11.718298100Z</date>
+  <millis>1737109091718</millis>
+  <nanos>298100</nanos>
+  <sequence>368</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : mouseOver(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[4]/div[1]/div[2]/div[1]&amp;quot;]), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:11.718298100Z</date>
+  <millis>1737109091718</millis>
+  <nanos>298100</nanos>
+  <sequence>369</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : mouseOver(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[4]/div[1]/div[2]/div[2]&amp;quot;]), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">119</property>
+  <property name="stepIndex">29</property>
+  <property name="description">Verify Card &quot;Pengembangan Diri&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:12.166555100Z</date>
+  <millis>1737109092166</millis>
+  <nanos>555100</nanos>
+  <sequence>379</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/var_Content&amp;apos; is hovered</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword.mouseOver</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:12.166555100Z</date>
+  <millis>1737109092166</millis>
+  <nanos>555100</nanos>
+  <sequence>380</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : mouseOver(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[4]/div[1]/div[2]/div[2]&amp;quot;]), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:12.166555100Z</date>
+  <millis>1737109092166</millis>
+  <nanos>555100</nanos>
+  <sequence>381</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : mouseOver(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[4]/div[1]/div[2]/div[3]&amp;quot;]), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">123</property>
+  <property name="stepIndex">30</property>
+  <property name="description">Verify Card &quot;Kesempatan Jenjang Karir&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:12.617116300Z</date>
+  <millis>1737109092617</millis>
+  <nanos>116300</nanos>
+  <sequence>391</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/var_Content&amp;apos; is hovered</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword.mouseOver</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:12.617116300Z</date>
+  <millis>1737109092617</millis>
+  <nanos>116300</nanos>
+  <sequence>392</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : mouseOver(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[4]/div[1]/div[2]/div[3]&amp;quot;]), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:12.617116300Z</date>
+  <millis>1737109092617</millis>
+  <nanos>116300</nanos>
+  <sequence>393</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : mouseOver(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[4]/div[1]/div[2]/div[4]&amp;quot;]), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">127</property>
+  <property name="stepIndex">31</property>
+  <property name="description">Verify Card &quot;Cuti Ulang Tahun&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:13.083425800Z</date>
+  <millis>1737109093083</millis>
+  <nanos>425800</nanos>
+  <sequence>403</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/var_Content&amp;apos; is hovered</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.MouseOverKeyword.mouseOver</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:13.083425800Z</date>
+  <millis>1737109093083</millis>
+  <nanos>425800</nanos>
+  <sequence>404</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : mouseOver(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[4]/div[1]/div[2]/div[4]&amp;quot;]), STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:13.083425800Z</date>
+  <millis>1737109093083</millis>
+  <nanos>425800</nanos>
+  <sequence>405</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToElement(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[5]/div[1]/div[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">131</property>
+  <property name="stepIndex">32</property>
+  <property name="description">Scroll to &quot;Jadilah Bagian dari #BAFers&quot; Text</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:13.383767500Z</date>
+  <millis>1737109093383</millis>
+  <nanos>767500</nanos>
+  <sequence>415</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;Object Repository/var_Content&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:13.399411800Z</date>
+  <millis>1737109093399</millis>
+  <nanos>411800</nanos>
+  <sequence>416</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToElement(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[5]/div[1]/div[1]&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:13.400966900Z</date>
+  <millis>1737109093400</millis>
+  <nanos>966900</nanos>
+  <sequence>417</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;img_Content&amp;quot;, [&amp;quot;src&amp;quot;:&amp;quot;/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fcareer%2Fdev-program-pict-new.webp&amp;amp;w=3840&amp;amp;q=75&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">135</property>
+  <property name="stepIndex">33</property>
+  <property name="description">Verify Image &quot;Development Program&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:13.684720800Z</date>
+  <millis>1737109093684</millis>
+  <nanos>720800</nanos>
+  <sequence>425</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/img_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:13.684720800Z</date>
+  <millis>1737109093684</millis>
+  <nanos>720800</nanos>
+  <sequence>426</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;img_Content&amp;quot;, [&amp;quot;src&amp;quot;:&amp;quot;/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fcareer%2Fdev-program-pict-new.webp&amp;amp;w=3840&amp;amp;q=75&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:13.684720800Z</date>
+  <millis>1737109093684</millis>
+  <nanos>720800</nanos>
+  <sequence>427</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;img_Content&amp;quot;, [&amp;quot;src&amp;quot;:&amp;quot;/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fcareer%2Fentry-level-pict-new.webp&amp;amp;w=3840&amp;amp;q=75&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">139</property>
+  <property name="stepIndex">34</property>
+  <property name="description">Verify Image &quot;Entry Level&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:16.648499600Z</date>
+  <millis>1737109096648</millis>
+  <nanos>499600</nanos>
+  <sequence>435</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/img_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:16.648499600Z</date>
+  <millis>1737109096648</millis>
+  <nanos>499600</nanos>
+  <sequence>436</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;img_Content&amp;quot;, [&amp;quot;src&amp;quot;:&amp;quot;/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fcareer%2Fentry-level-pict-new.webp&amp;amp;w=3840&amp;amp;q=75&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:16.648499600Z</date>
+  <millis>1737109096648</millis>
+  <nanos>499600</nanos>
+  <sequence>437</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;img_Content&amp;quot;, [&amp;quot;src&amp;quot;:&amp;quot;/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fcareer%2Fexperienced-pict-new.webp&amp;amp;w=3840&amp;amp;q=75&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">143</property>
+  <property name="stepIndex">35</property>
+  <property name="description">Verify Image &quot;Experienced&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:16.939038Z</date>
+  <millis>1737109096939</millis>
+  <nanos>38000</nanos>
+  <sequence>445</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/img_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:16.941036400Z</date>
+  <millis>1737109096941</millis>
+  <nanos>36400</nanos>
+  <sequence>446</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;img_Content&amp;quot;, [&amp;quot;src&amp;quot;:&amp;quot;/_next/image?url=%2Fstatic%2Fimages%2Fimage%2Fcareer%2Fexperienced-pict-new.webp&amp;amp;w=3840&amp;amp;q=75&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:16.941036400Z</date>
+  <millis>1737109096941</millis>
+  <nanos>36400</nanos>
+  <sequence>447</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[5]/div[1]/div[2]/div[1]/div[1]/button[1]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">147</property>
+  <property name="stepIndex">36</property>
+  <property name="description">Click &quot;Development Program&quot; Button</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:17.310605200Z</date>
+  <millis>1737109097310</millis>
+  <nanos>605200</nanos>
+  <sequence>457</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/var_Content&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:17.314662600Z</date>
+  <millis>1737109097314</millis>
+  <nanos>662600</nanos>
+  <sequence>458</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[5]/div[1]/div[2]/div[1]/div[1]/button[1]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:17.314662600Z</date>
+  <millis>1737109097314</millis>
+  <nanos>662600</nanos>
+  <sequence>459</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">150</property>
+  <property name="stepIndex">37</property>
+  <property name="description">Click &quot;Technology Associate Program&quot; Button</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:17.918522600Z</date>
+  <millis>1737109097918</millis>
+  <nanos>522600</nanos>
+  <sequence>469</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/var_Content&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:17.919555Z</date>
+  <millis>1737109097919</millis>
+  <nanos>555000</nanos>
+  <sequence>470</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:17.920547800Z</date>
+  <millis>1737109097920</millis>
+  <nanos>547800</nanos>
+  <sequence>471</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Technology Associate Program&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">153</property>
+  <property name="stepIndex">38</property>
+  <property name="description">Verify Text &quot;Technology Associate Program&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:18.192848400Z</date>
+  <millis>1737109098192</millis>
+  <nanos>848400</nanos>
+  <sequence>479</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:18.192848400Z</date>
+  <millis>1737109098192</millis>
+  <nanos>848400</nanos>
+  <sequence>480</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Technology Associate Program&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:18.192848400Z</date>
+  <millis>1737109098192</millis>
+  <nanos>848400</nanos>
+  <sequence>481</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Technology Associate Program (TAP) merupakan program pengembangan yang dilakukan untuk mempersiapkan para lulusan muda yang memiliki latar belakang IT dan Digital. Para peserta diberikan kesempatan untuk mempelajari hal baru dalam lingkup sektor pembiayaan. Melalui pelatihan intensif, On Job Training dan mentoring selama 12 bulan. Diharapkan dapat menghasilkan pemimpin muda yang berkualitas dan berkontribusi untuk memajukan perusahaan, khususnya dalam bidang IT dan Digital.&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">156</property>
+  <property name="stepIndex">39</property>
+  <property name="description">Verify Description Text &quot;Technology Associate Program&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:18.487084500Z</date>
+  <millis>1737109098487</millis>
+  <nanos>84500</nanos>
+  <sequence>489</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:18.487084500Z</date>
+  <millis>1737109098487</millis>
+  <nanos>84500</nanos>
+  <sequence>490</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Technology Associate Program (TAP) merupakan program pengembangan yang dilakukan untuk mempersiapkan para lulusan muda yang memiliki latar belakang IT dan Digital. Para peserta diberikan kesempatan untuk mempelajari hal baru dalam lingkup sektor pembiayaan. Melalui pelatihan intensif, On Job Training dan mentoring selama 12 bulan. Diharapkan dapat menghasilkan pemimpin muda yang berkualitas dan berkontribusi untuk memajukan perusahaan, khususnya dalam bidang IT dan Digital.&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:18.487084500Z</date>
+  <millis>1737109098487</millis>
+  <nanos>84500</nanos>
+  <sequence>491</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Periode : 12 Bulan&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">160</property>
+  <property name="stepIndex">40</property>
+  <property name="description">Verify Text &quot;Periode : 12 Bulan&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:18.756921100Z</date>
+  <millis>1737109098756</millis>
+  <nanos>921100</nanos>
+  <sequence>499</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:18.756921100Z</date>
+  <millis>1737109098756</millis>
+  <nanos>921100</nanos>
+  <sequence>500</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Periode : 12 Bulan&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:18.756921100Z</date>
+  <millis>1737109098756</millis>
+  <nanos>921100</nanos>
+  <sequence>501</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Penempatan : Kantor Pusat&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">163</property>
+  <property name="stepIndex">41</property>
+  <property name="description">Verify Text &quot;Penempatan : Kantor Pusat&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:19.031189700Z</date>
+  <millis>1737109099031</millis>
+  <nanos>189700</nanos>
+  <sequence>509</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:19.031189700Z</date>
+  <millis>1737109099031</millis>
+  <nanos>189700</nanos>
+  <sequence>510</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Penempatan : Kantor Pusat&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:19.045231800Z</date>
+  <millis>1737109099045</millis>
+  <nanos>231800</nanos>
+  <sequence>511</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">166</property>
+  <property name="stepIndex">42</property>
+  <property name="description">Click &quot;Management Development Program&quot; Button</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:19.398985300Z</date>
+  <millis>1737109099398</millis>
+  <nanos>985300</nanos>
+  <sequence>521</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/var_Content&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:19.398985300Z</date>
+  <millis>1737109099398</millis>
+  <nanos>985300</nanos>
+  <sequence>522</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:19.398985300Z</date>
+  <millis>1737109099398</millis>
+  <nanos>985300</nanos>
+  <sequence>523</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Management Development Program&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">169</property>
+  <property name="stepIndex">43</property>
+  <property name="description">Verify Text &quot;Management Development Program&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:19.676654700Z</date>
+  <millis>1737109099676</millis>
+  <nanos>654700</nanos>
+  <sequence>531</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:19.692502300Z</date>
+  <millis>1737109099692</millis>
+  <nanos>502300</nanos>
+  <sequence>532</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Management Development Program&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:19.692502300Z</date>
+  <millis>1737109099692</millis>
+  <nanos>502300</nanos>
+  <sequence>533</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Management Development Program (MDP) merupakan program pengembangan yang dilakukan untuk mempersiapkan para lulusan muda menjadi calon pemimpin di BAF. Program ini ditujukan untuk calon pemimpin di Kantor Jaringan. Para peserta diberikan kesempatan untuk mempelajari hal baru dalam lingkup sektor pembiayaan. Melalui pelatihan intensif, On Job Training dan mentoring selama 18 bulan. Diharapkan dapat menghasilkan pemimpin muda yang berkualitas dan berkontribusi untuk memajukan perusahaan.&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">172</property>
+  <property name="stepIndex">44</property>
+  <property name="description">Verify Description Text &quot;Management Development Program&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:19.977851Z</date>
+  <millis>1737109099977</millis>
+  <nanos>851000</nanos>
+  <sequence>541</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:19.977851Z</date>
+  <millis>1737109099977</millis>
+  <nanos>851000</nanos>
+  <sequence>542</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Management Development Program (MDP) merupakan program pengembangan yang dilakukan untuk mempersiapkan para lulusan muda menjadi calon pemimpin di BAF. Program ini ditujukan untuk calon pemimpin di Kantor Jaringan. Para peserta diberikan kesempatan untuk mempelajari hal baru dalam lingkup sektor pembiayaan. Melalui pelatihan intensif, On Job Training dan mentoring selama 18 bulan. Diharapkan dapat menghasilkan pemimpin muda yang berkualitas dan berkontribusi untuk memajukan perusahaan.&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:19.977851Z</date>
+  <millis>1737109099977</millis>
+  <nanos>851000</nanos>
+  <sequence>543</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Periode : 18 Bulan&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">176</property>
+  <property name="stepIndex">45</property>
+  <property name="description">Verify Text &quot;Periode : 18 Bulan&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:20.256851200Z</date>
+  <millis>1737109100256</millis>
+  <nanos>851200</nanos>
+  <sequence>551</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:20.256851200Z</date>
+  <millis>1737109100256</millis>
+  <nanos>851200</nanos>
+  <sequence>552</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Periode : 18 Bulan&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:20.256851200Z</date>
+  <millis>1737109100256</millis>
+  <nanos>851200</nanos>
+  <sequence>553</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Penempatan : Kantor Pusat dan Kantor Jaringan&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">179</property>
+  <property name="stepIndex">46</property>
+  <property name="description">Verify Text &quot;Penempatan : Kantor Pusat dan Kantor Jaringan&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:20.526798900Z</date>
+  <millis>1737109100526</millis>
+  <nanos>798900</nanos>
+  <sequence>561</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:20.542687400Z</date>
+  <millis>1737109100542</millis>
+  <nanos>687400</nanos>
+  <sequence>562</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Penempatan : Kantor Pusat dan Kantor Jaringan&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:20.542687400Z</date>
+  <millis>1737109100542</millis>
+  <nanos>687400</nanos>
+  <sequence>563</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">183</property>
+  <property name="stepIndex">47</property>
+  <property name="description">Click &quot;Corporate Development Program&quot; Button</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:20.906029Z</date>
+  <millis>1737109100906</millis>
+  <nanos>29000</nanos>
+  <sequence>573</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/var_Content&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:20.908738100Z</date>
+  <millis>1737109100908</millis>
+  <nanos>738100</nanos>
+  <sequence>574</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[3]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:20.908738100Z</date>
+  <millis>1737109100908</millis>
+  <nanos>738100</nanos>
+  <sequence>575</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Corporate Development Program&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">186</property>
+  <property name="stepIndex">48</property>
+  <property name="description">Verify Text &quot;Corporate Development Program&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:21.210637700Z</date>
+  <millis>1737109101210</millis>
+  <nanos>637700</nanos>
+  <sequence>583</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:21.210637700Z</date>
+  <millis>1737109101210</millis>
+  <nanos>637700</nanos>
+  <sequence>584</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Corporate Development Program&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:21.210637700Z</date>
+  <millis>1737109101210</millis>
+  <nanos>637700</nanos>
+  <sequence>585</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Corporate Development Program (CDP) merupakan program pengembangan yang dilakukan untuk mempersiapkan para lulusan muda menjadi calon pemimpin di BAF. Program ini ditujukan untuk calon pemimpin di Kantor Jaringan. Para peserta diberikan kesempatan untuk mempelajari hal baru dalam lingkup sektor pembiayaan. Melalui pelatihan intensif, On Job Training dan mentoring selama 18 bulan. Diharapkan dapat menghasilkan pemimpin muda yang berkualitas dan berkontribusi untuk memajukan perusahaan.&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">189</property>
+  <property name="stepIndex">49</property>
+  <property name="description">Verify Description Text &quot;Corporate Development Program&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:21.495080400Z</date>
+  <millis>1737109101495</millis>
+  <nanos>80400</nanos>
+  <sequence>593</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:21.495080400Z</date>
+  <millis>1737109101495</millis>
+  <nanos>80400</nanos>
+  <sequence>594</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Corporate Development Program (CDP) merupakan program pengembangan yang dilakukan untuk mempersiapkan para lulusan muda menjadi calon pemimpin di BAF. Program ini ditujukan untuk calon pemimpin di Kantor Jaringan. Para peserta diberikan kesempatan untuk mempelajari hal baru dalam lingkup sektor pembiayaan. Melalui pelatihan intensif, On Job Training dan mentoring selama 18 bulan. Diharapkan dapat menghasilkan pemimpin muda yang berkualitas dan berkontribusi untuk memajukan perusahaan.&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:21.495080400Z</date>
+  <millis>1737109101495</millis>
+  <nanos>80400</nanos>
+  <sequence>595</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Periode : 18 Bulan&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">193</property>
+  <property name="stepIndex">50</property>
+  <property name="description">Verify Text &quot;Periode : 18 Bulan&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:21.785931800Z</date>
+  <millis>1737109101785</millis>
+  <nanos>931800</nanos>
+  <sequence>603</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:21.791480500Z</date>
+  <millis>1737109101791</millis>
+  <nanos>480500</nanos>
+  <sequence>604</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Periode : 18 Bulan&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:21.791480500Z</date>
+  <millis>1737109101791</millis>
+  <nanos>480500</nanos>
+  <sequence>605</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Penempatan : Kantor Pusat&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">196</property>
+  <property name="stepIndex">51</property>
+  <property name="description">Verify Text &quot;Penempatan : Kantor Pusat&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:22.043753600Z</date>
+  <millis>1737109102043</millis>
+  <nanos>753600</nanos>
+  <sequence>613</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:22.043753600Z</date>
+  <millis>1737109102043</millis>
+  <nanos>753600</nanos>
+  <sequence>614</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Penempatan : Kantor Pusat&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:22.043753600Z</date>
+  <millis>1737109102043</millis>
+  <nanos>753600</nanos>
+  <sequence>615</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/div[1]/section[1]/div[1]/button[1]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">199</property>
+  <property name="stepIndex">52</property>
+  <property name="description">Click &quot;Back&quot; Button</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:22.470041300Z</date>
+  <millis>1737109102470</millis>
+  <nanos>41300</nanos>
+  <sequence>625</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/var_Content&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:22.473891700Z</date>
+  <millis>1737109102473</millis>
+  <nanos>891700</nanos>
+  <sequence>626</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/div[1]/section[1]/div[1]/button[1]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:22.473891700Z</date>
+  <millis>1737109102473</millis>
+  <nanos>891700</nanos>
+  <sequence>627</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[5]/div[1]/div[2]/div[2]/div[1]/button[1]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">202</property>
+  <property name="stepIndex">53</property>
+  <property name="description">Click &quot;Entry Level&quot; Button</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:34.508267100Z</date>
+  <millis>1737109114508</millis>
+  <nanos>267100</nanos>
+  <sequence>637</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/var_Content&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:34.508267100Z</date>
+  <millis>1737109114508</millis>
+  <nanos>267100</nanos>
+  <sequence>638</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[5]/div[1]/div[2]/div[2]/div[1]/button[1]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:34.511716500Z</date>
+  <millis>1737109114511</millis>
+  <nanos>716500</nanos>
+  <sequence>639</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Entry Level&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">205</property>
+  <property name="stepIndex">54</property>
+  <property name="description">Verify Text &quot;Entry Level&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:35.039775200Z</date>
+  <millis>1737109115039</millis>
+  <nanos>775200</nanos>
+  <sequence>647</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:35.039775200Z</date>
+  <millis>1737109115039</millis>
+  <nanos>775200</nanos>
+  <sequence>648</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Entry Level&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:35.039775200Z</date>
+  <millis>1737109115039</millis>
+  <nanos>775200</nanos>
+  <sequence>649</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;BAF memberikan kesempatan untuk talenta muda dapat mengembangkan awal karier mereka melalui posisi staf dan magang. Pada posisi ini BAFers diberikan kesempatan untuk menambah pengalaman dalam dunia kerja, mengasah kemampuan sehingga menjadi pekerja yang berkompeten.&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">208</property>
+  <property name="stepIndex">55</property>
+  <property name="description">Verify Description Text &quot;Entry Level&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:35.315330600Z</date>
+  <millis>1737109115315</millis>
+  <nanos>330600</nanos>
+  <sequence>657</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:35.320653400Z</date>
+  <millis>1737109115320</millis>
+  <nanos>653400</nanos>
+  <sequence>658</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;BAF memberikan kesempatan untuk talenta muda dapat mengembangkan awal karier mereka melalui posisi staf dan magang. Pada posisi ini BAFers diberikan kesempatan untuk menambah pengalaman dalam dunia kerja, mengasah kemampuan sehingga menjadi pekerja yang berkompeten.&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:35.320653400Z</date>
+  <millis>1737109115320</millis>
+  <nanos>653400</nanos>
+  <sequence>659</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/div[1]/section[1]/div[1]/button[1]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">212</property>
+  <property name="stepIndex">56</property>
+  <property name="description">Click &quot;Back&quot; Button</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:35.697006Z</date>
+  <millis>1737109115697</millis>
+  <nanos>6000</nanos>
+  <sequence>669</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/var_Content&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:35.697006Z</date>
+  <millis>1737109115697</millis>
+  <nanos>6000</nanos>
+  <sequence>670</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/div[1]/section[1]/div[1]/button[1]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:35.697006Z</date>
+  <millis>1737109115697</millis>
+  <nanos>6000</nanos>
+  <sequence>671</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[5]/div[1]/div[2]/div[3]/div[1]/button[1]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">215</property>
+  <property name="stepIndex">57</property>
+  <property name="description">Click &quot;Experienced&quot; Button</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:36.272960200Z</date>
+  <millis>1737109116272</millis>
+  <nanos>960200</nanos>
+  <sequence>681</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/var_Content&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:36.272960200Z</date>
+  <millis>1737109116272</millis>
+  <nanos>960200</nanos>
+  <sequence>682</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[5]/div[1]/div[2]/div[3]/div[1]/button[1]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:36.277915700Z</date>
+  <millis>1737109116277</millis>
+  <nanos>915700</nanos>
+  <sequence>683</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Experienced&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">218</property>
+  <property name="stepIndex">58</property>
+  <property name="description">Verify Text &quot;Experienced&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:36.778841300Z</date>
+  <millis>1737109116778</millis>
+  <nanos>841300</nanos>
+  <sequence>691</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:36.778841300Z</date>
+  <millis>1737109116778</millis>
+  <nanos>841300</nanos>
+  <sequence>692</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;Experienced&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:36.778841300Z</date>
+  <millis>1737109116778</millis>
+  <nanos>841300</nanos>
+  <sequence>693</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;BAF mengajak para profesional yang berbakat dan berpengalaman agar bergabung menjadi BAFers dalam berkarier dan berkontribusi melalui pengalaman serta skill yang dimiliki.&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">221</property>
+  <property name="stepIndex">59</property>
+  <property name="description">Verify Description Text &quot;Experienced&quot; is Present</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:37.053802300Z</date>
+  <millis>1737109117053</millis>
+  <nanos>802300</nanos>
+  <sequence>701</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/lbl_Content&amp;apos; is present</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:37.053802300Z</date>
+  <millis>1737109117053</millis>
+  <nanos>802300</nanos>
+  <sequence>702</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyElementPresent(findTestObject(&amp;quot;lbl_Content&amp;quot;, [&amp;quot;text&amp;quot;:&amp;quot;BAF mengajak para profesional yang berbakat dan berpengalaman agar bergabung menjadi BAFers dalam berkarier dan berkontribusi melalui pengalaman serta skill yang dimiliki.&amp;quot;]), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:37.053802300Z</date>
+  <millis>1737109117053</millis>
+  <nanos>802300</nanos>
+  <sequence>703</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/div[1]/section[1]/div[1]/button[1]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">225</property>
+  <property name="stepIndex">60</property>
+  <property name="description">Click &quot;Back&quot; Button</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:38.340646400Z</date>
+  <millis>1737109118340</millis>
+  <nanos>646400</nanos>
+  <sequence>713</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/var_Content&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:38.344086400Z</date>
+  <millis>1737109118344</millis>
+  <nanos>86400</nanos>
+  <sequence>714</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/div[1]/section[1]/div[1]/button[1]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:38.344570200Z</date>
+  <millis>1737109118344</millis>
+  <nanos>570200</nanos>
+  <sequence>715</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[5]/div[1]/section[1]/button[1]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">228</property>
+  <property name="stepIndex">61</property>
+  <property name="description">Click &quot;Apply Now&quot; Button</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:52.844374200Z</date>
+  <millis>1737109132844</millis>
+  <nanos>374200</nanos>
+  <sequence>725</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/var_Content&amp;apos; is clicked on</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:52.846375600Z</date>
+  <millis>1737109132846</millis>
+  <nanos>375600</nanos>
+  <sequence>726</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findTestObject(&amp;quot;var_Content&amp;quot;, [&amp;quot;xpath&amp;quot;:&amp;quot;//body[1]/div[1]/main[1]/main[1]/section[5]/div[1]/section[1]/button[1]&amp;quot;]))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:52.847405100Z</date>
+  <millis>1737109132847</millis>
+  <nanos>405100</nanos>
+  <sequence>727</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyLinksAccessible([&amp;quot;https://id.jobstreet.com/jobs?cid=company-profile&amp;amp;companyid=443452&amp;quot;])</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">231</property>
+  <property name="stepIndex">62</property>
+  <property name="description">Verify Link Accessibility</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:55.799665300Z</date>
+  <millis>1737109135799</millis>
+  <nanos>665300</nanos>
+  <sequence>730</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\Users\P251224001\git\BAF-website\Reports\20250117_171724\Career\20250117_171724\requests\main\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="harId">6315c137-0f7b-4352-a77f-478a328e8f9a</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:55.934323200Z</date>
+  <millis>1737109135934</millis>
+  <nanos>323200</nanos>
+  <sequence>731</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webservice.keyword.builtin.SendRequestKeyword.sendRequest</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:55.935321800Z</date>
+  <millis>1737109135935</millis>
+  <nanos>321800</nanos>
+  <sequence>732</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All links are accessible</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-is-assertion">true</property>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.VerifyLinksAccessibleKeyword.verifyLinksAccessible</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:55.935321800Z</date>
+  <millis>1737109135935</millis>
+  <nanos>321800</nanos>
+  <sequence>733</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyLinksAccessible([&amp;quot;https://id.jobstreet.com/jobs?cid=company-profile&amp;amp;companyid=443452&amp;quot;])</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:55.935321800Z</date>
+  <millis>1737109135935</millis>
+  <nanos>321800</nanos>
+  <sequence>734</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/RegressionTest_VerifyCareerPage_ElementsArePresent</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:55.936363700Z</date>
+  <millis>1737109135936</millis>
+  <nanos>363700</nanos>
+  <sequence>735</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : AfterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:55.936363700Z</date>
+  <millis>1737109135936</millis>
+  <nanos>363700</nanos>
+  <sequence>738</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : AfterTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:55.937319500Z</date>
+  <millis>1737109135937</millis>
+  <nanos>319500</nanos>
+  <sequence>740</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/RegressionTest_VerifyCareerPage_ElementsArePresent</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: true,
+  &quot;web_service&quot;: true,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: false,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:55.940316400Z</date>
+  <millis>1737109135940</millis>
+  <nanos>316400</nanos>
+  <sequence>741</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : AfterTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:55.942317500Z</date>
+  <millis>1737109135942</millis>
+  <nanos>317500</nanos>
+  <sequence>743</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">71</property>
+  <property name="stepIndex">1</property>
+  <property name="description">Close Browser</property>
+</record>
+<record>
+  <date>2025-01-17T10:18:56.870350500Z</date>
+  <millis>1737109136870</millis>
+  <nanos>350500</nanos>
+  <sequence>745</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.webui.keyword.builtin.CloseBrowserKeyword.closeBrowser</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2025-01-17T10:18:56.870350500Z</date>
+  <millis>1737109136870</millis>
+  <nanos>350500</nanos>
+  <sequence>747</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeBrowser()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:56.870350500Z</date>
+  <millis>1737109136870</millis>
+  <nanos>350500</nanos>
+  <sequence>748</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : AfterTestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:56.870350500Z</date>
+  <millis>1737109136870</millis>
+  <nanos>350500</nanos>
+  <sequence>749</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:57.204564900Z</date>
+  <millis>1737109137204</millis>
+  <nanos>564900</nanos>
+  <sequence>1218</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: C:\Users\P251224001\git\BAF-website\Reports\20250117_171724\Career\20250117_171724...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:57.322139Z</date>
+  <millis>1737109137322</millis>
+  <nanos>139000</nanos>
+  <sequence>1220</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:57.323142900Z</date>
+  <millis>1737109137323</millis>
+  <nanos>142900</nanos>
+  <sequence>1222</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: C:\Users\P251224001\git\BAF-website\Reports\20250117_171724\Career\20250117_171724...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:57.379182200Z</date>
+  <millis>1737109137379</millis>
+  <nanos>182200</nanos>
+  <sequence>1224</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:18:57.380184Z</date>
+  <millis>1737109137380</millis>
+  <nanos>184000</nanos>
+  <sequence>1226</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating PDF report folder at: C:\Users\P251224001\git\BAF-website\Reports\20250117_171724\Career\20250117_171724...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:19:02.000597600Z</date>
+  <millis>1737109142000</millis>
+  <nanos>597600</nanos>
+  <sequence>1228</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>PDF report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:19:02.044128600Z</date>
+  <millis>1737109142044</millis>
+  <nanos>128600</nanos>
+  <sequence>1230</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2025-01-17T10:19:02.090173900Z</date>
+  <millis>1737109142090</millis>
+  <nanos>173900</nanos>
+  <sequence>1234</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Career</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

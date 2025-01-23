@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RegressionTest_VerifyPEMBIAYAAN MOTOR YAMAHAPage_ElementsArePresent</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>db37187e-10e6-4765-8bf6-1be03043e8d9</testCaseGuid>
+</TestCaseEntity>

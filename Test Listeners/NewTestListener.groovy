@@ -39,7 +39,6 @@ class NewTestListener {
 		
 		'Input Text "thisisunsafe" in Input Field'
 		WebUI.sendKeys(findTestObject(null), 'thisisunsafe', FailureHandling.OPTIONAL)
-		
 	}
 
 	@AfterTestCase
@@ -50,11 +49,25 @@ class NewTestListener {
 
 	@BeforeTestSuite
 	def BeforeTestSuite(TestSuiteContext testSuiteContext) {
+		def timestamp = new Date().format('dd-MM-yyyy ss:mm:HH')
+		GlobalVariable.Timestamp = timestamp
 		
+		'Open Browser'
+		WebUI.openBrowser('')
+		
+		'Maximize Window Browser'
+		WebUI.maximizeWindow()
+		
+		'Open BAF Website'
+		WebUI.navigateToUrl(GlobalVariable.URL)
+		
+		'Input Text "thisisunsafe" in Input Field'
+		WebUI.sendKeys(findTestObject(null), 'thisisunsafe', FailureHandling.OPTIONAL)
 	}
 
 	@AfterTestSuite
 	def AfterTestSuite(TestSuiteContext testSuiteContext) {
-		
+		'Close Browser'
+		WebUI.closeBrowser()
 	}
 }

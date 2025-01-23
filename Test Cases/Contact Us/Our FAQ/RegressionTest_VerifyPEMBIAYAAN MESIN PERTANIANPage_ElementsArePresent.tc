@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RegressionTest_VerifyPEMBIAYAAN MESIN PERTANIANPage_ElementsArePresent</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>93053db7-c3b2-4ea5-8fb3-e32ca006bd51</testCaseGuid>
+</TestCaseEntity>

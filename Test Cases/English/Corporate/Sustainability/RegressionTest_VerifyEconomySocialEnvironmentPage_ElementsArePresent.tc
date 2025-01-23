@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>RegressionTest_VerifyEconomySocialEnvironmentPage_ElementsArePresent</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>43c1fcb3-cf32-4fcd-b929-a5d80e5d87b6</testCaseGuid>
-</TestCaseEntity>
